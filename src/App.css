@@ -1,0 +1,21 @@
+
+:root{
+
+
+    --theme-color-1: #8309CE;
+    --theme-color-2: #994DFF;
+    --theme-color-3: #702EFF;
+    --theme-color-3: #B02EFF;
+    --theme-color-5: #A81AFF;
+
+    --front-text-gradient: linear-gradient(180deg, #9E00FF 0%, #FFFFFF 100%);
+
+
+    
+
+}
+
+body {
+    display: block;
+    
+}
