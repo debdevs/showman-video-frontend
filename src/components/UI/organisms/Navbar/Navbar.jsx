@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import './Navbar.css';
-
+import '../../../../App.css';
 const Navbar = () => {
   return (
     <navbar-element class = "navbar-element">
@@ -11,11 +11,16 @@ const Navbar = () => {
             </logo-parent>
             <nav-container>
               <ul>
-                <li>HOME</li>
-                <li>SEARCH</li>
-                <li>TEMPLATES</li>
-                <li>ABOUT</li>
+                <li className='istok-font'>HOME</li>
+                <li className='istok-font'>SEARCH</li>
+                <li className='istok-font'>TEMPLATES</li>
+                <li className='istok-font'>ABOUT</li>
               </ul>
+
+              <profile-card-container>
+              <img src={require('/home/deborah/pro-websites/showman-video-frontend/src/assets/pexels-yuri-manei-2690323.jpg')} />
+              <h2 className='istok-font'>Ashley</h2>
+              </profile-card-container>
             </nav-container>
       </navbar-elements-container>
     </navbar-element>

@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family: 'istok-web';
+    src: local('istok-web'), url(./assets/fonts/IstokWeb-Regular.ttf) format('truetype');
+  }
 :root{
 
 
@@ -19,3 +22,8 @@ body {
     display: block;
     
 }
+
+
+.istok-font{
+    font-family: "istok-web", serif;
+  }
