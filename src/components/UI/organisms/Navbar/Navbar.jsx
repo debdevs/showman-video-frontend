@@ -2,9 +2,12 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import './Navbar.css';
 import '../../../../App.css';
-import { FaHeart } from "react-icons/fa";
 
- 
+import { AiFillHome} from "react-icons/ai";
+import { FiSearch } from "react-icons/fi";
+import { MdVideoLibrary} from 'react-icons/md'
+import { BsFillInfoSquareFill} from 'react-icons/bs'
+
 const Navbar = () => {
   return (
     <navbar-element class = "navbar-element">
@@ -14,10 +17,10 @@ const Navbar = () => {
             </logo-parent>
             <nav-container>
               <ul>
-                <li className='istok-font'><FaHeart/>HOME</li>
-                <li className='istok-font'>SEARCH</li>
-                <li className='istok-font'>TEMPLATES</li>
-                <li className='istok-font'>ABOUT</li>
+                <li className='istok-font'><AiFillHome className='icon'/>HOME</li>
+                <li className='istok-font'><FiSearch className='icon'/>SEARCH</li>
+                <li className='istok-font'><MdVideoLibrary className='icon'/>TEMPLATES</li>
+                <li className='istok-font'><BsFillInfoSquareFill className='icon'/>ABOUT</li>
               </ul>
 
               <profile-card-container>

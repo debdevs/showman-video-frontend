@@ -61,15 +61,31 @@ nav-container ul {
     align-items: center;
 }
 nav-container ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color:#9c9c9c;
     color: white;
+    color:#d4d4d4;
     margin-top: 5px;
     cursor:pointer;
     font-size: 12px;
     transition: all .4s ease;
 }
 
+nav-container ul li .icon{
+
+    font-size: 15px;
+    margin-top:-2px;
+    
+    color:#9c9c9c;
+    transition: all .2s ease;
+}
+
 nav-container ul li img{
     max-width: 27.76px;
+    
 }
 
 profile-card-container {
@@ -104,6 +120,7 @@ profile-card-container img {
    
     object-fit: cover;
     transition: all .4s ease;
+    
 
 
 
@@ -127,6 +144,12 @@ nav-container ul li:hover{
     
 }
 
+nav-container ul li:hover .icon{
+    color: var(--theme-color-1);
+
+    
+}
+
 
 profile-card-container:hover image-parent{
   
@@ -138,6 +161,7 @@ profile-card-container:hover image-parent{
 
 profile-card-container:hover img {
     transform: scale(1.5);
+    filter:saturate(75%);
 
 
 }
@@ -157,3 +181,5 @@ filter: hue-rotate(-10deg);
 transform: scale(.97);
 
     }   
+
+
