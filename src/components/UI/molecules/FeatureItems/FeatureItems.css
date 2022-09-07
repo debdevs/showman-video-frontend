@@ -1,0 +1,55 @@
+feature-parent{
+    width: 305px;
+}
+
+
+feature-parent h1{
+    color:white;
+    text-align: start;
+    font-weight: 400;
+    font-size: 25px;
+
+}
+
+
+feature-parent h2 {
+    line-height: 33px;
+    background: linear-gradient(195.55deg, #9E00FF 10.88%, #E2B3FF 148.65%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 400;
+    font-size: 25px;
+  
+    
+    
+
+}
+
+line-div{
+    margin-top: 12px;
+    display:block;
+    width: 243.77px;
+    height: 1.21px;
+    background: linear-gradient(95.12deg, #994DFF -18.8%, #702EFF 18.42%, #B02EFF 48.79%);
+
+
+}
+
+
+feature-parent p {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 23px;
+    color: white;
+    width: 532.19px;
+    line-height: 33px;
+  
+    
+    
+
+}
+
+
+
+    

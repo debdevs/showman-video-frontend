@@ -1,11 +1,5 @@
 subheading-container {
-    display: block;
-    background: black;
-    width: 100%;
-    height: 562.36px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
+display: block;
 }
 
 subheading-container h1 {
@@ -13,9 +7,38 @@ subheading-container h1 {
 }
 
 subheading-container-main {
-    display: block;
 
+    display: block;
+    background: black;
+    width: 100%;
+    height: 562.36px;
     align-items: center;
     justify-content: center;
-    display: block;
+    display: flex;
+ 
 }
+
+subheading-bg {
+    width: 100%;
+    height: 562.36px;
+    background: linear-gradient(180deg, rgba(186, 0, 251, 0.1023) 0%, rgba(217, 217, 217, 0) 85.42%);
+
+    position:absolute;
+
+}
+
+subheading-content-parent {
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+}
+
+
+subheading-content-parent right-items {
+    display:block;
+    width: 594px;
+    height: 339.11px;
+    background: white;
+
+}
+

@@ -66,8 +66,14 @@ hero-main-content img {
 
     height: auto;
 }
-h1 {
+
+hero-main-content h1.istok-font{
+    margin-top: 15px;
+    display:block;
     color: white;
     text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+ 
 }
 

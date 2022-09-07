@@ -18,7 +18,7 @@ const Hero = () => {
         <img src={require('/home/deborah/pro-websites/showman-video-frontend/src/assets/logo.png')} />
         <h1 className='istok-font'>Create any kind of video you want. No subscription necessary</h1>
 
-        <HomeSearchBox/>
+        <HomeSearchBox class='search-box'/>
         </hero-main-content>
    
         
