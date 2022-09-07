@@ -2,8 +2,11 @@ import React from 'react'
 import '../../../App.css';
 import './Hero.css';
 import { ParticleHero } from '../../UI/organisms';
+import BasicButton from '../../UI/atoms/BasicButton/BasicButton';
+import HomeSearchBox from '../../UI/molecules/HomeSearchBox/HomeSearchBox';
 const Hero = () => {
   return (
+    <hero-parent-container>
     <hero-container>
         <hero-background-image>
         <img src={require('/home/deborah/pro-websites/showman-video-frontend/src/assets/pexels-yuri-manei-2690323.jpg')} />
@@ -14,7 +17,8 @@ const Hero = () => {
         
         <img src={require('/home/deborah/pro-websites/showman-video-frontend/src/assets/logo.png')} />
         <h1 className='istok-font'>Create any kind of video you want. No subscription necessary</h1>
-        <input className='search-input'></input>
+
+        <HomeSearchBox/>
         </hero-main-content>
    
         
@@ -24,6 +28,7 @@ const Hero = () => {
         
      
     </hero-container>
+    </hero-parent-container>
   )
 }
 
