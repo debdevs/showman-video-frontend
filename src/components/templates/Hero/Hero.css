@@ -72,3 +72,8 @@ h1 {
     color: white;
     padding: 15px;
 }
+
+ParticleHero{
+    position: absolute;
+    z-index: -2;
+}
