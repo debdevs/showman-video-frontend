@@ -2,6 +2,8 @@ navbar-element {
     display: block;
     background: linear-gradient(180deg, #000000 0%, #17011F 100%);
     background: linear-gradient(180deg, #000000 0%, #1e0029 100%);
+    background: linear-gradient(180deg, #000000 0%, #110116 100%);
+
     box-shadow: 0px 4px 35px 5px rgba(0, 0, 0, 0.25);
     width: 100%;
 
@@ -22,6 +24,7 @@ logo-parent img {
 margin-top: 5px;
     width: 173.78px;
     height: 50.69px;
+    transition: all .4s ease;
    
 
 }
@@ -30,7 +33,7 @@ margin-top: 5px;
 logo-parent {
    
 display: block;
-
+cursor:pointer;
 
 
 }
@@ -74,11 +77,14 @@ profile-card-container {
     display: flex;
     align-items: center;
     gap: 13.27px;
+    cursor: pointer;
     
 }
-profile-card-container img {
-    max-width:40px;
+profile-card-container image-parent {
+    width:35px;
+    height: auto;
     align-self: flex-end;
+    overflow: hidden;
 
 
 
@@ -87,10 +93,21 @@ profile-card-container img {
     border: 1.8px solid #A81AFF;
     border-radius: 12px;
     transition: all .4s ease;
+    
 
 
 }
+profile-card-container img {
+    width:35px;
+    height:auto;
+  
+   
+    object-fit: cover;
+    transition: all .4s ease;
 
+
+
+}
 
 profile-card-container h2{
     
@@ -111,17 +128,16 @@ nav-container ul li:hover{
 }
 
 
-profile-card-container:hover img {
-    max-width:40px;
-    align-self: flex-end;
-
-
-
-
-
+profile-card-container:hover image-parent{
+  
     border: 1.8px solid #ffffff;
-    border-radius: 12px;
-    transition: all .4s ease;
+    transform: scale(.9);
+
+
+}
+
+profile-card-container:hover img {
+    transform: scale(1.5);
 
 
 }
@@ -129,7 +145,15 @@ profile-card-container:hover img {
 profile-card-container:hover h2{
     
     color: var(--theme-color-5);
-    font-size: 16px;
+    transform: scale(.97);
     
         
     }
+
+logo-parent:hover img {
+filter: saturate(0%);
+opacity: 2;
+filter: hue-rotate(-10deg);
+transform: scale(.97);
+
+    }   
