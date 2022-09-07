@@ -35,10 +35,14 @@ subheading-content-parent {
 
 
 subheading-content-parent right-items {
-    display:block;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 15px;
     width: 594px;
     height: 339.11px;
-    background: white;
+    margin-right: 70px;
+    overflow:hidden;
+
 
 }
 

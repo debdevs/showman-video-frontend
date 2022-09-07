@@ -2,6 +2,8 @@ import React from 'react'
 import './SubHeading.css'
 import '../../../App.css';
 import FeatureItems from '../../UI/molecules/FeatureItems/FeatureItems';
+import FrontCategoryCard from '../../UI/molecules/FrontCategoryCard/FrontCategoryCard';
+
 const SubHeading = () => {
   return (
     
@@ -17,7 +19,11 @@ const SubHeading = () => {
                 
             </left-items>
             <right-items>
-                
+                <FrontCategoryCard/>
+                <FrontCategoryCard/>
+                <FrontCategoryCard/>
+                <FrontCategoryCard/>
+                <FrontCategoryCard/>
             </right-items>
         </subheading-content-parent>      
 

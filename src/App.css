@@ -2,6 +2,10 @@
     font-family: 'istok-web';
     src: local('istok-web'), url(./assets/fonts/IstokWeb-Regular.ttf) format('truetype');
   }
+  @font-face {
+    font-family: 'rumble-brave';
+    src: local('rumble-brave'), url(./assets/fonts/Rumble-Brave.otf) format('opentype');
+  }
 :root{
 
 
@@ -13,8 +17,15 @@
 
     --front-text-gradient: linear-gradient(180deg, #9E00FF 0%, #FFFFFF 100%);
 
+    --front-category-card-width: 181.69px;
+    --front-category-card-height: 156.26px;
+    --main-color: rgba(213, 95, 255, 1);  
 
-    
+
+    --product-box-width: 284px;
+    --product-box-height: 206px;
+    --main-color: rgba(213, 95, 255, 1);
+
 
 }
 
@@ -28,3 +39,7 @@ body {
     font-family: "istok-web", serif;
   }
 
+.rumble-brave-font{
+    font-family: "rumble-brave", serif;
+    color: white;
+  }
