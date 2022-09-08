@@ -1,0 +1,98 @@
+alternate-subheading-container {
+    display: block;
+    }
+    
+    alternate-subheading-container h1 {
+        color:white;
+    }
+    
+    alternate-subheading-container subheading-container-main {
+    
+        display: block;
+        background: linear-gradient(180deg, #000000 -120.77%, #110116 -20.77%);
+        width: 100%;
+        height: 562.36px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+     
+    }
+    
+    alternate-subheading-container subheading-container-main subheading-bg {
+        width: 100%;
+        height: 562.36px;
+  
+    
+        position:absolute;
+    
+    }
+    
+    alternate-subheading-container subheading-container-main subheading-content-parent {
+        display: flex;
+        width: 75%;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+    
+    alternate-subheading-container subheading-container-main subheading-content-parent left-items {
+        margin-top: 85px;
+        display:flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        width: 594px;
+        height: 339.11px;
+        margin-right: 70px;
+    
+    
+    
+    }
+    
+    
+    
+    
+    alternate-subheading-container subheading-container-main subheading-content-parent right-items {
+        display:flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        width: 594px;
+        height: 339.11px;
+        margin-right: 70px;
+        overflow:hidden;
+        padding:35px;
+    --mask-height: 2px;
+        padding-bottom: var(--mask-height);
+        padding-right: 20px;
+    
+    
+        --mask-image-content: linear-gradient(
+            to bottom,
+            transparent,
+            black var(--mask-height),
+            black calc(100% - var(--mask-height)),
+            transparent
+        );
+    
+      
+        --mask-size-content: calc(100% - var(--scrollbar-width)) 100%;
+    
+        --mask-image-scrollbar: linear-gradient(black, black);
+    
+        --mask-size-scrollbar: var(--scrollbar-width) 100%;
+    
+       
+        mask-image: var(--mask-image-content), var(--mask-image-scrollbar);
+        mask-size: var(--mask-size-content), var(--mask-size-scrollbar);
+    
+    
+        mask-position: 0 0, 100% 0;
+    
+    
+        mask-repeat: no-repeat, no-repeat;
+    
+    
+    
+    
+    
+    }
+    
+    

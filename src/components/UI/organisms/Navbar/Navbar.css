@@ -108,7 +108,7 @@ profile-card-container image-parent {
 
 
 
-    border: 1.8px solid #A81AFF;
+    border: .15em solid #A81AFF;
     border-radius: 12px;
     transition: all .4s ease;
     
@@ -155,7 +155,7 @@ nav-container ul li:hover .icon{
 
 profile-card-container:hover image-parent{
   
-    border: 1.8px solid #ffffff;
+    border: .15em solid #ffffff;
     transform: scale(.9);
 
 

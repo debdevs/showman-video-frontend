@@ -1,13 +1,15 @@
 import React from 'react'
-import './SubHeading.css'
+import './AlternateSubHeading.css'
 import '../../../App.css';
 import FeatureItems from '../../UI/molecules/FeatureItems/FeatureItems';
 import FrontCategoryCard from '../../UI/molecules/FrontCategoryCard/FrontCategoryCard';
 
-const SubHeading = () => {
+
+
+
+const AlternateSubHeading = () => {
   return (
-    
-    <subheading-container>
+    <alternate-subheading-container>
         <subheading-container-main>
         <subheading-bg/>
      
@@ -16,9 +18,11 @@ const SubHeading = () => {
         <subheading-content-parent>
             <left-items>
                 <FeatureItems 
-                title={"The Power To Create"}
-                subtitle = {"is here"} 
-                description = {"From Showman. An online template library of professional videos"}/>
+                 title={"Unique, Eye-catching"}
+                 subtitle = {"Variety"} 
+                 description = {"Browse through our 2000+ templates to add pizzazz to your online presence"}               
+                
+                />
                 
             </left-items>
             <right-items>
@@ -33,9 +37,8 @@ const SubHeading = () => {
         </subheading-container-main>
 
 
-    </subheading-container>
-
+    </alternate-subheading-container>
   )
 }
 
-export default SubHeading
+export default AlternateSubHeading

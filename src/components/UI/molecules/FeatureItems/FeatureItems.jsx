@@ -4,14 +4,14 @@ import '../../../../App.css';
 import './FeatureItems.css';
 
 
-const FeatureItems = () => {
+const FeatureItems = ({title,subtitle,description}) => {
   return (
     <feature-parent>
-    <div>FeatureItems</div>
-    <h1 class = "istok-font">The Power To Create</h1>
-    <h2 class = "istok-font">Is Here</h2>
+ 
+    <h1 class = "istok-font">{title}</h1>
+    <h2 class = "istok-font">{subtitle}</h2>
     <line-div/>
-    <p class = 'istok-font'>From Showman. An online template library of professional videos</p>
+    <p class = 'istok-font'>{description}</p>
     </feature-parent>
   )
 }

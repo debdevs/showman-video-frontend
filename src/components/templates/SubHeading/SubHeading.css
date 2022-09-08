@@ -33,6 +33,21 @@ subheading-content-parent {
     justify-content: space-between;
 }
 
+subheading-content-parent left-items {
+    margin-top: 85px;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 594px;
+    height: 339.11px;
+    margin-right: 70px;
+
+
+
+}
+
+
+
 
 subheading-content-parent right-items {
     display:flex;
@@ -42,6 +57,39 @@ subheading-content-parent right-items {
     height: 339.11px;
     margin-right: 70px;
     overflow:hidden;
+    padding:35px;
+--mask-height: 2px;
+    padding-bottom: var(--mask-height);
+    padding-right: 20px;
+
+
+    --mask-image-content: linear-gradient(
+        to bottom,
+        transparent,
+        black var(--mask-height),
+        black calc(100% - var(--mask-height)),
+        transparent
+    );
+
+  
+    --mask-size-content: calc(100% - var(--scrollbar-width)) 100%;
+
+    --mask-image-scrollbar: linear-gradient(black, black);
+
+    --mask-size-scrollbar: var(--scrollbar-width) 100%;
+
+   
+    mask-image: var(--mask-image-content), var(--mask-image-scrollbar);
+    mask-size: var(--mask-size-content), var(--mask-size-scrollbar);
+
+
+    mask-position: 0 0, 100% 0;
+
+
+    mask-repeat: no-repeat, no-repeat;
+
+
+
 
 
 }

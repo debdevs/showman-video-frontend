@@ -1,0 +1,36 @@
+front-step-info-container {
+    display:flex;
+    flex-direction: column;
+
+    gap:17px;
+    width: 313.76px;
+    height: 313.76px;
+    align-items: center;
+    justify-content: center;
+}
+
+front-step-info-container front-step-box p {
+    text-align: center;
+    color: white;
+    width: 313.76px;
+    font-size:23px;
+    line-height: 35px;
+}
+
+front-step-info-container number-box {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  color:white;
+  border: 1px solid white;
+  width:50px;
+  height:50px;
+  font-size: 35px;
+
+  width: 72.41px;
+  height: 66.37px;
+  
+  border: 1px solid #534859;
+  border-radius: 5px;
+
+}

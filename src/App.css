@@ -43,3 +43,10 @@ body {
     font-family: "rumble-brave", serif;
     color: white;
   }
+
+
+  home-column subheading-content-parent{
+    flex-direction: row-reverse;
+  }
+
+  
