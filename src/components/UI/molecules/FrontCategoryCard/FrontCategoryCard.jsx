@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../../../App.css';
 import'./FrontCategoryCard.css'
-const FrontCategoryCard = ({Title}) => {
+const FrontCategoryCard = ({title}) => {
   return (
 <product-animation-box class = "site-img">
 <product-box>
@@ -16,7 +16,7 @@ const FrontCategoryCard = ({Title}) => {
     </product-image-fx-container>
   <product-info-container>
 
-      <h2 class = "rumble-brave-font">{Title}</h2>
+      <h2 class = "rumble-brave-font">{title}</h2>
    
     </product-info-container>
 </product-box>

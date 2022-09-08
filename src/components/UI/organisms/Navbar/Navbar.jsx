@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
 import './Navbar.css';
 import '../../../../App.css';
 
@@ -21,6 +21,9 @@ const Navbar = () => {
                 <li className='istok-font'><FiSearch className='icon'/>SEARCH</li>
                 <li className='istok-font'><MdVideoLibrary className='icon'/>TEMPLATES</li>
                 <li className='istok-font'><BsFillInfoSquareFill className='icon'/>ABOUT</li>
+
+
+
               </ul>
 
               <profile-card-container>

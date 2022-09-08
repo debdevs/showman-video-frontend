@@ -9,13 +9,13 @@ const Hero = () => {
     <hero-parent-container>
     <hero-container>
         <hero-background-image>
-        <img src={require('/home/deborah/pro-websites/showman-video-frontend/src/assets/pexels-yuri-manei-2690323.jpg')} />
+        <img src={require('/home/deborah/pro-websites/showman-video-frontend/src/assets/images/pexels-yuri-manei-2690323.jpg')} />
         </hero-background-image>
         <ParticleHero/>
         <hero-overlay-gradient/>
         <hero-main-content>
         
-        <img src={require('/home/deborah/pro-websites/showman-video-frontend/src/assets/logo.png')} />
+        <img src={require('/home/deborah/pro-websites/showman-video-frontend/src/assets/images/logo.png')} />
         <h1 className='istok-font'>Create any kind of video you want. No subscription necessary</h1>
 
         <HomeSearchBox class='search-box'/>
