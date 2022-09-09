@@ -1,0 +1,39 @@
+email-container{
+    width: 429.62px;
+    height: 60.34px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    gap:10px;
+    background: linear-gradient(180deg, rgba(46, 5, 53, 0.35) 0%, rgba(46, 5, 53, 0) 100%);
+    border: 1px solid rgba(168, 26, 255, 0.25);
+    border-radius: 5px;
+    padding: 0px 0px 0px 0px;
+  
+   
+    font-size: 22px;
+}
+
+
+.email-input {
+    background:transparent;
+    border: 0px solid white;
+    color: #6F6A73;
+    width:75%;
+    font-size: 22px;
+    padding: 0px 0px 0px 15px;
+  
+    
+}
+
+email-container .submit-button {
+    background:transparent;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #534859;
+    border-radius: 5px;
+    justify-self: flex-end;
+    cursor: pointer;
+}
+
+

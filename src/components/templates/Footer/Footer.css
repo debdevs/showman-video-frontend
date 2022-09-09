@@ -82,7 +82,9 @@ footer-right-items {
     display: flex;
     width: 450px;
     height: 250px;
+    align-items: center;
 
 
 
 }
+

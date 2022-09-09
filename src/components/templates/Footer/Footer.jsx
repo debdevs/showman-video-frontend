@@ -1,6 +1,7 @@
 import React from 'react'
 import './Footer.css'
 import '../../../App.css';
+import EmailBox from '../../UI/atoms/EmailBox/EmailBox';
 const Footer = () => {
   return (
    
@@ -23,7 +24,7 @@ const Footer = () => {
             </footer-center-items>
 
             <footer-right-items>
-            
+            <EmailBox/>
 
             </footer-right-items>
           </footer-content-container>
