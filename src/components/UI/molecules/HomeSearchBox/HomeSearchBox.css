@@ -22,3 +22,22 @@ parent-container {
     align-items:center;
   
 }
+
+
+@media only screen and (max-width: 1200px) {
+
+  
+    parent-container {
+        margin-top: 35px;
+        
+        gap:15px;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+      
+    }
+    
+     
+    
+
+}

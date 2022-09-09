@@ -45,8 +45,15 @@ body {
   }
 
 
-  home-column subheading-content-parent{
-    flex-direction: row-reverse;
-  }
+.home-column{
+  display:flex;
+  width: 100%;
+  flex-direction: column;
+}
 
-  
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative
+}

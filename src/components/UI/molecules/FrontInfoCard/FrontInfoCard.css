@@ -7,6 +7,7 @@ front-step-info-container {
     height: 313.76px;
     align-items: center;
     justify-content: center;
+    transition:all .4s ease;
 }
 
 front-step-info-container front-step-box p {
@@ -34,3 +35,56 @@ front-step-info-container number-box {
   border-radius: 5px;
 
 }
+
+
+
+@media only screen and (max-width: 1600px) {
+    front-step-info-container {
+
+    
+        gap:10px;
+        width: 200.76px;
+        height: 313.76px;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+    front-step-info-container front-step-box p {
+        text-align: center;
+        color: white;
+        width: 313.76px;
+        font-size:17px;
+        line-height: 35px;
+    }
+
+
+    
+  }
+
+
+
+  @media only screen and (max-width: 1200px) {
+    front-step-info-container {
+
+    
+        gap:5px;
+        width: 100.76px;
+        height: 313.76px;
+
+    }
+
+
+
+    front-step-info-container front-step-box p {
+        text-align: center;
+        color: white;
+        width: 313.76px;
+        font-size:17px;
+        line-height: 35px;
+    }
+
+
+    
+  }

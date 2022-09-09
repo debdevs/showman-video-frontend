@@ -11,20 +11,24 @@ front-info-container{
 front-info-container img{
 width: 500px;
 margin-top:15px;
+transition: all .4s ease;
 }
 
 
 info-card-row{
     display:flex;
+    flex-direction: row;
     gap: 250px;
     width: 100%;
     height: 355px;
     align-items: center;
     justify-content: center;
     flex-wrap:wrap;
+    transition: all .4s ease;
 }
 
 front-info-container h2{
+
     color:white;
     font-size: 25px;
     font-weight: 700;
@@ -47,4 +51,32 @@ border: 1px solid #534859;
 background:none;
 color: white;
 font-size: 20px;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+
+    info-card-row{
+        display:flex;
+        flex-direction: column;
+        gap: 1px;
+        width: 100%;
+        height: 75%;
+        align-items: center;
+        justify-content: center;
+        flex-wrap:nowrap
+    }
+
+    front-info-container img{
+        width: 300px;
+        margin-top:15px;
+        }
+        front-info-container h2{
+            margin-top:105px;
+
+        }
+
+
+
 }

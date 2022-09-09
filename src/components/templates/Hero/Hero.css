@@ -63,8 +63,8 @@ hero-main-content {
 hero-main-content img {
     width: 40%;
     width: 591.33px;
-
     height: auto;
+    transition: all .4s ease;
 }
 
 hero-main-content h1.istok-font{
@@ -77,3 +77,28 @@ hero-main-content h1.istok-font{
  
 }
 
+
+
+@media only screen and (max-width: 1200px) {
+
+  
+    hero-main-content img {
+        width: 90%;
+
+    
+        height: auto;
+    }
+
+
+    hero-main-content h1.istok-font{
+   
+
+
+        font-size: 20px;
+      
+     
+    }
+     
+    
+
+}
