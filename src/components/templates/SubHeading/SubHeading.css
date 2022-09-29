@@ -31,6 +31,9 @@ subheading-content-parent {
     display: flex;
     width: 75%;
     justify-content: space-between;
+    box-sizing: border-box;
+   
+    
 }
 
 subheading-content-parent left-items {
@@ -40,7 +43,8 @@ subheading-content-parent left-items {
     gap: 15px;
     width: 594px;
     height: 339.11px;
-    margin-right: 70px;
+    margin-right: 0px;
+ 
 
 
 
@@ -52,10 +56,11 @@ subheading-content-parent left-items {
 subheading-content-parent right-items {
     display:flex;
     flex-wrap: wrap;
+    justify-content: flex-end;
     gap: 15px;
     width: 594px;
     height: 339.11px;
-    margin-right: 70px;
+    margin-right: 0px;
     overflow:hidden;
     padding:35px;
 --mask-height: 2px;

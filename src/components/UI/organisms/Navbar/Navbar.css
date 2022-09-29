@@ -23,9 +23,9 @@ navbar-element {
 h1{color: white}
 
 logo-parent img {
-margin-top: 5px;
+    margin-top: 5px;
     width: 173.78px;
-    height: 50.69px;
+    height: auto;
     transition: all .4s ease;
    
 
