@@ -1,14 +1,14 @@
-
-
 import '../../../../App.css';
-import './TemplateMarketplace.css'
+import './TemplateMarketplace.css';
 
-import React from 'react'
+import React from 'react';
 
 const TemplateMarketplace = () => {
   return (
-    <div>TemplateMarketplace</div>
-  )
-}
+    <div>
+      <div>TemplateMarketplace</div>
+    </div>
+  );
+};
 
-export default TemplateMarketplace
+export default TemplateMarketplace;

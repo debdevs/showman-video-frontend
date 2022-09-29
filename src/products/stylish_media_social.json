@@ -1,0 +1,27 @@
+{
+    "Main_Details": 
+    {
+      "Title": "Stylish Media Social",
+      "Description": "A cool template for your videos. Edit your video and make it awesome.",
+      "Category": "Stylish Media Social",
+      "Price": "$5"
+    },
+
+    "Versions": 
+    {
+      "Resolutions": "Landscape,Vertical,Square",
+    },
+
+    "Colors": 
+    {
+      "Color 1": "#fcba03",
+      "Color 2": "#6e66ff"
+    },
+
+    "Images": 
+    {
+      "Image 1": "#fcba03",
+      "Image 2": "#6e66ff"
+    }
+
+}

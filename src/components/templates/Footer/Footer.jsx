@@ -8,7 +8,7 @@ const Footer = () => {
     <footer-parent>
       <footer-content-container>
         <footer-left-items>
-          <img src={require('../../../assets/images/logo.png')} />
+          <img src={require('../../../assets/images/logo.png').default} />
         </footer-left-items>
 
         <footer-center-items>

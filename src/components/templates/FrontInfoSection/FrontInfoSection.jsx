@@ -8,7 +8,9 @@ const FrontInfoSection = () => {
     <div>
       <front-info-container>
         <h2 class="istok-font">How To Use</h2>
-        <img src={require('../../../assets/images/logo-desaturated.png')} />
+        <img
+          src={require('../../../assets/images/logo-desaturated.png').default}
+        />
         <info-card-row>
           <FrontInfoCard
             stepNumber="1"

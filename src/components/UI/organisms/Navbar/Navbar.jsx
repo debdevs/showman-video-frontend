@@ -27,10 +27,12 @@ const Navbar = () => {
               <FiSearch className="icon" />
               SEARCH
             </li>
-            <li className="istok-font">
-              <MdVideoLibrary className="icon" />
-              TEMPLATES
-            </li>
+            <Link to="./Page2">
+              <li className="istok-font">
+                <MdVideoLibrary className="icon" />
+                TEMPLATES
+              </li>
+            </Link>
             <li className="istok-font">
               <BsFillInfoSquareFill className="icon" />
               ABOUT
