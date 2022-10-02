@@ -1,0 +1,104 @@
+hero-parent-container{
+    width:100%;
+    height: 562.36px;
+    display:block;
+    overflow: hidden;
+}
+
+hero-container {
+    display: flex;
+    background: black;
+    width: 100%;
+    height: 562.36px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: absolute;
+   
+}
+
+hero-background-image {
+  
+    display: flex;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    overflow: hidden;
+
+}
+hero-background-image img {
+  
+    display: flex;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    position: absolute;
+    object-fit: cover;
+    opacity: .13;
+}
+
+
+hero-overlay-gradient {
+    background: linear-gradient(180deg, rgba(168, 26, 255, 0) 65.62%, rgba(168, 26, 255, 0.2146) 100%);
+    display: flex;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+}
+
+hero-main-content {
+    margin-top: 15px;
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+
+    width: 75%;
+    height: 100%;
+    z-index: 5;
+    align-items: center;
+    justify-content: center;
+}
+hero-main-content img {
+    width: 40%;
+    width: 591.33px;
+    height: auto;
+    transition: all .4s ease;
+}
+
+hero-main-content h1.istok-font{
+    margin-top: 15px;
+    display:block;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+ 
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+
+  
+    hero-main-content img {
+        width: 90%;
+
+    
+        height: auto;
+    }
+
+
+    hero-main-content h1.istok-font{
+   
+
+
+        font-size: 20px;
+      
+     
+    }
+     
+    
+
+}

@@ -19,24 +19,32 @@
 
     --front-category-card-width: 181.69px;
     --front-category-card-height: 156.26px;
+
+    --templates-category-card-width: 294px;
+    --templates-category-card-height: 122px;
+    --templates-imagefx-height: 88px;
+
     --main-color: rgba(213, 95, 255, 1);  
 
 
     --product-box-width: 284px;
     --product-box-height: 206px;
+    --product-imagefx-height: 148.59px;
     --main-color: rgba(213, 95, 255, 1);
+    
 
 
 }
 
 body {
     display: block;
-    
+    overflow-x: hidden !important;
 }
 
 
 .istok-font{
     font-family: "istok-web", serif;
+    color: white;
   }
 
 .rumble-brave-font{

@@ -1,0 +1,88 @@
+
+product-button-items{
+     
+      display:flex;
+
+      justify-content: center;
+      align-items: center;
+      height: 25px;
+      width:46px;
+
+      border-radius: 5px;
+      transition:all .5s ease-in-out;
+      cursor: pointer;
+      z-index: 15;
+      
+    
+    }
+
+
+product-button-parent{
+
+   
+    display: flex;
+    width:inherit;
+    background: red;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 144.8145751953125px;
+
+    
+    background: linear-gradient(95.12deg, #994DFF -18.8%, #702EFF 18.42%, #B02EFF 48.79%);
+    border: 2px solid #534859;
+    box-shadow: 0px 4px 35px 15px rgba(168, 26, 255, 0.09);
+    border-radius: 5px;  
+      
+    transition:all .5s ease-in-out;
+    
+  }
+  
+  product-button-parent h3{
+  
+    position: absolute; 
+  
+    color: white;
+    font-size: 15px;
+    text-align: center;
+  
+  
+     
+      width: inherit;
+
+      font-family: 'istok-web', serif;
+      font-style: normal;
+      font-weight: 400;
+      transition:all .5s ease-in-out;
+
+
+  }
+  
+  product-button-parent a svg{
+    margin-top: 2px;
+    transform: scale(.8);
+
+   
+  
+  
+  
+  }
+
+
+
+  
+
+
+ product-button-items:hover product-button-parent {
+  
+    border: 2px solid white;
+    background: rgba(189, 0, 255, 0.12);
+    border: 2px solid var(--theme-color-1);
+  }
+
+
+
+  product-button-items:hover product-button-parent h3{
+  
+    color: var(--theme-color-1);
+  }
