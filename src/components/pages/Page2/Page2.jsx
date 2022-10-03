@@ -7,10 +7,9 @@ import TemplatesSubheading from '../../templates/TemplatesSubheading/TemplatesSu
 const Page2 = () => {
   return (
     <div className="templates-page">
-      <Navbar />
+      <Navbar className="navbar" />
       <TemplatesHero />
       <TemplatesSubheading />
-   
     </div>
   );
 };

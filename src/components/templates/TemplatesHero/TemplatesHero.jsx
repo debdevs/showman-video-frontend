@@ -7,28 +7,28 @@ import HomeSearchBox from '../../UI/molecules/HomeSearchBox/HomeSearchBox';
 import logo from '../../../assets/images/pexels-yuri-manei-2690323.jpg';
 const TemplatesHero = () => {
   return (
-    <hero-parent-container>
-      <hero-container>
-        <hero-background-image>
+    <templates-hero-parent-container>
+      <templates-hero-container className="templates-hero-container">
+        <templates-hero-background-image>
           <img
             src={
               require('../../../assets/images/pexels-yuri-manei-2690323.jpg')
                 .default
             }
           />
-        </hero-background-image>
-        <ParticleHero />
-        <hero-overlay-gradient />
-        <hero-main-content>
+        </templates-hero-background-image>
+        <ParticleHero className="particle-hero" />
+        <templates-hero-overlay-gradient />
+        <templates-hero-main-content>
           <img src={require('../../../assets/images/logo.png').default} />
           <h1 className="istok-font">
             Create any kind of video you want. No subscription necessary
           </h1>
 
           <HomeSearchBox class="search-box" />
-        </hero-main-content>
-      </hero-container>
-    </hero-parent-container>
+        </templates-hero-main-content>
+      </templates-hero-container>
+    </templates-hero-parent-container>
   );
 };
 

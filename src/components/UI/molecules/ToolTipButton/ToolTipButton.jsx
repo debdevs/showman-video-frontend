@@ -19,7 +19,10 @@ const ToolTipButton = () => {
               <tool-tip-basic-shine />
             </tool-tip-basic-cover-outline>
           </tool-tip-imagefx-container>
-          <tool-tip-content>
+
+          <tool-tip-content></tool-tip-content>
+
+          <tool-tip-bottom>
             <tool-tip-main-content>
               <tool-tip-left-items>
                 <h1 className="istok-font">Luxury Instagram</h1>
@@ -29,11 +32,11 @@ const ToolTipButton = () => {
                 <h3 className="rumble-brave-font">$12</h3>
               </tool-tip-right-items>
             </tool-tip-main-content>
-          </tool-tip-content>
-          <tool-tip-bottom>
+          </tool-tip-bottom>
+          <tool-tip-extra>
             <item-label>NEW</item-label>
             <item-label>VIEW</item-label>
-          </tool-tip-bottom>
+          </tool-tip-extra>
         </tool-tip-container>
       </button>
     </div>

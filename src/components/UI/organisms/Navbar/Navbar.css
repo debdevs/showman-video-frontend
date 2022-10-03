@@ -185,3 +185,11 @@ transform: scale(.97);
     }   
 
 
+
+@media screen and (max-width : 480px){
+    navbar-element {
+        display:none;
+        visibility: hidden;
+    }
+
+    }    
