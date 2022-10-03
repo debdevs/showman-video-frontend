@@ -12,9 +12,12 @@ footer-parent {
 
 
 footer-content-container {
+    justify-content: center;
+    align-items: center;
     display: flex;
     width: 75%;
     height: 75%;
+    gap:75px;
    
 
 
@@ -32,7 +35,7 @@ footer-left-items {
 
 footer-left-items img {
    
-    width: 350px;
+    width: 248px;
     height:auto;
     object-fit:contain;
 
@@ -58,7 +61,7 @@ footer-parent footer-content-container footer-center-items ul{
     justify-content: flex-start;
     gap:50px;
     color: white;
-    font-size:22px;
+    font-size:18px;
     width:520px;
  
 }
@@ -72,7 +75,7 @@ footer-parent footer-content-container footer-center-items ul li{
 footer-parent footer-content-container footer-center-items p{
     width:520px;
     color: #6F6A73;
-    font-size:22px;
+    font-size:18px;
     line-height: 30px;
  
 }

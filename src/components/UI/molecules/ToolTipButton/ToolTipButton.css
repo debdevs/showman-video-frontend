@@ -1,0 +1,122 @@
+
+.tool-button {
+    border: 1.2px solid rgba(168, 26, 255, 100);
+    width: 163px;
+    height: 34px;
+    border-radius: 5px;
+    background:rgba(168, 26, 255, 0);
+    z-index: 888888855;
+    cursor:pointer;
+    cursor: pointer;
+    transition: all 0.5s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+    position: relative;
+    display: inline-block;
+}
+
+.tool-button:hover{
+    background:rgba(168, 26, 255, .1);
+    border: 1.2px solid white;
+}
+
+
+  
+  .tool-button tool-tip-container {
+    display:flex;
+    justify-content: center ;
+    align-items: flex-start;
+    visibility: hidden;
+    width: 394px;
+    height: 312px;
+    background: linear-gradient(180deg, #080214 97.92%, #2F2E2E 100%);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    opacity: 0;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 175%;
+    left:0px;
+    right:-50%;
+    transition:all .4s ease;
+    border: 2px solid #534859;
+    box-shadow: 0px 15px 35px 15px rgba(46, 6, 71, 0.75);
+    border-radius: 12px;
+
+
+
+}
+  
+  .tool-button:hover tool-tip-container {
+    visibility: visible;
+    opacity: 1;
+    visibility: visible;
+    transform: translate(0, -20px);
+    transition: all 0.5s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+
+
+
+  }
+
+
+
+
+  tool-tip-imagefx-container{
+    display: flex;
+    align-items:flex-start;
+   
+    width: inherit;
+ 
+    
+    
+  }
+ 
+
+  tool-tip-imagefx-container img{
+    margin-top:0px;
+    display: block;
+    width: inherit;
+   
+   
+    height: var(--tool-tip-imagefx-height);
+    object-fit: cover;
+    border-radius: 12px;
+    border: 0px solid rgba(168, 26, 255, 100);
+  
+ 
+    z-index:0;
+    opacity: 1;  
+    
+}
+
+tool-tip-basic-inset-shadow{
+    display:block;
+    box-shadow: inset 0px 0px 10px 6px rgba(0,0,0,.7);
+    position: absolute;
+    border: 0px solid rgba(168, 26, 255, 100);
+   
+    width: inherit;
+    height: var(--tool-tip-imagefx-height);
+    z-index: 10;
+    border-radius: 10px;
+  }
+
+
+  tool-tip-basic-cover-outline{
+    display: block;
+     box-shadow: 0 0 10px 6px black inset;
+      box-shadow: 0 0 0px 2px inset #534859;
+      
+      border: 0px solid rgba(168, 26, 255, 100);
+      width: inherit;
+      width: inherit;
+      height: var(--tool-tip-imagefx-height);
+      z-index: 11;
+      border-radius: 12px;
+      position:absolute;
+      overflow: hidden;
+      margin:auto;
+     
+  
+    
+    }
