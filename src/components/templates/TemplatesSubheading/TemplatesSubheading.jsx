@@ -21,12 +21,18 @@ const TemplatesSubheading = () => {
           </templates-category-card-parent>
           <product-details-container>
             <product-filters-container>
-              <FilterSection />
+              <FilterSection className="filter-section" />
             </product-filters-container>
 
             <right-area>
               <template-button-array-area>
-                <ToolTipButton />
+                <h2 className="istok-font">Browse Templates</h2>
+                <template-button-array>
+                  <ToolTipButton />
+                  <ToolTipButton />
+                  <ToolTipButton />
+                  <ToolTipButton />
+                </template-button-array>
               </template-button-array-area>
               <product-card-container>
                 <ProductCard title="Stylish Instagram Overlay" />
@@ -51,7 +57,6 @@ const TemplatesSubheading = () => {
               </product-card-container>
             </right-area>
           </product-details-container>
-          <ToolTipButton />
         </marketplace-content-parent>
       </section>
       <Footer />

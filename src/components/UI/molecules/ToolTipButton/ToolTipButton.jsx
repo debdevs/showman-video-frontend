@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../../../App.css';
 import './ToolTipButton.css';
+
 const ToolTipButton = () => {
   return (
     <div>
@@ -18,6 +19,21 @@ const ToolTipButton = () => {
               <tool-tip-basic-shine />
             </tool-tip-basic-cover-outline>
           </tool-tip-imagefx-container>
+          <tool-tip-content>
+            <tool-tip-main-content>
+              <tool-tip-left-items>
+                <h1 className="istok-font">Luxury Instagram</h1>
+                <h2 className="istok-font">Basic, Slideshow</h2>
+              </tool-tip-left-items>
+              <tool-tip-right-items>
+                <h3 className="rumble-brave-font">$12</h3>
+              </tool-tip-right-items>
+            </tool-tip-main-content>
+          </tool-tip-content>
+          <tool-tip-bottom>
+            <item-label>NEW</item-label>
+            <item-label>VIEW</item-label>
+          </tool-tip-bottom>
         </tool-tip-container>
       </button>
     </div>
