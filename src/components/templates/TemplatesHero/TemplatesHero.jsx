@@ -25,7 +25,7 @@ const TemplatesHero = () => {
             Create any kind of video you want. No subscription necessary
           </h1>
 
-          <HomeSearchBox class="search-box" />
+          <HomeSearchBox className="search-box" />
         </templates-hero-main-content>
       </templates-hero-container>
     </templates-hero-parent-container>

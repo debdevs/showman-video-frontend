@@ -79,57 +79,75 @@ templates-hero-main-content h1.istok-font{
 
 
 
-@media only screen and (max-width: 1200px) {
 
-  
-    templates-hero-main-content img {
-        width: 90%;
-
-    
-        height: auto;
-    }
-
-
-    templates-hero-main-content h1.istok-font{
-   
-
-
-        font-size: 20px;
-      
-     
-    }
-     
-    
-
-}
 
 @media only screen and (max-width : 480px){
+
+
+    
     templates-hero-parent-container {
         display:flex;
         justify-content: center;
         background:black;
         align-items: center;
-        height: 175.1px;
+        height: 210px;
       }
 
     templates-hero-container {
       width:75%;
-      width: 336.37px;
-      height: 151.1px;
+      width: var(--templates-hero-width);
+      height: var(--templates-hero-height);
       
       border-radius: 10.7448px;
       border: 3px solid rgba(168, 26, 255, 0.2);
     }
     .particle-hero {
-        width: 336.37px;
-        height: 151.1px;
+        width: var(--templates-hero-width);
+        height: var(--templates-hero-height);
         
       }
 
       templates-hero-background-image{
-        width: 336.37px;
-        height: 151.1px;
+        width: var(--templates-hero-width);
+        height: 187.38px;
         
       }
 
+      templates-hero-main-content h1.istok-font{
+        display:none;
+     
+    }
+
+    templates-hero-main-content {
+        gap:0px;
+        height:25%;
+ 
+
+    }
+    templates-hero-main-content img {
+        width: 90%;
+    
+    
+        height: auto;
+    }
+    
+    
+    templates-hero-main-content h1.istok-font{
+    
+    
+    
+        font-size: 20px;
+      
+    }
+
+
+
+  parent-container{
+
+        display:none;
+        margin-top:0px;
+
+    }
   }
+
+

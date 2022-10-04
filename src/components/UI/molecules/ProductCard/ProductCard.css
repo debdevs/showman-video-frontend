@@ -23,8 +23,8 @@ product-basic-box {
     flex-direction: column;
     width: inherit;
     height: var( --product-box-height);
-  justify-content:center;
-  align-items: center;
+    justify-content:center;
+    align-items: center;
     position: relative;
     border-radius: 15px;
     border: 2px solid rgba(168, 26, 255, .15);
@@ -137,7 +137,7 @@ product-basic-cover-outline{
     width:20px;
       font-style: normal;
       font-weight: 400;
-      font-size: 16px;
+      font-size: var(--product-box-header-size);
       line-height: 20px;
       text-align: left;
       flex:1;

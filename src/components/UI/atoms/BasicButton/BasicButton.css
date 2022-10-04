@@ -5,8 +5,8 @@ button-items{
 
       justify-content: center;
       align-items: center;
-      height: 41.030799865722656px;
-      width: 144.8145751953125px;
+      height: var(--basic-button-height);
+      width: var(--basic-button-width);
 
       border-radius: 5px;
       transition:all .5s ease-in-out;
@@ -24,8 +24,9 @@ button-parent{
     background: red;
     justify-content: center;
     align-items: center;
-    height: 41.030799865722656px;
-    width: 144.8145751953125px;
+    height: var(--basic-button-height);
+    width: var(--basic-button-width);
+    width:100%;
 
     
     background: linear-gradient(95.12deg, #994DFF -18.8%, #702EFF 18.42%, #B02EFF 48.79%);
@@ -46,8 +47,9 @@ button-parent{
     text-align: center;
   
   
-     
-      width: inherit;
+/*      
+    width: var(--basic-button-width);
+    width:12%; */
 
       font-family: 'istok-web', serif;
       font-style: normal;
@@ -56,10 +58,14 @@ button-parent{
 
 
   }
-  
+  button-parent a{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
   button-parent a svg{
     margin-top: 2px;
-    transform: scale(1.2);
+    transform: scale(var(--basic-button-svgsize));
 
    
   

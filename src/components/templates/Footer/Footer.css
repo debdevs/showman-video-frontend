@@ -91,3 +91,8 @@ footer-right-items {
 
 }
 
+@media screen and (max-width : 480px) {
+    footer-parent{
+        display:none;}
+        
+}

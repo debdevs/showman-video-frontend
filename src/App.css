@@ -24,18 +24,28 @@
     --templates-category-card-height: 122px;
     --templates-imagefx-height: 88px;
     --templates-category-card-fontsize:20px;
-
+    --templates-category-card-borderradius: 15px;
     --main-color: rgba(213, 95, 255, 1);  
 
 
     --product-box-width: 284px;
     --product-box-height: 206px;
     --product-imagefx-height: 148.59px;
+    --product-box-header-size:16px;
+
     --main-color: rgba(213, 95, 255, 1);
     
     --tool-tip-imagefx-height:177px;
     --tool-tip-imagefx-width:394px;
 
+    --search-box-width: 211.19px;
+    --search-box-padding: 15px;
+    --search-box-padding-top: 20px;
+    --search-box-padding-bottom: 20px;
+
+    --basic-button-height: 41.030799865722656px;
+    --basic-button-width: 144.8145751953125px;
+    --basic-button-svgsize: 120%; 
 }
 
 body {
@@ -69,12 +79,64 @@ body {
 }
 
 /* 90% zoom values */
-@media screen and (min-width: 9000px) {
+@media screen and (min-width: 900px) {
   :root {
+
+    --product-box-width: 255.6px;
+    --product-box-height: 185.4px;
+    --product-imagefx-height: 133.731px;
+
+
+
+
     --templates-category-card-width: 264.6px;
     --templates-category-card-height: 109.8px;
     --templates-imagefx-height: 79.2px;
     --templates-category-card-fontsize: 19px;
+
+
     
   }
 }
+
+
+@media screen and (max-width: 480px) {
+  :root {
+
+    --templates-category-card-width: 124.33px;
+    --templates-category-card-height: 103.95px;
+    --templates-imagefx-height: 74.98px;
+    --templates-category-card-fontsize: 14.2762px;
+    --templates-category-card-borderradius:  6px;
+
+    --product-box-width: 147.43px;
+    --product-box-height: 106.94px;
+    --product-imagefx-height:  77.14px;
+
+    --product-box-header-size: 10.2999px;
+
+   --templates-hero-width: 95%;
+   --templates-hero-height:15%;
+   --templates-category-card-width: 30%;
+  
+   --basic-button-height: 85%;
+   --basic-button-width: 25%;   
+   --basic-button-svgsize: 80%;   
+
+
+  }
+
+  
+}
+
+@media only screen and (max-width: 480px) {
+
+  
+
+  button-items button-parent h3{
+  
+  
+  }
+}
+
+

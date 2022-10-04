@@ -13,15 +13,15 @@ const TemplatesSubheading = () => {
         <marketplace-content-parent>
           <fade-bg />
           <templates-category-card-parent>
-            <TemplatesCategoryCard title="Weddings" />
-            <TemplatesCategoryCard title="Real Estate" />
-            <TemplatesCategoryCard title="Gaming" />
-            <TemplatesCategoryCard title="Social Media" />
-            <TemplatesCategoryCard title="Real Estate" />
+            <TemplatesCategoryCard className="cat-card" title="Weddings" />
+            <TemplatesCategoryCard className="cat-card" title="Real Estate" />
+            <TemplatesCategoryCard className="cat-card" title="Gaming" />
+            <TemplatesCategoryCard className="cat-card" title="Social Media" />
+            <TemplatesCategoryCard className="cat-card" title="Real Estate" />
           </templates-category-card-parent>
           <product-details-container>
             <product-filters-container>
-              <FilterSection className="filter-section" />
+              <FilterSection />
             </product-filters-container>
 
             <right-area>

@@ -34,7 +34,7 @@ product-details-container{
     z-index:20;
     display:flex;
     flex:1;
-    gap:35px;
+    gap:5px;
 }
 product-filters-container{
     width: 282px;
@@ -126,8 +126,34 @@ product-card-container >*{
   }
 
   @media screen and (max-width : 480px){
+
+    templates-category-card-parent{
+      display:flex;
+      flex-wrap: wrap;
+      overflow:hidden;
+      gap: 8px;
+      margin-top: 0px;
+      height:150px;
+      width:100%;
+    
+  }
+  templates-category-card-parent > :nth-child(n+4) {
+    display: none;
+}
+
+
     template-button-array-area {
       display:none;
     }
+    product-filters-container
+    {
+      display:none;
+    }
 
+
+    right-area{
+      display:flex;
+      flex-direction: column; 
+      width:100%;
+  }
   }
