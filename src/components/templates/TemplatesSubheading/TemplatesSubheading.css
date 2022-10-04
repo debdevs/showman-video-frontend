@@ -156,4 +156,22 @@ product-card-container >*{
       flex-direction: column; 
       width:100%;
   }
+
+  product-card-container{   
+ 
+
+    column-gap: 12px;
+    row-gap: -90%;
+
+
+}
+
+product-card-container >*{
+    margin-top:12px;
+}
+
+
+
+
+
   }

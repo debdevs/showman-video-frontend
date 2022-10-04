@@ -109,9 +109,9 @@ body {
     --templates-category-card-fontsize: 14.2762px;
     --templates-category-card-borderradius:  6px;
 
-    --product-box-width: 147.43px;
-    --product-box-height: 106.94px;
-    --product-imagefx-height:  77.14px;
+    --product-box-width: 182.86px;
+    --product-box-height: 132.61px;
+    --product-imagefx-height: 95.65px;
 
     --product-box-header-size: 10.2999px;
 
@@ -123,6 +123,9 @@ body {
    --basic-button-width: 25%;   
    --basic-button-svgsize: 80%;   
 
+   --product-box-width: 43%;
+   --product-box-height: 132.61px;
+   --product-imagefx-height: 95.65px;
 
   }
 
