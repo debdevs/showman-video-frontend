@@ -118,14 +118,14 @@ product-card-container >*{
 
 
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 1024px) {
     product-filters-container {
       visibility:hidden;
-      display:hidden;
+      display:none;
     }
   }
 
-  @media screen and (max-width : 480px){
+  @media screen and (max-width : 1024px){
 
     templates-category-card-parent{
       display:flex;

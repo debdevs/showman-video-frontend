@@ -266,7 +266,7 @@ product-category-title{
 
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1280px) {
 
 
 
@@ -286,7 +286,10 @@ product-category-title{
     transition:all .4s ease-in-out;
   }
 
+  product-category-image{
+    width:100%;
 
+  }
 product-category-image-fx-container{
   display: flex;
   align-items:flex-start;

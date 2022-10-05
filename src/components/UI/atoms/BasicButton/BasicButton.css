@@ -43,7 +43,7 @@ button-parent{
     position: absolute; 
   
     color: white;
-    font-size: 15px;
+    font-size: var(--basic-button-fontsize);
     text-align: center;
   
   

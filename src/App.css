@@ -32,6 +32,7 @@
     --product-box-height: 206px;
     --product-imagefx-height: 148.59px;
     --product-box-header-size:16px;
+    --product-box-button-fontsize: 13px;
 
     --main-color: rgba(213, 95, 255, 1);
     
@@ -46,11 +47,12 @@
     --basic-button-height: 41.030799865722656px;
     --basic-button-width: 144.8145751953125px;
     --basic-button-svgsize: 120%; 
+    --basic-button-fontsize: 15px;
 }
 
 body {
     display: block;
-    overflow-x: hidden !important;
+   
 }
 
 
@@ -121,11 +123,13 @@ body {
   
    --basic-button-height: 85%;
    --basic-button-width: 25%;   
-   --basic-button-svgsize: 80%;   
+   --basic-button-svgsize: 80%;
+   --basic-button-fontsize: 12px;   
 
    --product-box-width: 43%;
    --product-box-height: 132.61px;
    --product-imagefx-height: 95.65px;
+   --product-box-button-fontsize: 10px;
 
   }
 

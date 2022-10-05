@@ -144,7 +144,7 @@ product-basic-cover-outline{
       font-style: normal;
       font-weight: 400;
       font-size: var(--product-box-header-size);
-      line-height: 20px;
+      line-height: 120%;
       text-align: left;
       flex:1;
       color: linear-gradient(251.44deg, #CBC8C8 37.43%, #E2D6D6 44.39%, #F1F1F1 67.13%);
