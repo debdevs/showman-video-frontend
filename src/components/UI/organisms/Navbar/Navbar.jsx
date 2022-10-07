@@ -19,15 +19,17 @@ const Navbar = () => {
         </logo-parent>
         <nav-container>
           <ul>
-            <li className="istok-font">
-              <AiFillHome className="icon" />
-              HOME
-            </li>
+            <Link to="/">
+              <li className="istok-font">
+                <AiFillHome className="icon" />
+                HOME
+              </li>
+            </Link>
             <li className="istok-font">
               <FiSearch className="icon" />
               SEARCH
             </li>
-            <Link to="./Page2">
+            <Link to="/Page2">
               <li className="istok-font">
                 <MdVideoLibrary className="icon" />
                 TEMPLATES

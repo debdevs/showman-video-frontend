@@ -1,33 +1,23 @@
-import React from 'react'
-
-import Navbar from './components/UI/organisms/Navbar/Navbar';
-import Hero from './components/templates/Hero/Hero';
-import  SubHeading  from './components/templates/SubHeading/SubHeading';
-import  AlternateSubHeading  from './components/templates/AlternateSubHeading/AlternateSubHeading';
-import  FrontInfoSection  from './components/templates/FrontInfoSection/FrontInfoSection';
-import  Footer from './components/templates/Footer/Footer';
+import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './meyer-reset.css';
 import './App.css';
+import HomePage from './components/pages/HomePage/HomePage';
+import Page2 from './components/pages/Page2/Page2';
+
 const App = () => {
   return (
-    <div className='home-column'>
-      
-    <Navbar/>
-    <Hero/>
-    <SubHeading/>
-    <AlternateSubHeading/>
-    <FrontInfoSection/>
-    <Footer/>
-  
- 
-    
-    
-   
-    
-   
-
-    </div>
-  )
-}
+    <BrowserRouter>
+      <div>
+        <main>
+          <Routes>
+            <Route path="/Page2" element={<Page2 />} />
+            <Route path="/" element={<HomePage />} />
+          </Routes>
+        </main>
+      </div>
+    </BrowserRouter>
+  );
+};
 
 export default App;
