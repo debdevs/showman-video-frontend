@@ -1,0 +1,19 @@
+.text-editor-box {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    width: 318.27px;
+    height: 80.87px;
+
+}
+
+.text-input {
+    width: 318.27px;
+    height: 43.45px;
+    background:transparent;
+    border: 1.01038px solid #534859;
+    border-radius: 5.05188px;
+    color:white;
+}

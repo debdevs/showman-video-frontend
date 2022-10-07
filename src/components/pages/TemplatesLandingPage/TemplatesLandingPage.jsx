@@ -9,7 +9,6 @@ const TemplatesLandingPage = () => {
       <Navbar />
       <TemplatesLandingHero />
       <TemplatesLandingSubheading />
-      <div>er</div>
     </div>
   );
 };

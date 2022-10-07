@@ -1,17 +1,25 @@
 templates-landing-subheading {
     display:flex;
     width:100%;
-    height:450px;
+    height:8950px;
     background:black;
     justify-content: center;
-    align-items: center;
+ 
 }
 
 templates-landing-subheading content-parent{
     display:flex;
-    width:75%;
-    height:350px;
+    width:85%;
+    height:100%;
+    margin-top:8%;
+    gap: 25px;
     
+}
+
+left-items {
+    height: 100%;
+    display:flex;
+    flex-direction: column;
 }
 
 templates-landing-subheading content-parent left-items .template-name{
@@ -101,4 +109,31 @@ button-row{
     text-fill-color: transparent;
     
     text-shadow: 0px 5.00405px 5.00405px rgba(0, 0, 0, 0.25);
+}
+
+template-preview-section 
+{
+    margin-top: 35px;
+    display:flex;
+}
+
+
+templates-landing-subheading content-parent right-items {
+    display:flex;
+    flex-direction: column;
+    gap:45px;
+}
+
+editor-options-row {
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    gap:20px;
+    max-width: 663.43px;
+}
+
+editor-container {
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
 }

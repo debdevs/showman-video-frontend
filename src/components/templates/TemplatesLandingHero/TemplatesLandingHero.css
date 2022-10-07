@@ -15,8 +15,8 @@ content-background {
 }
 content-container {
     display:flex;
-    width:75%;
-    gap:175.67px;
+
+    gap:115px;
     height:560px;
     background:black;
     justify-content: space-between;

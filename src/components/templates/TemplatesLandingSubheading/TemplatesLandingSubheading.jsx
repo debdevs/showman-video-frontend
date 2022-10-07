@@ -2,6 +2,9 @@ import React from 'react';
 import './TemplatesLandingSubheading.css';
 import StyleSelectorDropdown from '../../UI/atoms/StyleSelectorDropdown/StyleSelectorDropdown';
 import AnimatedResolutionButton from '../../UI/atoms/AnimatedResolutionButton/AnimatedResolutionButton';
+import MediaPreviewerElement from '../../UI/molecules/MediaPreviewerElement/MediaPreviewerElement';
+import EditorButton from '../../UI/atoms/EditorButton/EditorButton';
+import TextEditorBox from '../../UI/atoms/TextEditorBox/TextEditorBox';
 const TemplatesLandingSubheading = () => {
   return (
     <div>
@@ -29,9 +32,26 @@ const TemplatesLandingSubheading = () => {
                 </button-row>
               </extra-details-column-2>
             </extra-details-row>
-            <template-preview-section></template-preview-section>
+            <template-preview-section>
+              <MediaPreviewerElement />
+            </template-preview-section>
           </left-items>
-          <right-items></right-items>
+          <right-items>
+            <editor-options-row>
+              <EditorButton button_text={'Edit Text'} />
+              <EditorButton button_text={'Edit Colors'} />
+              <EditorButton button_text={'Edit Media'} />
+            </editor-options-row>
+            <editor-container>
+              <TextEditorBox default_text="Text 1" />
+              <TextEditorBox default_text="Text 1" />
+              <TextEditorBox default_text="Text 1" />
+              <TextEditorBox default_text="Text 1" />
+              <TextEditorBox default_text="Text 1" />
+              <TextEditorBox default_text="Text 1" />
+              <TextEditorBox default_text="Text 1" />
+            </editor-container>
+          </right-items>
         </content-parent>
       </templates-landing-subheading>
     </div>
