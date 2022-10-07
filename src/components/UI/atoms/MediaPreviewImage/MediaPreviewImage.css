@@ -1,0 +1,25 @@
+:root{
+    --media-preview-border-radius: 12.7779px; 
+}
+media-preview-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 419.49px;
+    height: 323.71px;
+    border: 2.12965px solid #534859;
+    box-shadow: 0px 15.9723px 37.2688px 15.9723px rgba(0, 0, 0, 0.75);
+    border-radius: var(--media-preview-border-radius); 
+  
+}
+
+
+.media-preview-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 419.49px;
+    height: 323.71px;
+    object-fit:cover;
+    border-radius: var(--media-preview-border-radius);
+}

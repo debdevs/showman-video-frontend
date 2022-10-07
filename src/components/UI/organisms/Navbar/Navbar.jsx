@@ -25,10 +25,12 @@ const Navbar = () => {
                 HOME
               </li>
             </Link>
-            <li className="istok-font">
-              <FiSearch className="icon" />
-              SEARCH
-            </li>
+            <Link to="/template-landing-page">
+              <li className="istok-font">
+                <FiSearch className="icon" />
+                SEARCH
+              </li>
+            </Link>
             <Link to="/Page2">
               <li className="istok-font">
                 <MdVideoLibrary className="icon" />
