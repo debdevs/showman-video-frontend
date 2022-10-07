@@ -1,0 +1,21 @@
+.neon-button{
+    width: 120.31px;
+    height: 34.07px;
+    
+    width: 120.31px;
+    height: 34.07px;
+    
+    border: 1.06482px solid rgba(168, 26, 255, 0.25);
+    box-shadow: 0px 4.25929px 26.6206px 3.19447px rgba(82, 5, 109, 0.35);
+    border-radius: 5.32411px;
+    background:black;
+    color:white;
+    transition: all .4s ease-in-out;
+    cursor:pointer;
+}
+
+.neon-button:hover{
+    border: 1.06482px solid #ffffff;
+    color:  #A81AFF;
+    box-shadow: 0px 4.25929px 26.6206px 3.19447px rgba(255, 255, 255, 0.3)
+}
