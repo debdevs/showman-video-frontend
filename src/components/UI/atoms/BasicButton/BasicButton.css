@@ -1,5 +1,5 @@
 
-button-items{
+.button-items{
      
       display:flex;
 
@@ -16,7 +16,7 @@ button-items{
     }
 
 
-button-parent{
+    .button-parent{
 
    
     display: flex;
@@ -58,27 +58,18 @@ button-parent{
 
 
   }
-  button-parent a{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-  }
-  button-parent a svg{
-    margin-top: 2px;
+  .button-parent a{
+    position:absolute;
     transform: scale(var(--basic-button-svgsize));
-
-   
-  
-  
-  
+    margin-top:4px;
   }
-
+  
 
 
   
 
 
- button-items:hover button-parent {
+.button-parent:hover  {
   
     border: 2px solid white;
     background: rgba(189, 0, 255, 0.12);
@@ -86,8 +77,3 @@ button-parent{
   }
 
 
-
-  button-items:hover button-parent h3{
-  
-    color: var(--theme-color-1);
-  }

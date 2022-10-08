@@ -1,5 +1,5 @@
 
-  .showman-glow-button-box {
+  .submit-button-box {
     position: relative;
   
     width: 120.31px;
@@ -27,7 +27,7 @@
 
  
   
-  .showman-glow-button-background-box{
+  .submit-button-background-box{
     width: 120.31px;
     height: 34.07px;
     display:flex;
@@ -36,7 +36,8 @@
     border: 0.857345px solid #534859;
 
     border-radius: 5.32411px;   
-    background: black;
+    background: linear-gradient(95.12deg, #994DFF -18.8%, #702EFF 18.42%, #B02EFF 48.79%);
+    
     color:white;
     cursor:pointer; 
     transition:all .4s ease-in-out;
@@ -45,11 +46,11 @@
 
    
   }
-  .showman-glow-button-background-box a{
+  .submit-button-background-box a{
     position:absolute;
     margin-top:2.5%;
   } 
-  .showman-glow-button-box:hover {
+  .submit-button-box:hover {
     animation: animate 8s linear infinite;
     
   }
@@ -63,7 +64,7 @@
     }
   }
    
-  .showman-glow-button-box:before {
+  .submit-button-box:before {
     content: "";
     position: absolute;
     top: -5px;
@@ -81,7 +82,7 @@
   
   }
    
-  .showman-glow-button-box:hover:before {
+  .submit-button-box:hover:before {
     filter: blur(20px);
     opacity: .4;
     animation: animate 8s linear infinite;
@@ -90,7 +91,7 @@
   }
   
   
-  .showman-glow-button-box-image {
+  .submit-button-box-image {
     display: block;
     width: inherit;
   
@@ -125,17 +126,17 @@
   }
   
  
-  .showman-glow-button-background-box:hover {
+  .submit-button-background-box:hover {
     box-shadow: 0px 5px 10px 0px rgba(168, 26, 255, 0.2);
     border:1px solid white;
     color:  white;
-    background: linear-gradient(95.12deg, rgba(153, 77, 255, 0.35) -18.8%, rgba(112, 46, 255, 0.35) 18.42%, rgba(176, 46, 255, 0.35) 48.79%);
+    
     transition-delay:0s;
      
    
   }
   
-  .showman-glow-button-background-box:hover::before {
+  .submit-button-background-box:hover::before {
     transition:.4s ease-in-out;
     transition-delay:0s;
     transform: rotate(30deg) translate(0, -60%);

@@ -144,3 +144,8 @@ editor-container {
     flex-wrap:wrap;
     
 }
+
+result-buttons-container {
+    display:flex;
+    gap:15px;
+}

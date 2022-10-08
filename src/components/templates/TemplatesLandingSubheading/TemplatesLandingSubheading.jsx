@@ -6,6 +6,7 @@ import MediaPreviewerElement from '../../UI/molecules/MediaPreviewerElement/Medi
 import EditorButton from '../../UI/atoms/EditorButton/EditorButton';
 import TextEditorBox from '../../UI/atoms/TextEditorBox/TextEditorBox';
 import ShowmanGlowButton from '../../UI/atoms/ShowmanGlowButton/ShowmanGlowButton';
+import SubmitButton from '../../UI/atoms/SubmitButton/SubmitButton';
 const TemplatesLandingSubheading = () => {
   return (
     <div>
@@ -36,6 +37,7 @@ const TemplatesLandingSubheading = () => {
             <template-preview-section>
               <MediaPreviewerElement />
             </template-preview-section>
+            
           </left-items>
           <right-items>
             <editor-options-row>
@@ -52,9 +54,10 @@ const TemplatesLandingSubheading = () => {
               <TextEditorBox default_text="Text 1" />
               <TextEditorBox default_text="Text 1" />
             </editor-container>
-            <result-buttons-conteainer>
+            <result-buttons-container>
               <ShowmanGlowButton button_text={'PREVIEW'} />
-            </result-buttons-conteainer>
+              <SubmitButton button_text={'SUBMIT'} />
+            </result-buttons-container>
           </right-items>
         </content-parent>
       </templates-landing-subheading>
