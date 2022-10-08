@@ -13,6 +13,7 @@ templates-landing-subheading content-parent{
     height:100%;
     margin-top:8%;
     gap: 25px;
+    justify-content:space-between;
     
 }
 
@@ -122,12 +123,13 @@ templates-landing-subheading content-parent right-items {
     display:flex;
     flex-direction: column;
     gap:45px;
+    width:100%;
 }
 
 editor-options-row {
     display:flex;
     align-items: center;
-    justify-content:center;
+ 
     gap:20px;
     max-width: 663.43px;
 }
@@ -136,4 +138,5 @@ editor-container {
     display:flex;
     gap:15px;
     flex-wrap:wrap;
+    
 }

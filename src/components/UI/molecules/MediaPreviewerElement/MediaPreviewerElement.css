@@ -5,8 +5,8 @@ media-previewer-image {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 870.3px;
-    height: 466.2px;
+    width: 803.87px;
+    height: 430.62px;
     border: 2.12965px solid #534859;
     box-shadow: 0px 15.9723px 37.2688px 15.9723px rgba(0, 0, 0, 0.75);
     border-radius: var(--media-previewer-border-radius); 
@@ -18,8 +18,8 @@ media-previewer-image {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 870.3px;
-    height: 466.2px;
+    width: 803.87px;
+    height: 430.62px;
     object-fit:cover;
     border-radius: var(--media-previewer-border-radius);
 }
