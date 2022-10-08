@@ -5,6 +5,7 @@ import AnimatedResolutionButton from '../../UI/atoms/AnimatedResolutionButton/An
 import MediaPreviewerElement from '../../UI/molecules/MediaPreviewerElement/MediaPreviewerElement';
 import EditorButton from '../../UI/atoms/EditorButton/EditorButton';
 import TextEditorBox from '../../UI/atoms/TextEditorBox/TextEditorBox';
+import ShowmanGlowButton from '../../UI/atoms/ShowmanGlowButton/ShowmanGlowButton';
 const TemplatesLandingSubheading = () => {
   return (
     <div>
@@ -51,6 +52,9 @@ const TemplatesLandingSubheading = () => {
               <TextEditorBox default_text="Text 1" />
               <TextEditorBox default_text="Text 1" />
             </editor-container>
+            <result-buttons-conteainer>
+              <ShowmanGlowButton button_text={'PREVIEW'} />
+            </result-buttons-conteainer>
           </right-items>
         </content-parent>
       </templates-landing-subheading>
