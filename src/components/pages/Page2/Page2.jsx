@@ -3,14 +3,33 @@ import './Page2.css';
 import { TemplatesHero } from '../../templates/TemplatesHero';
 import { Navbar } from '../../UI/organisms';
 import TemplatesSubheading from '../../templates/TemplatesSubheading/TemplatesSubheading';
+import { motion } from 'framer-motion/dist/framer-motion';
+
+const categories = [
+  { id: 1, title: 'Weddings' },
+  { id: 2, title: 'Real Estate' },
+  { id: 3, title: 'Gaming' },
+  { id: 4, title: 'Social Media' },
+  { id: 5, title: 'Real Estate' },
+];
 
 const Page2 = () => {
   return (
-    <div className="templates-page">
+    <motion.div
+      className="templates-page"
+      initial={{ scaleX: 0, opacity: 0 }}
+      animate={{ scaleX: 1, opacity: 1 }}
+      exit={{
+        scaleX: 0.95,
+        opacity: 0,
+        transition: { type: 'spring', stiffness: 50 },
+      }}
+      transition={{ delay: 0.6 }}
+    >
       <Navbar className="navbar" />
       <TemplatesHero />
       <TemplatesSubheading />
-    </div>
+    </motion.div>
   );
 };
 
