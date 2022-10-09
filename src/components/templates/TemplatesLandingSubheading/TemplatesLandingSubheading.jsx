@@ -7,6 +7,7 @@ import EditorButton from '../../UI/atoms/EditorButton/EditorButton';
 import TextEditorBox from '../../UI/atoms/TextEditorBox/TextEditorBox';
 import ShowmanGlowButton from '../../UI/atoms/ShowmanGlowButton/ShowmanGlowButton';
 import SubmitButton from '../../UI/atoms/SubmitButton/SubmitButton';
+
 const TemplatesLandingSubheading = () => {
   return (
     <div>
@@ -37,7 +38,6 @@ const TemplatesLandingSubheading = () => {
             <template-preview-section>
               <MediaPreviewerElement />
             </template-preview-section>
-            
           </left-items>
           <right-items>
             <editor-options-row>
