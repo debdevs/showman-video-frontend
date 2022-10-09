@@ -17,10 +17,10 @@ const Page2 = () => {
   return (
     <motion.div
       className="templates-page"
-      initial={{ scaleX: 0, opacity: 0 }}
+      initial={{ scaleX: 0.9, opacity: 0 }}
       animate={{ scaleX: 1, opacity: 1 }}
       exit={{
-        scaleX: 0.95,
+        scaleX: 0.97,
         opacity: 0,
         transition: { type: 'spring', stiffness: 50 },
       }}
