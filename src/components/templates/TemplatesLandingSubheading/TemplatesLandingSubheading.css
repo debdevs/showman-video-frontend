@@ -8,11 +8,16 @@ templates-landing-subheading {
     justify-content: center;
     overflow-y:hidden;
     overflow-x:hidden;
- 
+    /* position:absolute;
+    top:0;
+    z-index:200;
+    height:100%;
+  */
 }
 
 templates-landing-subheading content-parent{
     display:flex;
+    flex-direction: row;
     width:90%;
     height:100%;
     margin-top:8%;
@@ -146,6 +151,7 @@ editor-options-row {
 
 editor-container {
     display:flex;
+    flex-direction: row;
     gap:15px;
     flex-wrap:wrap;
     
@@ -155,3 +161,52 @@ result-buttons-container {
     display:flex;
     gap:15px;
 }
+
+@media only screen and (max-width:900px) {
+    templates-landing-subheading {
+        height:100%;
+    }
+    templates-landing-subheading content-parent{
+        display:flex;
+        width:95%;
+        height:100%;
+        margin-top:8%;
+        gap: 25px;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    
+    
+}
+
+@media only screen and (max-width:480px){
+editor-container {
+    display:flex;
+    flex-direction: row;
+    gap:15px;
+    flex-wrap:wrap;
+  
+    justify-content:center;
+    align-items: center;
+    
+}
+
+template-preview-section 
+{
+    justify-content:center;
+    align-items: center;
+}
+
+templates-landing-subheading content-parent left-items .template-name{
+
+display:none;
+
+}
+
+}
+
+
+
+

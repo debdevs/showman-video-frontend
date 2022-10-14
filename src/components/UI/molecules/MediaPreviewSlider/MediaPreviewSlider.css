@@ -66,3 +66,16 @@ thumb-container img {
 
 
 }
+
+
+@media only screen and (max-width:480px){
+    thumb-container{
+   
+        height: 57.03839874267578px;
+        width: 82.50830078125px;
+
+        border-radius: 5.531282901763916px;
+        
+    }
+
+}

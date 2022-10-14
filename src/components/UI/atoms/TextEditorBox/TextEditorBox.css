@@ -24,3 +24,34 @@
     color:white;
     padding: 10px;
 }
+
+@media only screen and (max-width:480px) {
+    
+
+    .text-editor-box {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:15px;
+        width:42%;
+        margin:5px;
+        height: 80.87px;
+        flex-wrap: wrap;
+    
+    }
+    .text-input {
+
+        width:35vw;
+    
+      
+        background:transparent;
+        border: 1.01038px solid #534859;
+        border-radius: 5.05188px;
+        color:white;
+        padding: 10px;
+    }
+    
+
+}
+

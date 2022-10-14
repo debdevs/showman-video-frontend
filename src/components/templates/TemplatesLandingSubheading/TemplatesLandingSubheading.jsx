@@ -10,7 +10,10 @@ import SubmitButton from '../../UI/atoms/SubmitButton/SubmitButton';
 import PreviewThumb from '../../UI/atoms/PreviewThumb/PreviewThumb';
 import MediaPreviewSlider from '../../UI/molecules/MediaPreviewSlider/MediaPreviewSlider';
 import image from '../../../assets/images/pexels-yuri-manei-2690323.jpg';
+import { useState } from 'react';
+
 const TemplatesLandingSubheading = () => {
+  const [openScreen, setOpenScreen] = useState(false);
   return (
     <div>
       <templates-landing-subheading>
@@ -40,14 +43,18 @@ const TemplatesLandingSubheading = () => {
             <template-preview-section>
               <MediaPreviewerElement />
               <MediaPreviewSlider image_source={image} />
-              <PreviewThumb />
             </template-preview-section>
           </left-items>
           <right-items>
             <editor-options-row>
               <EditorButton button_text={'Edit Text'} />
               <EditorButton button_text={'Edit Colors'} />
-              <EditorButton button_text={'Edit Media'} />
+              <EditorButton
+                button_text={'Edit Media'}
+                onClick={() => {
+                  setOpenScreen(true);
+                }}
+              />
             </editor-options-row>
             <editor-container>
               <TextEditorBox default_text="Text 1" />

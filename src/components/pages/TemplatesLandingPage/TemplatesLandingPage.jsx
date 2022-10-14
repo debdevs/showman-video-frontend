@@ -4,7 +4,7 @@ import TemplatesLandingHero from '../../templates/TemplatesLandingHero/Templates
 import TemplatesLandingSubheading from '../../templates/TemplatesLandingSubheading/TemplatesLandingSubheading';
 import { Navbar } from '../../UI/organisms';
 import { motion } from 'framer-motion/dist/framer-motion';
-
+import TemplatesNavbar from '../../UI/organisms/TemplatesNavbar/TemplatesNavbar';
 const TemplatesLandingPage = () => {
   return (
     <motion.div
@@ -21,7 +21,7 @@ const TemplatesLandingPage = () => {
       <Navbar />
       <TemplatesLandingHero />
       <TemplatesLandingSubheading />
-      
+      <TemplatesNavbar />
     </motion.div>
   );
 };

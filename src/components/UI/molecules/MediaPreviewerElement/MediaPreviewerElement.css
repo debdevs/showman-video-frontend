@@ -25,3 +25,28 @@ media-previewer-image {
     object-fit:cover;
     border-radius: var(--media-previewer-border-radius);
 }
+
+
+
+
+
+
+
+@media only screen and (max-width:480px){
+    media-previewer-image{
+   
+        height: 238.71556091308594px;
+        width: 301.4549255371094px;
+ 
+        
+        
+    }
+    .media-previewer-image{
+   
+        height: 232.5946502685547px;
+        width: 301.4549255371094px;
+
+        
+    }
+
+}
