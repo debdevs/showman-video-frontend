@@ -5,7 +5,8 @@ import MediaPreviewElement from '../../UI/molecules/MediaPreviewElement/MediaPre
 import TemplateInfoDisplay from '../../UI/molecules/TemplateInfoDisplay/TemplateInfoDisplay';
 import TemplatesLandingSubheading from '../TemplatesLandingSubheading/TemplatesLandingSubheading';
 import { useState } from 'react';
-
+import { motion } from 'framer-motion/dist/framer-motion';
+import { AnimatePresence } from 'framer-motion/dist/framer-motion';
 const TemplatesLandingHero = () => {
   const [openScreen, setOpenScreen] = useState(false);
   function OpenModal() {
@@ -27,6 +28,7 @@ const TemplatesLandingHero = () => {
           </content-container>
         </content-background>
       </templates-landing-hero-container>
+
       {openScreen && <TemplatesLandingSubheading closeScreen={setOpenScreen} />}
     </div>
   );

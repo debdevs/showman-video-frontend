@@ -6,8 +6,8 @@ templates-landing-subheading {
   justify-content: center;
   overflow-y: hidden;
   overflow-x: hidden;
-  position:absolute;
-    top:0;
+  position:relative;
+    
     z-index:200;
     height:100%;
  
