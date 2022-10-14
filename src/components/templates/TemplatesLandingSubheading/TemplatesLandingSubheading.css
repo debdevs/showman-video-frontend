@@ -23,6 +23,8 @@ close-container{
   font-size: 54px;
   justify-self:flex-end;
   position:absolute;
+  cursor:pointer;
+  transition:all .4s ease;
 }
 templates-landing-subheading content-parent {
   display: flex;
@@ -160,6 +162,14 @@ result-buttons-container {
   gap: 15px;
 }
 
+
+
+
+.close-back:hover {
+    color: var(--theme-color-5);
+   
+
+  }
 @media only screen and (max-width: 900px) {
   templates-landing-subheading {
     height: 100%;
