@@ -2,15 +2,8 @@ import React from 'react';
 import './TemplateInfoDisplay.css';
 import NeonButton from '../../atoms/NeonButton/NeonButton';
 import AnimatedGlowButton from '../../atoms/AnimatedGlowButton/AnimatedGlowButton';
-import { useState } from 'react';
-const TemplateInfoDisplay = () => {
-  const [openScreen, setOpenScreen] = useState(false);
 
-  function openModal() {
-    console.log('Click happened');
-    setOpenScreen(true);
-  }
-
+const TemplateInfoDisplay = ({ button_1_function }) => {
   return (
     <div class="template-info-column">
       <details-row>
@@ -26,7 +19,10 @@ const TemplateInfoDisplay = () => {
         </p>
       </template-text>
       <buttons-container>
-        <AnimatedGlowButton button_text="Get it now" onClick={openModal} />
+        <AnimatedGlowButton
+          button_text="Get it now"
+          onClick={button_1_function}
+        />
         <NeonButton button_text="Get it now" />
       </buttons-container>
     </div>

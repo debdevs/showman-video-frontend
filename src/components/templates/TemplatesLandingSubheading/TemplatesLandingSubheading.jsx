@@ -11,12 +11,20 @@ import PreviewThumb from '../../UI/atoms/PreviewThumb/PreviewThumb';
 import MediaPreviewSlider from '../../UI/molecules/MediaPreviewSlider/MediaPreviewSlider';
 import image from '../../../assets/images/pexels-yuri-manei-2690323.jpg';
 import { useState } from 'react';
-
-const TemplatesLandingSubheading = () => {
+import { RiArrowGoBackFill } from 'react-icons/all';
+const TemplatesLandingSubheading = ({ closeScreen }) => {
   const [openScreen, setOpenScreen] = useState(false);
+
   return (
     <div>
       <templates-landing-subheading>
+        <close-container>
+          <RiArrowGoBackFill
+            className="close-back"
+            onClick={() => closeScreen(false)}
+          />
+        </close-container>
+
         <content-parent>
           <left-items>
             <h1 className="rumble-brave-font template-name">

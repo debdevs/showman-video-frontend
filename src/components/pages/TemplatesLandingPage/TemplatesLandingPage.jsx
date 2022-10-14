@@ -20,7 +20,7 @@ const TemplatesLandingPage = () => {
     >
       <Navbar />
       <TemplatesLandingHero />
-      <TemplatesLandingSubheading />
+      {/* <TemplatesLandingSubheading /> */}
       <TemplatesNavbar />
     </motion.div>
   );
