@@ -129,7 +129,7 @@ product-card-container >*{
 
     templates-category-card-parent{
       display:flex;
-      flex-wrap: wrap;
+    
       overflow:hidden;
       gap: 8px;
       margin-top: 0px;
@@ -171,7 +171,13 @@ product-card-container >*{
 }
 
 
+.cat-card-motion {
+  max-width:var( --templates-category-card-bg-width);
+  display:flex;
+  justify-content: center;
+  align-items: center;
 
+}
 
 
   }

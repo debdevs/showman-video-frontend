@@ -33,6 +33,7 @@ const TemplatesSubheading = () => {
           <templates-category-card-parent>
             {categories.map((category, i) => (
               <motion.div
+                className="cat-card-motion"
                 key={category.id}
                 initial={{ opacity: 0, traslateX: -50, translateY: -50 }}
                 animate={{ opacity: 1, traslateX: 0, translateY: 0 }}

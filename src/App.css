@@ -135,7 +135,9 @@ body {
    --product-imagefx-height: 95.65px;
    --product-box-button-fontsize: 10px;
 
-
+   --templates-category-card-width: 100%;
+   --templates-category-card-bg-width: 30%;
+    --templates-category-card-height: 103.95px;
 
   }
 
