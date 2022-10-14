@@ -7,6 +7,7 @@ import TemplatesLandingSubheading from '../TemplatesLandingSubheading/TemplatesL
 import { useState } from 'react';
 import { motion } from 'framer-motion/dist/framer-motion';
 import { AnimatePresence } from 'framer-motion/dist/framer-motion';
+
 const TemplatesLandingHero = () => {
   const [openScreen, setOpenScreen] = useState(false);
   function OpenModal() {
@@ -28,8 +29,53 @@ const TemplatesLandingHero = () => {
           </content-container>
         </content-background>
       </templates-landing-hero-container>
-
-      {openScreen && <TemplatesLandingSubheading closeScreen={setOpenScreen} />}
+      <AnimatePresence>
+        {openScreen && (
+          <>
+            <motion.div
+              className="modal-bg"
+              key="modal"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{
+                opacity: 0,
+              }}
+              transition={{ delay: 0 }}
+              style={{
+                position: 'absolute',
+                top: 0,
+                left: 0,
+                width: '100%',
+                height: '100%',
+                background: '#000',
+              }}
+            />
+            <motion.div
+              key="modal-content"
+              initial={{ scaleX: 0.9, opacity: 0, x: -100 }}
+              animate={{ scaleX: 1, opacity: 1, x: 0 }}
+              exit={{
+                scaleX: 1.1,
+                opacity: 0,
+                transition: { type: 'spring', stiffness: 50 },
+                x: 200,
+                delay: 0.4,
+                duration: 5,
+              }}
+              transition={{ delay: 0.4 }}
+              style={{
+                position: 'absolute',
+                top: 0,
+                left: 0,
+                width: '100%',
+                height: '100%',
+              }}
+            >
+              <TemplatesLandingSubheading closeScreen={setOpenScreen} />
+            </motion.div>
+          </>
+        )}
+      </AnimatePresence>
     </div>
   );
 };
