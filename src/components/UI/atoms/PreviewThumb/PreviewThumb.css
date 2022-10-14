@@ -1,0 +1,29 @@
+thumb-container{
+    height: 95.018310546875px;
+width: 133.9234161376953px;
+
+
+border-radius: 8.9800443649292px;
+
+
+box-shadow: 0px 11.2251px 26.1918px 11.2251px rgba(0, 0, 0, 0.75);
+border-radius: 8.98004px;
+border: 1.49667px solid #534859;
+overflow:hidden;
+display:flex;
+justify-content: center;
+align-items:center;
+background: #534859;
+}
+
+thumb-container img {
+    width:100%;
+    height:auto;
+    object-fit: cover;
+    border-radius: 8.98004px;
+    scale:105%;
+
+    
+
+
+}

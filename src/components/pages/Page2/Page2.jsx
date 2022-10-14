@@ -5,6 +5,7 @@ import { Navbar } from '../../UI/organisms';
 import TemplatesSubheading from '../../templates/TemplatesSubheading/TemplatesSubheading';
 import { motion } from 'framer-motion/dist/framer-motion';
 import MobileNavbar from '../../UI/organisms/MobileNavbar/MobileNavbar';
+
 const categories = [
   { id: 1, title: 'Weddings' },
   { id: 2, title: 'Real Estate' },
@@ -30,6 +31,7 @@ const Page2 = () => {
       <TemplatesHero />
       <TemplatesSubheading />
       <MobileNavbar />
+   
     </motion.div>
   );
 };

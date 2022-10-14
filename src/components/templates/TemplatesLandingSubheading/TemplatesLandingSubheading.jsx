@@ -7,7 +7,9 @@ import EditorButton from '../../UI/atoms/EditorButton/EditorButton';
 import TextEditorBox from '../../UI/atoms/TextEditorBox/TextEditorBox';
 import ShowmanGlowButton from '../../UI/atoms/ShowmanGlowButton/ShowmanGlowButton';
 import SubmitButton from '../../UI/atoms/SubmitButton/SubmitButton';
-
+import PreviewThumb from '../../UI/atoms/PreviewThumb/PreviewThumb';
+import MediaPreviewSlider from '../../UI/molecules/MediaPreviewSlider/MediaPreviewSlider';
+import image from '../../../assets/images/pexels-yuri-manei-2690323.jpg';
 const TemplatesLandingSubheading = () => {
   return (
     <div>
@@ -37,6 +39,8 @@ const TemplatesLandingSubheading = () => {
             </extra-details-row>
             <template-preview-section>
               <MediaPreviewerElement />
+              <MediaPreviewSlider image_source={image} />
+              <PreviewThumb />
             </template-preview-section>
           </left-items>
           <right-items>
