@@ -9,27 +9,31 @@ templates-carousel {
 
 
 inner-content{
-    display:flex;
+    display:inline-flex;
     white-space: nowrap;
     transition: transform 0.3s;
-    width:100%;
+    gap:35px;
     justify-content: center;
     align-items: center;
 }
 
 carousel-item{
     display: inline-flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     height:200px;
-    background-color: green;
+    background-color: black;
     color: #fff;
 
     width: 1397.17px;
-    height: 396.58px;
+    height: 
+    407.01px;
     border-radius: 10.648229598999023px;
     
-
+   
+    border: 1.94348px solid #534859;
+    box-shadow: 0px 14.5761px 34.011px 14.5761px rgba(46, 6, 71, 0.75);
+    border-radius: 11.6609px;
 
 
 

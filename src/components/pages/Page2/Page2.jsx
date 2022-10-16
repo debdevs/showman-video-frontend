@@ -29,7 +29,7 @@ const Page2 = () => {
     >
       <Navbar className="navbar" />
       <TemplatesCarouselHero />
-      <TemplatesHero />
+      {/* <TemplatesHero /> */}
       <TemplatesSubheading />
       <MobileNavbar />
     </motion.div>
