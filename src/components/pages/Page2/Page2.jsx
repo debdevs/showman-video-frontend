@@ -5,7 +5,7 @@ import { Navbar } from '../../UI/organisms';
 import TemplatesSubheading from '../../templates/TemplatesSubheading/TemplatesSubheading';
 import { motion } from 'framer-motion/dist/framer-motion';
 import MobileNavbar from '../../UI/organisms/MobileNavbar/MobileNavbar';
-
+import TemplatesCarouselHero from '../../templates/TemplatesCarouselHero/TemplatesCarouselHero';
 const categories = [
   { id: 1, title: 'Weddings' },
   { id: 2, title: 'Real Estate' },
@@ -28,10 +28,10 @@ const Page2 = () => {
       transition={{ delay: 0.6 }}
     >
       <Navbar className="navbar" />
+      <TemplatesCarouselHero />
       <TemplatesHero />
       <TemplatesSubheading />
       <MobileNavbar />
-   
     </motion.div>
   );
 };
