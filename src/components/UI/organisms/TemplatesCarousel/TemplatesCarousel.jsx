@@ -11,7 +11,7 @@ export const CarouselItem = ({ children, width }) => {
 };
 
 const TemplatesCarousel = ({ children }) => {
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(1);
   const updateIndex = (newIndex) => {
     if (newIndex < 0) {
       newIndex = 0;
@@ -24,8 +24,11 @@ const TemplatesCarousel = ({ children }) => {
     <templates-carousel className="templates-carousel">
       <inner-content
         className="inner-content"
-        //take number of slides. Divide item width by that number. Divide result by 1/2 to get percantage for shifting to center 'translateX(12.5015211%)'
-        style={{ transform: `translateX(-${activeIndex * 12.5015211}% )` }}
+        //take number of slides. Divide item width by that number. Divide result by 1/2 (and ask google what percent of width is result)to get percantage for shifting to center 'translateX(12.5015211%)'
+        //style={{ transform: `translateX(-${activeIndex * 12.5015211}% )` }}
+        style={{
+          transform: `translateX(-${activeIndex * 25.0030422}% )`,
+        }}
       >
         {React.Children.map(children, (child, index) => {
           return React.cloneElement(child, { width: '100%' });
