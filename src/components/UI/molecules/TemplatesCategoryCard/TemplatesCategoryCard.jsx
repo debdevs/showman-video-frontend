@@ -1,10 +1,11 @@
 import React from 'react';
+import { useState } from 'react';
 import '../../../../App.css';
 import './TemplatesCategoryCard.css';
-const TemplatesCategoryCard = ({ title }) => {
+const TemplatesCategoryCard = ({ title, cardClick, acClass, class_name }) => {
   return (
     <product-category-animation-box class="site-img">
-      <product-category-box>
+      <div onClick={cardClick} className={acClass}>
         <product-category-image-fx-container>
           <product-category-image>
             <img
@@ -20,7 +21,7 @@ const TemplatesCategoryCard = ({ title }) => {
         <product-category-info-container>
           <h2 class="rumble-brave-font">{title}</h2>
         </product-category-info-container>
-      </product-category-box>
+      </div>
     </product-category-animation-box>
   );
 };

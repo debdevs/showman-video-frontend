@@ -17,7 +17,7 @@ product-category-title{
       transition:all .4s ease-in-out;
     }
   
-  product-category-box {
+  .product-category-box {
   
       display: block;
       width: 100%;
@@ -153,7 +153,7 @@ product-category-title{
   
   
   
-    product-category-box:hover {
+    .product-category-box:hover {
       animation: animate 8s linear infinite;
     }
      
@@ -185,7 +185,7 @@ product-category-title{
     
     }
      
-    product-category-box:hover:before {
+    .product-category-box:hover:before {
       filter: blur(90px);
       opacity: .8;
       animation: animate 8s linear infinite;
@@ -240,7 +240,7 @@ product-category-title{
   
     }
   /* Affect Hovers */
-  product-category-animation-box:hover product-category-box product-category-image-fx-container product-category-cover-outline{
+  product-category-animation-box:hover .product-category-box product-category-image-fx-container product-category-cover-outline{
   
     box-shadow: 0 0 0px 1.1px inset white;
     background: rgba(189, 0, 255, 0.12);
@@ -252,19 +252,38 @@ product-category-title{
     filter: saturate(0.7);
   }
   
-  product-category-animation-box:hover product-category-box product-category-info-container right-items button-parent{
+  product-category-animation-box:hover .product-category-box product-category-info-container right-items button-parent{
   
     border: 2px solid white;
     background: rgba(189, 0, 255, 0.12);
     border: 2px solid var(--main-color);
   }
   
-  product-category-animation-box:hover product-category-box product-category-info-container right-items button-parent h3{
+  product-category-animation-box:hover .product-category-box product-category-info-container right-items button-parent h3{
   
     color: var(--main-color);
 }
 
 
+
+
+.product-category-box-clicked {
+    
+  display: block;
+  width: 100%;
+  height: var(--templates-category-card-height);
+ 
+  position: relative;
+  border-radius:  var(--templates-category-card-borderradius);
+  border: 2px solid rgba(168, 26, 255, .15);
+  cursor: pointer;
+  box-shadow: 0 10px 15px 2px;
+  background: linear-gradient(#2F2E2E, #080214); 
+  transition:all .4s ease-in-out;
+  transform: scale(.98);
+
+
+}
 
 @media screen and (max-width: 1280px) {
 
@@ -283,7 +302,7 @@ product-category-title{
 
 
 
-  product-category-box {
+  .product-category-box {
   
     display: block;
    

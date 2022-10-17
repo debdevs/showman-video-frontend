@@ -16,7 +16,7 @@ inner-content{
     gap:35px;
     justify-content: center;
     align-items: center;
-    width:375%;
+    width:470%;
 }
 
 carousel-item{
@@ -35,7 +35,7 @@ carousel-item{
     border-radius: 10.648229598999023px;
     
    
-    border: 1.94348px solid #534859;
+    border: 1.94348px solid #53485970;
     box-shadow: 0px 14.5761px 34.011px 14.5761px rgba(46, 6, 71, 0.75);
     border-radius: 11.6609px;
 
@@ -43,6 +43,9 @@ carousel-item{
 
 }
 
-.indicators{
+.indicators {
+ 
     position:absolute;
+    margin:0 auto;
+
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import { useState } from 'react';
 import '../../../App.css';
 import './TemplatesSubheading.css';
 import TemplatesCategoryCard from '../../UI/molecules/TemplatesCategoryCard/TemplatesCategoryCard';
@@ -25,23 +26,40 @@ const products = [
 ];
 
 const TemplatesSubheading = () => {
+  const [isActive, setIsActive] = useState(false);
+  const [clickedId, setClickedId] = useState(-1);
+  const handleClick = () => {
+    // 👇️ toggle
+
+    setIsActive(true);
+    console.log(isActive);
+  };
+  let acClass = 'product-category-box';
   return (
     <div>
       <section className="marketplace-content">
         <marketplace-content-parent>
           <fade-bg />
           <templates-category-card-parent>
-            {categories.map((category, i) => (
+            {categories.map((category, key) => (
               <motion.div
                 className="cat-card-motion"
                 key={category.id}
                 initial={{ opacity: 0, traslateX: -50, translateY: -50 }}
                 animate={{ opacity: 1, traslateX: 0, translateY: 0 }}
-                transition={{ duration: 1, delay: 0.25 + i * 0.25 }}
+                transition={{ duration: 1, delay: 0.25 + key * 0.25 }}
               >
                 <TemplatesCategoryCard
                   className="cat-card"
                   title={category.title}
+                  key={key}
+                  cardClick={() => setClickedId(key)}
+                  //() => console.log(key);
+                  acClass={
+                    key === clickedId
+                      ? 'product-category-box-clicked'
+                      : 'product-category-box'
+                  }
                 />
               </motion.div>
             ))}
