@@ -38,3 +38,7 @@ carousel-item{
 
 
 }
+
+.indicators{
+    position:absolute;
+}
