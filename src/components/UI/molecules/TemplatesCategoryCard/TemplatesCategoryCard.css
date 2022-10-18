@@ -4,7 +4,7 @@ product-category-title{
     justify-content: flex-end;
   }
   
-  product-category-animation-box {
+  .product_category_animation_box {
   
       display: block;
       width: var(--templates-category-card-width);
@@ -17,7 +17,7 @@ product-category-title{
       transition:all .4s ease-in-out;
     }
   
-  .product-category-box {
+  .product_category_box {
   
       display: block;
       width: 100%;
@@ -33,7 +33,7 @@ product-category-title{
     }
   
   
-  product-category-image-fx-container{
+  .product_category_image_fx_container{
     display: flex;
     align-items:flex-start;
     overflow: hidden;
@@ -69,7 +69,7 @@ product-category-title{
       border-radius:  var(--templates-category-card-borderradius);
     }
   
-  product-category-cover-outline{
+  .product_category_cover_outline{
     display: block;
      box-shadow: 0 0 10px 6px black inset;
       box-shadow: 0 0 0px 1.1px inset rgba(168, 26, 255, 1);
@@ -153,7 +153,7 @@ product-category-title{
   
   
   
-    .product-category-box:hover {
+    .product_category_box:hover {
       animation: animate 8s linear infinite;
     }
      
@@ -167,7 +167,7 @@ product-category-title{
     }
      
   
-  .product-category-box:before {
+  .product_category_box:before {
       content: "";
       position: absolute;
       top: -5px;
@@ -185,7 +185,7 @@ product-category-title{
     
     }
      
-    .product-category-box:hover:before {
+    .product_category_box:hover:before {
       filter: blur(90px);
       opacity: .8;
       animation: animate 8s linear infinite;
@@ -194,7 +194,7 @@ product-category-title{
     }
     
   
-   product-category-animation-box:hover {
+   .product_category_animation_box:hover {
       animation: animate 8s linear infinite;
     }
      
@@ -207,7 +207,7 @@ product-category-title{
       }
     }
      
-    product-category-animation-box:before {
+    .product_category_animation_box:before {
       content: "";
       position: absolute;
       top: -5px;
@@ -224,8 +224,16 @@ product-category-title{
     
     
     }
-     
-    product-category-animation-box:hover:before {
+  
+    .product_category_animation_box:hover:before {
+      filter: blur(20px);
+      opacity: .4;
+      animation: animate 8s linear infinite;
+      
+      
+    }
+  
+    .product_category_animation_box_clicked:hover:before {
       filter: blur(20px);
       opacity: .4;
       animation: animate 8s linear infinite;
@@ -234,40 +242,70 @@ product-category-title{
     }
   
   
-  product-category-animation-box:hover {
+  .product_category_animation_box:hover {
   
       transform: scale(.98);
   
     }
   /* Affect Hovers */
-  product-category-animation-box:hover .product-category-box product-category-image-fx-container product-category-cover-outline{
+  .product_category_animation_box:hover .product_category_box .product_category_image_fx_container .product_category_cover_outline{
   
     box-shadow: 0 0 0px 1.1px inset white;
     background: rgba(189, 0, 255, 0.12);
   }
   
   
-  product-category-animation-box:hover product-category-image img{
+  .product_category_animation_box:hover product-category-image img{
   
     filter: saturate(0.7);
   }
   
-  product-category-animation-box:hover .product-category-box product-category-info-container right-items button-parent{
+  .product_category_animation_box:hover .product_category_box product-category-info-container right-items button-parent{
   
     border: 2px solid white;
     background: rgba(189, 0, 255, 0.12);
     border: 2px solid var(--main-color);
   }
   
-  product-category-animation-box:hover .product-category-box product-category-info-container right-items button-parent h3{
+  .product_category_animation_box:hover .product_category_box product-category-info-container right-items button-parent h3{
   
     color: var(--main-color);
 }
 
 
+  
+.product_category_animation_box_clicked {
+  display: block;
+  width: var(--templates-category-card-width);
+  height: var(--templates-category-card-height);
+  position: relative;
+  border-radius: var(--templates-category-card-borderradius);
+  border: 2px solid rgba(168, 26, 255, .15);
+  cursor: pointer;
+  box-shadow: 0 10px 15px 2px;     
+  transition:all .4s ease-in-out;
+  transform: scale(.98);
+  animation: animate 8s linear infinite;
+
+ 
 
 
-.product-category-box-clicked {
+  background: linear-gradient(45deg, #8309CE, #994DFF, #B02EFF,#994DFF, #ff00ee, #A81AFF, 
+  #994DFF, #8309CE,#ff0000, #A81AFF);
+background-size: 800%;
+  
+}
+   
+@keyframes animate {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 400%;
+  }
+} 
+
+.product_category_box_clicked {
     
   display: block;
   width: 100%;
@@ -280,14 +318,66 @@ product-category-title{
   box-shadow: 0 10px 15px 2px;
   background: linear-gradient(#2F2E2E, #080214); 
   transition:all .4s ease-in-out;
-  transform: scale(.98);
-
+ 
+  content: "";
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  bottom: -5px;
+  left: -5px;
+  z-index: -2;
+    background: linear-gradient(45deg, #8309CE, #994DFF, #B02EFF,#994DFF, #ff00ee, #A81AFF, 
+        #994DFF, #8309CE,#ff0000, #A81AFF);
+  background-size: 800%;
+  border-radius: 40px;
+  opacity: 0;
+  transition: .5s;
+  filter: blur(90px);
+  opacity: .8;
+  animation: animate 8s linear infinite;
+  
 
 }
 
+
+
+
+.product_category_image_fx_container_clicked{
+  display: flex;
+  align-items:flex-start;
+  overflow: hidden;
+  width: 100%;
+  height: var(--templates-imagefx-height);
+
+}
+
+.product_category_cover_outline_clicked {
+  display: block;
+  box-shadow: 0 0 10px 6px black inset;
+   box-shadow: 0 0 0px 1.1px inset rgba(168, 26, 255, 1);
+   
+   border: 0px solid rgba(168, 26, 255, 100);
+   width: inherit;
+   width: inherit;
+   height: var(--templates-imagefx-height);
+   z-index: 11;
+   border-radius:  var(--templates-category-card-borderradius);
+   position:absolute;
+   overflow: hidden;
+   margin:auto;
+ transition: .5s;
+
+ box-shadow: 0 0 0px 1.1px inset white;
+ background: rgba(189, 0, 255, 0.12);
+}
+
+
+/* 
+clicked styles end */
+
 @media screen and (max-width: 1280px) {
 
-  product-category-animation-box {
+  .product_category_animation_box {
   
     display: block;
     width: var(--templates-category-card-width);
@@ -302,7 +392,7 @@ product-category-title{
 
 
 
-  .product-category-box {
+  .product_category_box {
   
     display: block;
    
@@ -322,7 +412,7 @@ product-category-title{
     width:100%;
 
   }
-product-category-image-fx-container{
+.product_category_image_fx_container{
   display: flex;
   align-items:flex-start;
   overflow: hidden;

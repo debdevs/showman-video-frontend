@@ -55,10 +55,26 @@ const TemplatesSubheading = () => {
                   key={key}
                   cardClick={() => setClickedId(key)}
                   //() => console.log(key);
-                  acClass={
+
+                  product_category_box_className={
                     key === clickedId
-                      ? 'product-category-box-clicked'
-                      : 'product-category-box'
+                      ? 'product_category_box_clicked'
+                      : 'product_category_box'
+                  }
+                  product_category_animation_box_className={
+                    key === clickedId
+                      ? 'product_category_animation_box_clicked'
+                      : 'product_category_animation_box'
+                  }
+                  product_category_image_fx_container_className={
+                    key === clickedId
+                      ? 'product_category_image_fx_container_clicked'
+                      : 'product_category_image_fx_container'
+                  }
+                  product_category_cover_outline_className={
+                    key === clickedId
+                      ? 'product_category_cover_outline_clicked'
+                      : 'product_category_cover_outline'
                   }
                 />
               </motion.div>
