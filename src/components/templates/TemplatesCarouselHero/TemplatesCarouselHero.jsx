@@ -9,7 +9,7 @@ import CarouselText from '../../UI/molecules/CarouselText/CarouselText';
 const TemplatesCarouselHero = () => {
   return (
     <section className="templates-carousel-hero">
-      <fade-bg />
+      <fade-bg1 />
       <TemplatesCarousel>
         <CarouselItem>1</CarouselItem>
         <CarouselItem>

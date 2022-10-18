@@ -1,5 +1,5 @@
 templates-carousel {
-    overflow:hidden;
+    
     height:100%;
     display:flex;
     width:100%;
@@ -7,7 +7,10 @@ templates-carousel {
     align-items: center;
     padding-left:3.5%;
 }
-
+.carousel_parent{
+    display:flex;
+    width:100%;
+}
 
 inner-content{
     display:inline-flex;
@@ -36,7 +39,7 @@ carousel-item{
     
    
     border: 1.94348px solid #53485970;
-    box-shadow: 0px 14.5761px 34.011px 14.5761px rgba(46, 6, 71, 0.75);
+    box-shadow: 0px 14.5761px 34.011px 14.5761px rgba(46, 6, 71, 0.55);
     border-radius: 11.6609px;
 
 
@@ -47,5 +50,6 @@ carousel-item{
  
     position:absolute;
     margin:0 auto;
+    display:none;
 
 }

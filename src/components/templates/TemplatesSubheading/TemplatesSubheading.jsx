@@ -36,7 +36,7 @@ const TemplatesSubheading = () => {
     <div>
       <section className="marketplace-content">
         <marketplace-content-parent>
-          <fade-bg />
+          <fade-bg2 />
           <templates-category-card-parent>
             {categories.map((category, key) => (
               <motion.div

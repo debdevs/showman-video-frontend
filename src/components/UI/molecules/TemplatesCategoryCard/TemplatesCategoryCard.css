@@ -16,7 +16,7 @@ product-category-title{
       position:absolute;
     
       display: flex;
-      width: var(--templates-category-card-width);
+   
       height: var(--templates-category-card-height);
    
       border-radius: var(--templates-category-card-borderradius);

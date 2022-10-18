@@ -3,13 +3,34 @@ import { Context } from 'react';
 import { useContext } from 'react';
 import { useState } from 'react';
 import { TemplatesContext } from '../../../../Contexts/TemplatesPageContext';
+import { motion } from 'framer-motion/dist/framer-motion';
+import { AnimatePresence } from 'framer-motion/dist/framer-motion';
 import './TemplatesCarousel.css';
 export const CarouselItem = ({ children, width }) => {
+  const { activeIndex, setActiveIndex } = useContext(TemplatesContext);
+  const [rotation, setRotation] = useState(0);
+  const [scale, setScale] = useState(1);
   return (
-    <carousel-item>
-      <img src=""></img>
-      {children}
-    </carousel-item>
+    <motion.div
+      className="carousel_parent"
+      transition={{ delay: 0.6 }}
+      // animate={{ rotate: rotation, scale: scale }}
+      animate={{
+        scale: [null, 1.05, 1],
+        rotate: [-2, -0.5, 0],
+        opacity: [1, 1, 1],
+        y: [-105, 5, 0],
+      }}
+      onClick={() => {
+        setRotation(rotation + 180);
+        setScale(scale + 0.5);
+      }}
+    >
+      <carousel-item>
+        <img src=""></img>
+        {children}
+      </carousel-item>
+    </motion.div>
   );
 };
 
