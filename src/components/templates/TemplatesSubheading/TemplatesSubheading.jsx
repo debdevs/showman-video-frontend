@@ -55,7 +55,11 @@ const TemplatesSubheading = () => {
                   key={key}
                   cardClick={() => setClickedId(key)}
                   //() => console.log(key);
-
+                  cat_card_container_className={
+                    key === clickedId
+                      ? 'cat_card_container_clicked'
+                      : 'cat_card_container'
+                  }
                   product_category_box_className={
                     key === clickedId
                       ? 'product_category_box_clicked'

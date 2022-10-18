@@ -10,11 +10,13 @@ const TemplatesCategoryCard = ({
   product_category_image_fx_container_className,
   product_category_image_className,
   product_category_cover_outline_className,
+  cat_card_container_className,
   class_name,
 }) => {
   return (
-    <div className={product_category_animation_box_className}>
-      <div onClick={cardClick} className={product_category_box_className}>
+    <div onClick={cardClick} className={cat_card_container_className}>
+      <div className={product_category_animation_box_className} />
+      <div className={product_category_box_className}>
         <div className={product_category_image_fx_container_className}>
           <product-category-image className={product_category_image_className}>
             <img
