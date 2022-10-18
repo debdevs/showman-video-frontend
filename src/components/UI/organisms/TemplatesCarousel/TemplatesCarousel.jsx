@@ -18,8 +18,8 @@ export const CarouselItem = ({ children, width }) => {
       animate={{
         scale: [null, 1.05, 1],
         rotate: [-2, -0.5, 0],
-        opacity: [1, 1, 1],
-        y: [-105, 5, 0],
+        opacity: [0.5, 1, 1],
+        y: [-15, 5, 0],
       }}
       onClick={() => {
         setRotation(rotation + 180);

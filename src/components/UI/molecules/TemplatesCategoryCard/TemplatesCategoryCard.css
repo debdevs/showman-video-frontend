@@ -195,7 +195,7 @@ product-category-title{
     }
      
     .product_category_box:hover:before {
-      filter: blur(35px);
+      filter: blur(20px);
       opacity: .8;
       animation: animate 8s linear infinite;
       
@@ -235,7 +235,7 @@ product-category-title{
     }
   
     .product_category_animation_box:hover:before {
-      filter: blur(20px);
+      filter: blur(15px);
       opacity: .4;
       animation: animate 8s linear infinite;
       
@@ -243,7 +243,7 @@ product-category-title{
     }
   
     .product_category_animation_box_clicked:hover:before {
-      filter: blur(20px);
+      filter: blur(15px);
       opacity: .4;
       animation: animate 8s linear infinite;
       
@@ -305,7 +305,7 @@ product-category-title{
   transform: scale(.98);
   animation: animate 8s linear infinite;
 
- filter:blur(10px);
+ filter:blur(35px);
 
 
   background: linear-gradient(45deg, #8309CE, #994DFF, #B02EFF,#994DFF, #ff00ee, #A81AFF, 

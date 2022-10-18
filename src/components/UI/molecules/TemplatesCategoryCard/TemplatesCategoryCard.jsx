@@ -4,6 +4,7 @@ import '../../../../App.css';
 import './TemplatesCategoryCard.css';
 const TemplatesCategoryCard = ({
   title,
+  cover_image,
   cardClick,
   product_category_animation_box_className,
   product_category_box_className,
@@ -13,6 +14,7 @@ const TemplatesCategoryCard = ({
   cat_card_container_className,
   class_name,
 }) => {
+  
   return (
     <div onClick={cardClick} className={cat_card_container_className}>
       <div className={product_category_animation_box_className} />
@@ -21,7 +23,7 @@ const TemplatesCategoryCard = ({
           <product-category-image className={product_category_image_className}>
             <img
               class="product-category-category-box-image"
-              src="https://landisher.com/wp-content/uploads/2018/12/instagram-stories-template-pack-bundle-after-effects-psd-apple-download.jpg"
+              src={cover_image}
             ></img>
           </product-category-image>
           <product-category-inset-shadow />

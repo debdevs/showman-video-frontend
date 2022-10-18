@@ -18,8 +18,8 @@ const categories = [
 
 const Page2 = () => {
   const [isActive, setIsActive] = useState(false);
-  const [clickedId, setClickedId] = useState(-1);
-  const [activeIndex, setActiveIndex] = useState(1);
+  const [clickedId, setClickedId] = useState(2);
+  const [activeIndex, setActiveIndex] = useState(2);
   return (
     <TemplatesContext.Provider
       value={{

@@ -10,13 +10,7 @@ import FilterSection from '../../UI/molecules/FilterSection/FilterSection';
 import ToolTipButton from '../../UI/molecules/ToolTipButton/ToolTipButton';
 import { motion } from 'framer-motion/dist/framer-motion';
 import { TemplatesContext } from '../../../Contexts/TemplatesPageContext';
-const categories = [
-  { id: 1, title: 'Weddings' },
-  { id: 2, title: 'Real Estate' },
-  { id: 3, title: 'Gaming' },
-  { id: 4, title: 'Social Media' },
-  { id: 5, title: 'Real Estate' },
-];
+import categories from '../../category_data.js';
 
 const products = [
   { id: 1, title: 'Weddings' },
@@ -49,6 +43,7 @@ const TemplatesSubheading = () => {
                 <TemplatesCategoryCard
                   className="cat-card"
                   title={category.title}
+                  cover_image={category.image}
                   key={key}
                   cardClick={() => {
                     setClickedId(key);

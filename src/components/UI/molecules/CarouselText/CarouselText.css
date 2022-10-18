@@ -1,18 +1,25 @@
 carousel-text {
-    display:flex;
+    display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    position:absolute;
-    z-index:3;
-    flex-direction:column;
+    position: absolute;
+    z-index: 3;
+    flex-direction: column;
+    grid-gap: 15px;
     gap: 15px;
-    width:65%;
-    left:5%;
+    width: 100%;
+    padding-left: 5%;
+    /* background: black; */
+    height: 100%;
+    /* background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 30.21%); */
+    background: linear-gradient(90deg, #00000063 14.06%, rgba(0, 0, 0, 0) 75%);
+    padding-top: 12%;
+    
 }
 
 
 carousel-text h1 {
-   
+    margin-top: 15px;
     width: 396.97px;
     height: 75px;
 
@@ -26,13 +33,14 @@ carousel-text h1 {
     font-weight: 400;
  
 
-    color: linear-gradient(251.44deg, #CBC8C8 37.43%, #E2D6D6 44.39%, #F1F1F1 67.13%);
     background: linear-gradient(251.44deg, #CBC8C8 37.43%, #E2D6D6 44.39%, #F1F1F1 67.13%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
-
+    filter: drop-shadow(0px 5.6888px 8.9405px #000000);
+   
+    
 }
 
 carousel-text h2 {
@@ -44,7 +52,7 @@ carousel-text h2 {
     font-size: 29.2028px;
     line-height: 22px;
 
-
+    text-shadow: 0px 13.6888px 31.9405px #000000;
 
 
 }
@@ -64,7 +72,7 @@ line-height: 25px;
 color:white;
 text-shadow: 0px 13.6888px 31.9405px #000000;
 
-
-word-break: break-all;
+filter: drop-shadow(0px 5.6888px 8.9405px #000000);
+word-break: normal;
 white-space: normal;
 }
