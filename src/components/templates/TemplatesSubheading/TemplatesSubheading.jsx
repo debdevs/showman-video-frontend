@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { useState } from 'react';
+import { Context } from 'react';
 import '../../../App.css';
 import './TemplatesSubheading.css';
 import TemplatesCategoryCard from '../../UI/molecules/TemplatesCategoryCard/TemplatesCategoryCard';
@@ -8,7 +9,7 @@ import Footer from '../Footer/Footer';
 import FilterSection from '../../UI/molecules/FilterSection/FilterSection';
 import ToolTipButton from '../../UI/molecules/ToolTipButton/ToolTipButton';
 import { motion } from 'framer-motion/dist/framer-motion';
-
+import { TemplatesContext } from '../../../Contexts/TemplatesPageContext';
 const categories = [
   { id: 1, title: 'Weddings' },
   { id: 2, title: 'Real Estate' },
@@ -26,14 +27,10 @@ const products = [
 ];
 
 const TemplatesSubheading = () => {
-  const [isActive, setIsActive] = useState(false);
-  const [clickedId, setClickedId] = useState(-1);
-  const handleClick = () => {
-    // 👇️ toggle
+  const { isActive, setIsActive } = useContext(TemplatesContext);
+  const { clickedId, setClickedId } = useContext(TemplatesContext);
+  const { activeIndex, setActiveIndex } = useContext(TemplatesContext);
 
-    setIsActive(true);
-    console.log(isActive);
-  };
   let acClass = 'product-category-box';
   return (
     <div>
@@ -53,7 +50,10 @@ const TemplatesSubheading = () => {
                   className="cat-card"
                   title={category.title}
                   key={key}
-                  cardClick={() => setClickedId(key)}
+                  cardClick={() => {
+                    setClickedId(key);
+                    setActiveIndex(key);
+                  }}
                   //() => console.log(key);
                   cat_card_container_className={
                     key === clickedId

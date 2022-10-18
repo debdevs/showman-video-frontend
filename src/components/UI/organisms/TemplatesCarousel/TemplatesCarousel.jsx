@@ -1,5 +1,8 @@
 import React from 'react';
+import { Context } from 'react';
+import { useContext } from 'react';
 import { useState } from 'react';
+import { TemplatesContext } from '../../../../Contexts/TemplatesPageContext';
 import './TemplatesCarousel.css';
 export const CarouselItem = ({ children, width }) => {
   return (
@@ -11,7 +14,8 @@ export const CarouselItem = ({ children, width }) => {
 };
 
 const TemplatesCarousel = ({ children }) => {
-  const [activeIndex, setActiveIndex] = useState(1);
+  const { activeIndex, setActiveIndex } = useContext(TemplatesContext);
+
   const updateIndex = (newIndex) => {
     if (newIndex < 0) {
       newIndex = 0;

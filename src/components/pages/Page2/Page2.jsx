@@ -17,8 +17,20 @@ const categories = [
 ];
 
 const Page2 = () => {
+  const [isActive, setIsActive] = useState(false);
+  const [clickedId, setClickedId] = useState(-1);
+  const [activeIndex, setActiveIndex] = useState(1);
   return (
-    <TemplatesContext.Provider value={'he'}>
+    <TemplatesContext.Provider
+      value={{
+        isActive,
+        setIsActive,
+        clickedId,
+        setClickedId,
+        activeIndex,
+        setActiveIndex,
+      }}
+    >
       <motion.div
         className="templates-page"
         initial={{ scaleX: 0.9, opacity: 0 }}
