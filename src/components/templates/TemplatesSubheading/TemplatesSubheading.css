@@ -170,7 +170,9 @@ product-card-container >*{
 
     column-gap: 12px;
     row-gap: -90%;
-
+    /* grid-column-gap: 12px; */
+    column-gap: 12px;
+    grid-row-gap: 15px;
 
 }
 

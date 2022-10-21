@@ -1,0 +1,113 @@
+.plans-card-container{
+   
+    width: 321.18px;
+    height: 445px;
+    border: 2px solid rgba(168, 26, 255, .15);
+    
+    background: linear-gradient(180deg, #080214 41.15%, #000000 100%);
+    box-shadow: 0px 15px 35px 5px rgba(250, 0, 255, 0.17);
+    border-radius: 12px;
+    
+}
+
+
+plans-card-bg{
+    position: absolute;
+    width: 100%;
+    height: 445px;
+
+}
+
+
+plans-card-content{
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+
+plans-card-content header-items{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+    padding: 15px;
+}
+
+
+plans-card-content header-items h1 {
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+line-height: 26px;
+font-family: 'istok-web';
+}
+
+
+
+plans-card-content header-items p {
+    width: 189px;
+    height: 47.23px;
+    left: 700px;
+    top: 405px;
+    
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #E4D7E7;
+    
+}
+
+
+plans-card-content center-items{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: -35px;
+}
+
+center-items button{
+    width: 174px;
+height: 33px;
+left: 288px;
+top: 469px;
+
+background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, rgba(168, 26, 255, 0.06) 100%);
+border-radius: 35px;
+border:0px transparent;
+color:white;
+}
+
+
+plans-card-content lower-items {
+    justify-self: flex-end;
+    align-self: flex-end;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+plans-card-content lower-items h2 {
+    color: white;
+    font-family: 'istok-web';
+}

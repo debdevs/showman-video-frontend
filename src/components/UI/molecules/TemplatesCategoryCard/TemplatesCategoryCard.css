@@ -44,10 +44,11 @@ product-category-title{
   
   .product_category_image_fx_container{
     display: flex;
-    align-items:flex-start;
+    align-items: center;
     overflow: hidden;
     width: 100%;
     height: var(--templates-imagefx-height);
+    justify-content: center;
     
   }
   product-category-image img{
@@ -346,10 +347,11 @@ background-size: 800%;
 
 .product_category_image_fx_container_clicked{
   display: flex;
-  align-items:flex-start;
+  align-items: center;
   overflow: hidden;
   width: 100%;
   height: var(--templates-imagefx-height);
+  justify-content: center;
 
 }
 

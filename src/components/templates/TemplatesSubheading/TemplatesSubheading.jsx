@@ -34,7 +34,7 @@ const TemplatesSubheading = () => {
   const [ref, inView] = useInView();
 
   const boxVariant = {
-    visible: { opacity: 1, scale: 2 },
+    visible: { opacity: 1, scale: 1 },
     hidden: { opacity: 0, scale: 0 },
     initial: { opacity: 0, rotateX: -50, rotateY: -50 },
     animate: { opacity: 1, rotateX: 0, rotateY: 0, control },
@@ -123,8 +123,9 @@ const TemplatesSubheading = () => {
                     ref={ref}
                     className="cat-card-motion-1"
                     key={product.id}
-                    initial={{ opacity: 0, rotateX: -50, rotateY: -50 }}
-                    animate={{ opacity: 1, rotateX: 0, rotateY: 0, control }}
+                    initial="initial"
+                    whileInView="animate"
+                    viewport={{ once: true }}
                     transition={{ duration: 1, delay: 0.25 + key * 0.25 }}
                   >
                     <ProductCard title={product.title} image={product.image} />{' '}

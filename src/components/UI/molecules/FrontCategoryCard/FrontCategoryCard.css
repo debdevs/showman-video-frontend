@@ -7,7 +7,7 @@ product-title{
   
       display: block;
       width: var(--front-category-card-width);
-      width:100%;
+     
       height: var(--front-category-card-height);
       position: relative;
       border-radius: 15px;

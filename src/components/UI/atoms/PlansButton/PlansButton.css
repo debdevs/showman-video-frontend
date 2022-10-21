@@ -1,0 +1,78 @@
+
+.plans-button-items{
+     
+      display:flex;
+
+      justify-content: center;
+      align-items: center;
+      width: 142px;
+      height: 31px;
+
+      border-radius: 5px;
+      transition:all .5s ease-in-out;
+      cursor: pointer;
+      
+    
+    }
+
+
+    .plans-button-parent{
+      font-family: 'istok-web';
+   
+    display: flex;
+    width:inherit;
+    background: red;
+    justify-content: center;
+    align-items: center;
+    width: 142px;
+    height: 31px;
+   
+    
+    background: linear-gradient(95.12deg, #994DFF -18.8%, #702EFF 18.42%, #B02EFF 48.79%);
+    border: 2px solid #534859;
+    box-shadow: 0px 4px 35px 15px rgba(168, 26, 255, 0.09);
+    border-radius: 5px;  
+      
+    transition:all .5s ease-in-out;
+    
+  }
+  
+  plans-button-parent h3{
+  
+    position: absolute; 
+  
+    color: white;
+    font-size: var(--basic-plans-button-fontsize);
+    text-align: center;
+  
+  
+/*      
+    width: var(--basic-plans-button-width);
+    width:12%; */
+
+      font-family: 'istok-web', serif;
+      font-style: normal;
+      font-weight: 400;
+      transition:all .5s ease-in-out;
+
+
+  }
+  .plans-button-parent a{
+    position:absolute;
+    transform: scale(var(--basic-plans-button-svgsize));
+    margin-top:4px;
+  }
+  
+
+
+  
+
+
+.plans-button-parent:hover  {
+  
+    border: 2px solid white;
+    background: rgba(189, 0, 255, 0.12);
+    border: 2px solid var(--theme-color-1);
+  }
+
+
