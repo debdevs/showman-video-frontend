@@ -14,9 +14,11 @@ const Navbar = () => {
   return (
     <navbar-element class="navbar-element">
       <navbar-elements-container>
-        <logo-parent class="logo-parent">
-          <img src={require('../../../../assets/images/logo.png').default} />
-        </logo-parent>
+        <Link to="/">
+          <logo-parent class="logo-parent">
+            <img src={require('../../../../assets/images/logo.png').default} />
+          </logo-parent>
+        </Link>
         <nav-container>
           <ul>
             <Link to="/">
@@ -42,18 +44,19 @@ const Navbar = () => {
               ABOUT
             </li>
           </ul>
-
-          <profile-card-container>
-            <image-parent>
-              <img
-                src={
-                  require('../../../../assets/pexels-yuri-manei-2690323.jpg')
-                    .default
-                }
-              />
-            </image-parent>
-            <h2 className="istok-font">Ashley</h2>
-          </profile-card-container>
+          <Link to="/profile">
+            <profile-card-container>
+              <image-parent>
+                <img
+                  src={
+                    require('../../../../assets/pexels-yuri-manei-2690323.jpg')
+                      .default
+                  }
+                />
+              </image-parent>
+              <h2 className="istok-font">Ashley</h2>
+            </profile-card-container>
+          </Link>
         </nav-container>
       </navbar-elements-container>
     </navbar-element>

@@ -7,6 +7,7 @@ import Page2 from '../components/pages/Page2/Page2';
 import TemplatesLandingPage from '../components/pages/TemplatesLandingPage/TemplatesLandingPage';
 import { AnimatePresence } from 'framer-motion/dist/framer-motion';
 import Plans from './pages/Plans/Plans';
+import ProfilePage from './pages/ProfilePage/ProfilePage';
 const AnimatedRoutes = () => {
   const location = useLocation();
   return (
@@ -21,6 +22,7 @@ const AnimatedRoutes = () => {
           />
           <Route path="/profile-page" element={<TemplatesLandingPage />} />
           <Route path="/plans" element={<Plans />} />
+          <Route path="/profile" element={<ProfilePage />} />
         </Routes>
       </AnimatePresence>
     </div>

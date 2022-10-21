@@ -1,0 +1,91 @@
+.profile-hero{
+    height: 455px;
+
+
+border-radius: 0px;
+background: linear-gradient(180deg, rgba(168, 26, 255, 0) 66.56%, rgba(168, 26, 255, 0.37) 122.81%);
+/* border: 3.03072px solid rgba(168, 26, 255, 0.1); */
+
+
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+profile-hero-content{
+    height:100%;
+    width:95%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:5%;
+}
+
+
+profile-hero-content image-container{
+    overflow:hidden;
+    display:flex;
+    justify-content: center;
+    width: 442px;
+height: 455px;
+
+background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+border: 1.94348px solid #534859;
+box-shadow: inset 0px 14.5761px 34.011px 14.5761px rgba(0, 0, 0, 0.75);
+filter: drop-shadow(0px 3.65034px 3.65034px rgba(0, 0, 0, 0.25));
+border-radius: 11.6609px;
+
+}
+
+
+profile-hero-content center-items{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height:100%;
+    width:35%;
+}
+
+profile-hero-content center-items h1{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 396.97px;
+    height: 76px;
+
+    font-family: 'Rumble Brave';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 65.7062px;
+    line-height: 76px;
+    
+    background: linear-gradient(251.44deg, #CBC8C8 37.43%, #E2D6D6 44.39%, #F1F1F1 67.13%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    
+    text-shadow: 0px 13.6888px 31.9405px #000000;
+}
+
+profile-hero-content right-items{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height:100%;
+    width:35%;
+}
+
+profile-hero-content right-items image-container{
+    width: 232px;
+    height: 280px;
+
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+    border: 1.94348px solid rgba(83, 72, 89, 0.35);
+    box-shadow: inset 0px 14.5761px 34.011px 14.5761px rgba(0, 0, 0, 0.75);
+    filter: drop-shadow(0px 3.65034px 3.65034px rgba(0, 0, 0, 0.25));
+    border-radius: 11.6609px;}

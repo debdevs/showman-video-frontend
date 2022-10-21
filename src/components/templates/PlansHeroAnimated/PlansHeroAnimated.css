@@ -85,7 +85,9 @@ plans-hero-main-content h1.istok-font{
 .cat-card-plans{
     width: 321.18px;
 }
-
+plans-hero-background-image .background{
+    opacity:0.1;
+}
 
 @media only screen and (max-width: 1200px) {
 

@@ -11,7 +11,9 @@ const TemplateInfoDisplay = ({ button_1_function }) => {
         <h5 className="template-price rumble-brave-font">$12</h5>
       </details-row>
       <template-text>
-        <h1 className="template-header istok-font">Stylish Media Social</h1>
+        <h1 className="template-header rumble-brave-font">
+          Stylish Media Social
+        </h1>
         <p className="template-description istok-font">
           A stylish Instagram story to add pizzazz to your newest social media
           posts. tweak the colors, add your images and make it yours. Get ready

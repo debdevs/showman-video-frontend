@@ -54,6 +54,7 @@ template-text h1 {
 
 font-weight: 400;
 font-size: 31.9447px;
+font-size: 55px;
 line-height: 46px;
 
 color: #FFFFFF;
@@ -62,6 +63,7 @@ color: #FFFFFF;
 
 template-text p {
 
+    margin-top: 15px;
     font-weight: 400;
     font-size: 15.9723px;
     line-height: 23px;

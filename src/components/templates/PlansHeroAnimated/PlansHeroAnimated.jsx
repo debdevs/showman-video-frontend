@@ -6,7 +6,7 @@ import { ParticleHero } from '../../UI/organisms';
 import BasicButton from '../../UI/atoms/BasicButton/BasicButton';
 import HomeSearchBox from '../../UI/molecules/HomeSearchBox/HomeSearchBox';
 import logo from '../../../assets/images/pexels-yuri-manei-2690323.jpg';
-import bg from '../../../assets/images/ppt_1.png';
+import bg from '../../../assets/images/instagram-story-slideshow-pack-download-videohive-27504760-free-hunterae-com.jpg';
 import PlansCard from '../../UI/molecules/PlansCard/PlansCard';
 import plans from '../../plans_data.js';
 // src={
@@ -18,7 +18,7 @@ const PlansHeroAnimated = () => {
     <plans-hero-parent-container>
       <plans-hero-container>
         <plans-hero-background-image>
-          <img src={bg} />
+          <img className="background" src={bg} />
         </plans-hero-background-image>
         <ParticleHero />
         <plans-hero-overlay-gradient />
