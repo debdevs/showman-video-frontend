@@ -5,17 +5,18 @@ import { ParticleHero } from '../../UI/organisms';
 import BasicButton from '../../UI/atoms/BasicButton/BasicButton';
 import HomeSearchBox from '../../UI/molecules/HomeSearchBox/HomeSearchBox';
 import logo from '../../../assets/images/pexels-yuri-manei-2690323.jpg';
+import bg from '../../../assets/images/ppt_1.png';
+
+// src={
+//   require('../../../assets/images/pexels-yuri-manei-2690323.jpg')
+//     .default
+// }
 const Hero = () => {
   return (
     <hero-parent-container>
       <hero-container>
         <hero-background-image>
-          <img
-            src={
-              require('../../../assets/images/pexels-yuri-manei-2690323.jpg')
-                .default
-            }
-          />
+          <img src={bg} />
         </hero-background-image>
         <ParticleHero />
         <hero-overlay-gradient />

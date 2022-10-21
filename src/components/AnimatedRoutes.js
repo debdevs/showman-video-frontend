@@ -18,6 +18,7 @@ const AnimatedRoutes = () => {
             path="/template-landing-page"
             element={<TemplatesLandingPage />}
           />
+          <Route path="/profile-page" element={<TemplatesLandingPage />} />
         </Routes>
       </AnimatePresence>
     </div>

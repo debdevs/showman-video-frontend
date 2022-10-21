@@ -3,18 +3,23 @@ hero-parent-container{
     height: 562.36px;
     display:block;
     overflow: hidden;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 hero-container {
     display: flex;
     background: black;
-    width: 100%;
-    height: 562.36px;
+    width: 97.3958333%;
+    height: 542.36px;
     align-items: center;
     justify-content: center;
     overflow: hidden;
     position: absolute;
-   
+    border: 2px solid #534859;
+    border-radius: 12px;
+    box-shadow: 0px 15.0205px 35.0479px 15.0205px rgba(46, 6, 71, 0.75);
 }
 
 hero-background-image {

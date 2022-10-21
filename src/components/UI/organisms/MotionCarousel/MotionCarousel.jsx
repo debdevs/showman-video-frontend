@@ -16,7 +16,7 @@ export const CarouselItem = ({ children, width }) => {
     exit: { x: 0, opacity: 0 },
   };
   return (
-    <AnimatePresence>
+    <AnimatePresence initial={false}>
       <motion.div
         key={activeIndex}
         className="carousel_parent"

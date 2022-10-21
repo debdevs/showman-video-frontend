@@ -76,3 +76,48 @@ filter: drop-shadow(0px 5.6888px 8.9405px #000000);
 word-break: normal;
 white-space: normal;
 }
+
+@media screen and (max-width: 1024px) {
+
+    carousel-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        z-index: 3;
+        flex-direction: column;
+        grid-gap: 15px;
+        gap: 15px;
+        width: 80%;
+        padding-left: 0%;
+        /* background: black; */
+        height: 100%;
+        /* background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 30.21%); */
+        background: linear-gradient(90deg, #00000063 14.06%, rgba(0, 0, 0, 0) 75%);
+      
+        
+    }
+    
+
+
+    carousel-text h1 {
+
+        font-size: 15vw;
+        text-align:center;
+     
+    }
+    carousel-text h2 {
+
+        font-size: 5vw;
+        text-align:center;
+     
+    }
+    carousel-text p {
+        width:65%;
+        font-size: 3vw;
+        text-align:center;
+        line-height:150%;
+     
+    }
+
+  }

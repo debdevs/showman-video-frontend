@@ -114,7 +114,15 @@ product-card-container >*{
     font-size: 22px;
     
   }
-
+  .cat-card-motion-1 {
+    max-width:var( --product-box-width);
+    max-height:var( --product-box-height);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+  
+  }
 
 
 
@@ -176,8 +184,17 @@ product-card-container >*{
   display:flex;
   justify-content: center;
   align-items: center;
+  width:100%;
 
 }
+.cat-card-motion-1 {
+  max-width:var( --product-box-width);
+  max-height:var( --product-box-height);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
 
+}
 
   }

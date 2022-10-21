@@ -15,6 +15,7 @@ const TemplatesCarouselHero = () => {
   return (
     <section className="templates-carousel-hero">
       <fade-bg1 />
+
       <MotionCarousel>
         {categories &&
           categories
@@ -24,6 +25,7 @@ const TemplatesCarouselHero = () => {
                 <item-container className="item-container">
                   <img src={category.image} className="cover-image" />
                   <box-shadow-overlay className="box-shadow-overlay" />
+                  <gradient-overlay className="gradient_overlay" />
                   <CarouselText
                     header={category.title}
                     subtext={category.tagline}

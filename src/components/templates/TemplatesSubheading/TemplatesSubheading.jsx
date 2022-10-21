@@ -8,10 +8,14 @@ import ProductCard from '../../UI/molecules/ProductCard/ProductCard';
 import Footer from '../Footer/Footer';
 import FilterSection from '../../UI/molecules/FilterSection/FilterSection';
 import ToolTipButton from '../../UI/molecules/ToolTipButton/ToolTipButton';
-import { motion } from 'framer-motion/dist/framer-motion';
+import { motion, useAnimation } from 'framer-motion/dist/framer-motion';
 import { TemplatesContext } from '../../../Contexts/TemplatesPageContext';
 import categories from '../../category_data.js';
+import products_templates from '../../test_product_data.js';
 
+import { useInView } from 'react-intersection-observer';
+
+import { useEffect } from 'react';
 const products = [
   { id: 1, title: 'Weddings' },
   { id: 2, title: 'Real Estate' },
@@ -26,11 +30,28 @@ const TemplatesSubheading = () => {
   const { activeIndex, setActiveIndex } = useContext(TemplatesContext);
 
   let acClass = 'product-category-box';
+  const control = useAnimation();
+  const [ref, inView] = useInView();
+
+  const boxVariant = {
+    visible: { opacity: 1, scale: 2 },
+    hidden: { opacity: 0, scale: 0 },
+    initial: { opacity: 0, rotateX: -50, rotateY: -50 },
+    animate: { opacity: 1, rotateX: 0, rotateY: 0, control },
+  };
+
+  useEffect(() => {
+    if (inView) {
+      control.start('visible');
+    }
+  }, [control, inView]);
+
   return (
     <div>
       <section className="marketplace-content">
         <marketplace-content-parent>
           <fade-bg2 />
+
           <templates-category-card-parent>
             {categories.map((category, key) => (
               <motion.div
@@ -94,26 +115,21 @@ const TemplatesSubheading = () => {
                   <ToolTipButton />
                 </template-button-array>
               </template-button-array-area>
+
               <product-card-container>
-                <ProductCard title="Stylish Instagram Overlay" />
-                <ProductCard title="Social Media" />
-                <ProductCard title="Social Media" />
-                <ProductCard title="Social Media" />
-                <ProductCard title="Social Media" />
-                <ProductCard title="Social Media" />
-                <ProductCard title="Social Media" />
-                <ProductCard title="Social Media" />
-                <ProductCard title="Social Media" />
-                <ProductCard title="Social Media" />
-                <ProductCard title="Social Media" />
-                <ProductCard title="Social Media" />
-                <ProductCard title="Social Media" />
-                <ProductCard title="Social Media" />
-                <ProductCard title="Social Media" />
-                <ProductCard title="Social Media" />
-                <ProductCard title="Social Media" />
-                <ProductCard title="Social Media" />
-                <ProductCard title="Social Media" />
+                {products_templates.map((product, key) => (
+                  <motion.div
+                    variants={boxVariant}
+                    ref={ref}
+                    className="cat-card-motion-1"
+                    key={product.id}
+                    initial={{ opacity: 0, rotateX: -50, rotateY: -50 }}
+                    animate={{ opacity: 1, rotateX: 0, rotateY: 0, control }}
+                    transition={{ duration: 1, delay: 0.25 + key * 0.25 }}
+                  >
+                    <ProductCard title={product.title} image={product.image} />{' '}
+                  </motion.div>
+                ))}
               </product-card-container>
             </right-area>
           </product-details-container>
