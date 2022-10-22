@@ -7,7 +7,7 @@ import TemplatesCategoryCard from '../../UI/molecules/TemplatesCategoryCard/Temp
 import ProductCard from '../../UI/molecules/ProductCard/ProductCard';
 import Footer from '../Footer/Footer';
 import FilterSection from '../../UI/molecules/FilterSection/FilterSection';
-import ToolTipButton from '../../UI/molecules/ToolTipButton/ToolTipButton';
+import ToolTipMediaButton from '../../UI/molecules/ToolTipMediaButton/ToolTipMediaButton';
 import { motion, useAnimation } from 'framer-motion/dist/framer-motion';
 import { TemplatesContext } from '../../../Contexts/TemplatesPageContext';
 import categories from '../../category_data.js';
@@ -109,10 +109,12 @@ const TemplatesSubheading = () => {
               <template-button-array-area>
                 <h2 className="istok-font">Browse Templates</h2>
                 <template-button-array>
-                  <ToolTipButton />
-                  <ToolTipButton />
-                  <ToolTipButton />
-                  <ToolTipButton />
+                  {products_templates.slice(0, 4).map((product, key) => (
+                    <ToolTipMediaButton
+                      title={product.title}
+                      image={product.image}
+                    />
+                  ))}
                 </template-button-array>
               </template-button-array-area>
 

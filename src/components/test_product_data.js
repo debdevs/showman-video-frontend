@@ -2,6 +2,7 @@ import gaming_image from '../assets/images/wallpapersden.com_k-destiny-2_3840x21
 import social_image from '../assets/images/fashion-banner.webp';
 import wedding_image from '../assets/images/wedding_image_2.jpg';
 import real_estate_image from '../assets/images/real_estate_image_3.jpg';
+import instagram_story from '../assets/images/instagram_story.png';
 import all_category from '../assets/images/all.jpg';
 
 import React from 'react';
@@ -25,8 +26,8 @@ const products_templates = [
   },
   {
     id: 3,
-    title: 'Gaming',
-    image: gaming_image,
+    title: 'Stylish Instagram Story',
+    image: instagram_story,
     tagline: 'You wanna rock? Let’s go.',
     description:
       'From overlays to streaming screens, make your mark with Showman',

@@ -94,6 +94,7 @@ white-space: normal;
         height: 100%;
         /* background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 30.21%); */
         background: linear-gradient(90deg, #00000063 14.06%, rgba(0, 0, 0, 0) 75%);
+        margin-top: -5%;
       
         
     }
@@ -103,13 +104,14 @@ white-space: normal;
     carousel-text h1 {
 
         font-size: 12vw;
-        font-size: 8%;
+        font-size: 298%;
         text-align:center;
      
     }
     carousel-text h2 {
-
+        margin-top:-15px;
         font-size: 5vw;
+        font-size: 178%;
         text-align:center;
      
     }
