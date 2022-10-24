@@ -1,4 +1,4 @@
-templates-nav-container{
+templates-editor-nav-container{
     overflow-x: hidden;
     justify-content: center;
     align-items: center;
@@ -12,12 +12,12 @@ templates-nav-container{
     background: linear-gradient(180deg, #000000 0%, #0F0F0F 100%);
     box-shadow: 0px 1.78453px 15.6146px 6.69198px rgba(168, 26, 255, 0.15);
  
-    top:0;
+    bottom:0;
     position:fixed;
     z-index:200;
 }
 
-templates-nav-content-container{
+templates-editor-nav-content-container{
    
     background:transparent;
     justify-content: space-between;
@@ -25,24 +25,23 @@ templates-nav-content-container{
     display:flex;
     height:100%;
     padding:15px;
-}
-
-templates-nav-content-container ul {
-    justify-content: center;
-    align-items: center;
-    display:flex;
-    gap:35px;
-}
-
-templates-nav-content-container ul li img{
-    width: 35px;
-    height: auto;
     
 }
 
+templates-editor-nav-content-container ul {
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    gap:15px;
+}
+
+templates-editor-nav-content-container ul li buttons-container{
+    display:flex;
+    gap:3px;
+}
 
 
-templates-nav-content-container ul li h1{
+templates-editor-nav-content-container ul li h1{
     width: 200.51px;
     height: 33px;
     
@@ -62,13 +61,14 @@ templates-nav-content-container ul li h1{
     text-fill-color: transparent;
     
 }
-.nav-icon {
+templates-editor-nav-content-container ul li .nav-icon {
     color:grey;
     font-size: 35px;
     cursor:pointer;
+
 }
 @media screen and (min-width : 480px){
-    templates-nav-container {
+    templates-editor-nav-container {
         display:none;
         visibility: hidden;
         background:red;

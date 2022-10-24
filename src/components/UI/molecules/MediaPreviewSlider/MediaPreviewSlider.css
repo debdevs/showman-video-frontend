@@ -78,4 +78,19 @@ thumb-container img {
         
     }
 
+    overlay-div {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 107.4px;
+        height: 63.61px;
+        z-index: 10;
+        background: #0D0D0D;
+        box-shadow: 11.2251px 0px 26.1918px 11.2251px rgba(0, 0, 0, 0.75);
+        border-radius: 0px 8.98004px 8.98004px 0px;
+        left: 5px;
+    }
+
+
 }

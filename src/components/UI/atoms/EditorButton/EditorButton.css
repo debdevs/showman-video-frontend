@@ -22,3 +22,14 @@
 .editor-button-parent {
     width:100%;
 }
+
+@media only screen and (max-width: 480px){
+
+
+    .editor-button{
+        max-width: 100%;
+        width: 110.63px;
+    height: 23.08px;
+        font-size: 10.17px;
+      }
+}

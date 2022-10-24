@@ -51,7 +51,21 @@ const TemplatesLandingSubheading = ({ closeScreen }) => {
             </extra-details-column-2>
           </extra-details-row>
           <template-preview-section>
-            <MediaPreviewerElement />
+            <template-preview-section-children>
+              <mobile-column>
+                <editor-options-column>
+                  <EditorButton button_text={'Edit Text'} />
+                  <EditorButton button_text={'Edit Colors'} />
+                  <EditorButton
+                    button_text={'Edit Media'}
+                    onClick={() => {
+                      setOpenScreen(true);
+                    }}
+                  />
+                </editor-options-column>
+              </mobile-column>
+              <MediaPreviewerElement />
+            </template-preview-section-children>
             <MediaPreviewSlider image_source={image} />
           </template-preview-section>
         </left-items>

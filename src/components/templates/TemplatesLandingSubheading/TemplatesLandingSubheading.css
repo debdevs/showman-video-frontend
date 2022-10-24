@@ -149,7 +149,12 @@ editor-options-row {
   gap: 18px;
   max-width: 663.43px;
 }
-
+mobile-column {
+  display:none;
+  visibility: hidden;
+  height:100%;
+  width:35%;
+}
 editor-container {
   display: flex;
   flex-direction: row;
@@ -200,9 +205,45 @@ result-buttons-container {
   template-preview-section {
     justify-content: center;
     align-items: center;
+    margin-top:10%;
+  }
+  template-preview-section-children {
+ 
+    display: flex;
+    flex-direction: row;
+ 
+   
   }
 
+
+  mobile-column {
+display:flex;
+flex-direction: column;
+gap:15px;
+visibility: visible;
+    height: 100%;
+    width: 75%;
+    align-items: flex-start;
+}
   templates-landing-subheading content-parent left-items .template-name {
     display: none;
   }
+
+
+  editor-options-row {
+    display: none;
+    visibility: hidden;
+
+  }
+
+
+  editor-options-column {
+    width:85%;
+height:100%;
+display:flex;
+flex-direction: column;
+gap:10px;
+
+  }
+
 }
