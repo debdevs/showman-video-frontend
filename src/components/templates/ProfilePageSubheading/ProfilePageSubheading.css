@@ -1,0 +1,33 @@
+.profile-subheading-parent{
+    height:760px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+profile-subheading-content{
+    height:75%;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap:2%;
+}
+
+profile-subheading-content center-items{
+width:35%;
+}
+
+profile-subheading-content center-items top-items{
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:15px;
+}
+
+profile-subheading-content center-items top-items h1{
+    font-size: 23.2028px;
+}

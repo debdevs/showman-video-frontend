@@ -1,0 +1,32 @@
+.account-box-container{
+    width: 321px;
+    height: 387px;
+
+
+    background: linear-gradient(180deg, #0C1113 0%, rgba(12, 17, 19, 0) 100%);
+    border-radius: 13.6888px;
+    padding:25px;
+}
+.account-box-container ul{
+    width:75%;
+    height: 100%;
+    display:flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap:8%;
+}
+
+.account-box-container ul li{
+   
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:15px;
+    color:white;
+}
+.account-icons{
+    color:grey;
+    width: 27px;
+height: 27px;
+}
