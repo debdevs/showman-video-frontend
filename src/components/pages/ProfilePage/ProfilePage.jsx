@@ -3,6 +3,7 @@ import './ProfilePage.css';
 import { Navbar } from '../../UI/organisms';
 import ProfilePageHero from '../../templates/ProfilePageHero/ProfilePageHero';
 import ProfilePageSubheading from '../../templates/ProfilePageSubheading/ProfilePageSubheading';
+import ProfilePageLowerSubheading from '../../templates/ProfilePageLowerSubheading/ProfilePageLowerSubheading';
 import { motion } from 'framer-motion/dist/framer-motion';
 const ProfilePage = () => {
   return (
@@ -20,6 +21,7 @@ const ProfilePage = () => {
       <Navbar />
       <ProfilePageHero />
       <ProfilePageSubheading />
+      <ProfilePageLowerSubheading />
     </motion.div>
   );
 };

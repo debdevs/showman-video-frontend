@@ -2,20 +2,22 @@ import React from 'react';
 import './ProfilePageSubheading.css';
 import AccountBox from '../../UI/molecules/AccountBox/AccountBox';
 import HomeSearchBox from '../../UI/molecules/HomeSearchBox/HomeSearchBox';
+import ProfilePageTextInfo from '../../UI/atoms/ProfilePageTextInfo/ProfilePageTextInfo';
+import LatestTemplateImage from '../../UI/atoms/LatestTemplateImage/LatestTemplateImage';
 const ProfilePageSubheading = () => {
   return (
     <div className="profile-subheading-parent">
       <profile-subheading-content>
-        ProfilePageSubheading
-        <left-items></left-items>
-        <center-items>
-          <top-items>
-            <h1 className="istok-font">Order History</h1>
-            <HomeSearchBox />
-          </top-items>
-        </center-items>
+        <left-items>
+          <texts-container>
+            <ProfilePageTextInfo />
+            <ProfilePageTextInfo />
+            <ProfilePageTextInfo />
+            <ProfilePageTextInfo />
+          </texts-container>
+        </left-items>
         <right-items>
-          <AccountBox />
+          <LatestTemplateImage />
         </right-items>
       </profile-subheading-content>
     </div>

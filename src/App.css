@@ -6,6 +6,11 @@
     font-family: 'rumble-brave';
     src: local('rumble-brave'), url(./assets/fonts/Rumble-Brave.otf) format('opentype');
   }
+
+  @font-face {
+    font-family: 'javanese-text';
+    src: local('javanese-text'), url(./assets/fonts/Javanese-Text.ttf) format('opentype');
+  }
 :root{
 
 
@@ -69,6 +74,10 @@ body {
     color: white;
   }
 
+  .javanese-font{
+    font-family: "javanese-text", serif;
+    color: white;
+  }
 
 .home-column{
   display:flex;
