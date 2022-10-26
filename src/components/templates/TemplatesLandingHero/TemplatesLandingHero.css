@@ -46,3 +46,8 @@ fade-bg1{
     background: linear-gradient(180deg, rgba(186, 0, 251, 0.155) 0%, rgba(217, 217, 217, 0) 85.42%);
     pointer-events: none;
 }
+
+.template-icon{
+    color:grey;
+    font-size:25px;
+}

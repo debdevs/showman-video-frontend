@@ -3,6 +3,8 @@ import './TemplateInfoDisplay.css';
 import NeonButton from '../../atoms/NeonButton/NeonButton';
 import AnimatedGlowButton from '../../atoms/AnimatedGlowButton/AnimatedGlowButton';
 
+import { CgScreen } from 'react-icons/all';
+import { ImVideoCamera } from 'react-icons/all';
 const TemplateInfoDisplay = ({ button_1_function }) => {
   return (
     <div class="template-info-column">
@@ -20,6 +22,24 @@ const TemplateInfoDisplay = ({ button_1_function }) => {
           to broadcast yourself in the most stylish way possible
         </p>
       </template-text>
+      <div className="cg-container">
+        <info-box>
+          <CgScreen className="template-data-icon" />
+          <h2 className="istok-font">24FPS</h2>
+        </info-box>
+        <info-box>
+          <ImVideoCamera className="template-data-icon" />
+          <h2 className="istok-font">1920X1080</h2>
+        </info-box>
+        <info-box>
+          <CgScreen className="template-data-icon" />
+          <h2 className="istok-font">Audio Included</h2>
+        </info-box>
+        <info-box>
+          <ImVideoCamera className="template-data-icon" />
+          <h2 className="istok-font">Fast Delivery</h2>
+        </info-box>
+      </div>
       <buttons-container>
         <AnimatedGlowButton
           button_text="Get it now"

@@ -116,7 +116,7 @@ profile-card-container image-parent {
 
 
 
-    border: .15em solid #A81AFF;
+    border: .125em solid #A81AFF;
     border-radius: 12px;
     transition: all .4s ease;
     
@@ -130,7 +130,7 @@ profile-card-container img {
    
     object-fit: cover;
     transition: all .4s ease;
-    
+
 
 
 

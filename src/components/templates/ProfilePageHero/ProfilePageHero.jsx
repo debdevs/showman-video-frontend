@@ -11,7 +11,9 @@ const ProfilePageHero = () => {
       <profile-hero-parent>
         <fade-bg1></fade-bg1>
         <profile-hero-content>
-          <img className="profile-background-image" src={profile_image} />
+          <background-image-container>
+            <img className="profile-background-image" src={profile_image} />
+          </background-image-container>
           <left-items>
             <ProfileCardImage />
           </left-items>

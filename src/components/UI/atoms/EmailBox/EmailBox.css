@@ -1,5 +1,5 @@
 email-container{
-    width: 356px;
+    width: 326px;
     height: 50px;
     display:flex;
     align-items:center;
@@ -11,7 +11,7 @@ email-container{
     padding: 0px 0px 0px 0px;
   
    
-    font-size: 22px;
+    font-size: 18.98px;
 }
 
 
@@ -20,7 +20,7 @@ email-container{
     border: 0px solid white;
     color: #6F6A73;
     width:75%;
-    font-size: 22px;
+    font-size: 18.98px;
     padding: 0px 0px 0px 15px;
   
     
@@ -28,8 +28,8 @@ email-container{
 
 email-container .submit-button {
     background:transparent;
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     border: 1px solid #534859;
     border-radius: 5px;
     justify-self: flex-end;

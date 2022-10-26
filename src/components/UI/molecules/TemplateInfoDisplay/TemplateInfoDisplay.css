@@ -6,6 +6,8 @@
     align-items: flex-start;
     height:336.46px;
     gap:15px;
+    gap:45px;
+    padding-bottom: 10%;
    
     
 }
@@ -13,6 +15,7 @@
 details-row {
     display:flex;
     gap:15px;
+    
     align-items:center;
 }
 .template-label{
@@ -70,7 +73,7 @@ template-text p {
     
     width:423.75px;
     color: #FFFFFF;
-    height:180px;
+    /* height:180px; */
     }
 
     buttons-container{
@@ -81,4 +84,26 @@ template-text p {
     }
 
 
-    
+    .cg-container {
+        width:65%;
+        display:flex;
+        flex-wrap: wrap;  
+        gap:15px;
+    }
+
+    .cg-container > *{
+    color:grey;
+    font-size:22px;
+
+}
+info-box{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+   
+}
+info-box h2{
+    font-size: 14px;
+}

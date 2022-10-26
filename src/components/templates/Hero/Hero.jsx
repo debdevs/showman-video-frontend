@@ -5,8 +5,8 @@ import { ParticleHero } from '../../UI/organisms';
 import BasicButton from '../../UI/atoms/BasicButton/BasicButton';
 import HomeSearchBox from '../../UI/molecules/HomeSearchBox/HomeSearchBox';
 import logo from '../../../assets/images/pexels-yuri-manei-2690323.jpg';
-import bg from '../../../assets/images/ppt_1.png';
-
+import bg from '../../../assets/images/ShowmanBanner8.png';
+import bg1 from '../../../assets/images/ppt_1.png';
 // src={
 //   require('../../../assets/images/pexels-yuri-manei-2690323.jpg')
 //     .default
@@ -14,6 +14,7 @@ import bg from '../../../assets/images/ppt_1.png';
 const Hero = () => {
   return (
     <hero-parent-container>
+      <fade-bg1></fade-bg1>
       <hero-container>
         <hero-background-image>
           <img src={bg} />

@@ -22,11 +22,11 @@ gap:8px;
 }
 
 .button_text{
-    width: 95px;
+    width: 100%;
     overflow: hidden;
     white-space: nowrap;
     display: block;
-    text-overflow: ellipsis;
+ 
 
     text-overflow: ellipsis;
 }
@@ -44,6 +44,7 @@ align-items: center;
 width:16%;
 height: 75%;
 object-fit: cover;
+display:none;
 }
 .tool-button image-container img{
     width:100%;
@@ -164,6 +165,7 @@ shadow-element{
     height: var( --tool-tip-imagefx-height);
     transition:all .4s ease;
     border-radius: 12px;
+
  
     
     
