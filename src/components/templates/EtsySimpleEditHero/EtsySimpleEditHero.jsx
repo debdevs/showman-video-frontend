@@ -95,30 +95,54 @@ const EtsySimpleEditHero = () => {
           </top-items>
           <center-card>
             <center-card-content>
-              <main-color-container>
-                <colors-container>
-                  <h1 className="istok-font">Text Heading</h1>
-                  <div className="full">
-                    <input type="text" class="color-field" value="rgb(0,0,0)" />
-                  </div>
-                </colors-container>
-                <colors-container>
-                  <h1 className="istok-font">Text Heading</h1>
-                  <div className="full">
-                    <input type="text" class="color-field" value="rgb(0,0,0)" />
-                  </div>
-                </colors-container>
-                <colors-container>
-                  <h1 className="istok-font">Text Heading</h1>
-                  <div className="full">
-                    <input type="text" class="color-field" value="rgb(0,0,0)" />
-                  </div>
-                </colors-container>
-              </main-color-container>
               <fields-container>
-                {plans.map((plan, key) => (
-                  <TextEditorBox default_text="Text" />
-                ))}
+                <main-color-container
+                  style={{
+                    opacity: clickedId === 0 ? '0' : '1',
+                    display: clickedId === 0 ? 'none' : 'flex',
+                  }}
+                >
+                  <colors-container>
+                    <h1 className="istok-font">Text Heading</h1>
+                    <div className="full">
+                      <input
+                        type="text"
+                        class="color-field"
+                        value="rgb(0,0,0)"
+                      />
+                    </div>
+                  </colors-container>
+                  <colors-container>
+                    <h1 className="istok-font">Text Heading</h1>
+                    <div className="full">
+                      <input
+                        type="text"
+                        class="color-field"
+                        value="rgb(0,0,0)"
+                      />
+                    </div>
+                  </colors-container>
+                  <colors-container>
+                    <h1 className="istok-font">Text Heading</h1>
+                    <div className="full">
+                      <input
+                        type="text"
+                        class="color-field"
+                        value="rgb(0,0,0)"
+                      />
+                    </div>
+                  </colors-container>
+                </main-color-container>
+                <main-text-container
+                  style={{
+                    opacity: clickedId === 0 ? '1' : '0',
+                    display: clickedId === 0 ? 'flex' : 'none',
+                  }}
+                >
+                  {plans.map((plan, key) => (
+                    <TextEditorBox default_text="Text" />
+                  ))}
+                </main-text-container>
               </fields-container>
               <BasicButton
                 button_width={'144.81px'}
