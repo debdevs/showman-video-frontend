@@ -8,6 +8,7 @@ import { FiSearch } from 'react-icons/fi';
 import { MdVideoLibrary } from 'react-icons/md';
 import { BsFillInfoSquareFill } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
+import NavbarProfileImage from '../../atoms/NavbarProfileImage/NavbarProfileImage';
 
 const logo1 = require('../../../../assets/images/logo.png').default;
 const Navbar = () => {
@@ -46,14 +47,7 @@ const Navbar = () => {
           </ul>
           <Link to="/profile">
             <profile-card-container>
-              <image-parent>
-                <img
-                  src={
-                    require('../../../../assets/pexels-yuri-manei-2690323.jpg')
-                      .default
-                  }
-                />
-              </image-parent>
+              <NavbarProfileImage />
               <h2 className="istok-font">Ashley</h2>
             </profile-card-container>
           </Link>

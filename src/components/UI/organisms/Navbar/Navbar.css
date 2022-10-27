@@ -106,35 +106,7 @@ profile-card-container {
     cursor: pointer;
     
 }
-profile-card-container image-parent {
-    width:35px;
-    height: auto;
-    align-self: flex-end;
-    overflow: hidden;
 
-
-
-
-
-    border: .125em solid #A81AFF;
-    border-radius: 12px;
-    transition: all .4s ease;
-    
-
-
-}
-profile-card-container img {
-    width:35px;
-    height:auto;
-  
-   
-    object-fit: cover;
-    transition: all .4s ease;
-
-
-
-
-}
 
 profile-card-container h2{
     
