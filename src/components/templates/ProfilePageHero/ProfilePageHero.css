@@ -27,7 +27,13 @@
     
     margin-bottom:15px;
 }
-
+.profile_hero_parent_animator{
+    height:100%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
 profile-hero-parent {
 
     border-radius: 0px;
@@ -37,9 +43,7 @@ profile-hero-parent {
     height:93%;
     width:93%;
     border-radius:12px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
     gap:5%;
     background: linear-gradient(180deg, rgba(168, 26, 255, 0) 66.56%, rgba(168, 26, 255, 0.37) 122.81%);
     border: 3.03072px solid rgba(168, 26, 255, 0.15);
@@ -93,8 +97,10 @@ profile-hero-content background-image-container{
    display:flex;
    justify-content: center;
    align-items: center;
+   transition:all .4s ease;
 }
 profile-hero-content background-image-container img{
+    transition:all .4s ease;
     width:100%;
 }
 profile-hero-content left-items{
@@ -207,3 +213,17 @@ profile-hero-content right-items image-container{
     box-shadow: inset 0px 14.5761px 34.011px 14.5761px rgba(0, 0, 0, 0.75);
     filter: drop-shadow(0px 3.65034px 3.65034px rgba(0, 0, 0, 0.25));
     border-radius: 11.6609px;}
+
+    .account-buttons-column{
+        display:flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+    
+        width:100%;
+        gap:15px;
+  
+    }
+    .button-icon{
+        font-size:20px;
+    }

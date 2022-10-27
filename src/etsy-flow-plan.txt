@@ -1,0 +1,7 @@
+Enter Your Email
+
+check email address for incomplete orders made in the last 24 hours.
+
+If number of orders is more than one, list etsy orders with images. allow user to select orders.
+
+Or - at the end of form, ask for email and check against database of orders.

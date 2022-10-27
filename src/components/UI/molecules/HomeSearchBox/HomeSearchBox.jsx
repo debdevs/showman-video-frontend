@@ -33,7 +33,14 @@ const HomeSearchBox = () => {
       <BasicButton
         button_width={activeItem === false ? '50%' : '10%'}
         button_text="DEMO"
-        button_opacity={activeItem === false ? '1' : '0.5'}
+        button_opacity={activeItem === false ? '1' : '0.1'}
+        button_padding={activeItem === false ? '1px 6px' : '0px'}
+        button_text_opacity={activeItem === false ? '1' : '0'}
+        border_value={
+          activeItem === true
+            ? '0px solid var(--theme-color-5)'
+            : '2px solid #534859;'
+        }
         // scalex={activeItem === true ? 'scaleX(2%)' : 'scaleX(8000%);'}
       />
     </parent-container>
