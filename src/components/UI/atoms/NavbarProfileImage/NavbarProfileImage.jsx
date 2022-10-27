@@ -1,6 +1,7 @@
 import React from 'react';
 import './NavbarProfileImage.css';
 import template_image from '../../../../assets/images/wedding_image.webp';
+
 const NavbarProfileImage = () => {
   return (
     <div className="navbar-profile-image">

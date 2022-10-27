@@ -148,13 +148,22 @@ profile-hero-content center-items lower-items{
 profile-hero-content center-items lower-items ul{
     display:flex;
     flex-direction: column;
-    color:rgb(178, 178, 178);
-    gap:5px;
+
+    gap:8px;
+   
+    font-size: 13.5px;
+    z-index:15
     
+}
+
+profile-hero-content center-items lower-items .ul-text{
+    color:rgb(190, 162, 190);
+    text-transform: uppercase;
 }
 profile-hero-content center-items lower-items ul li span{
 
     color:rgb(178, 178, 178);
+
 
     
 }

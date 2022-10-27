@@ -9,6 +9,7 @@ import { BsInfoCircle } from 'react-icons/all';
 import { CgPassword } from 'react-icons/all';
 import { RiHistoryFill } from 'react-icons/all';
 import plans from '../../plans_data.js';
+import profile_buttons_data from '../../profile_buttons_data.js';
 const ProfilePageHero = () => {
   return (
     <section className="profile-hero">
@@ -40,19 +41,19 @@ const ProfilePageHero = () => {
               </header-texts>
               <lower-items>
                 <ul>
-                  <li className="istok-font">
+                  <li className="istok-font ul-text">
                     ◆ Backstage pass ID:
                     <span className="istok-font"> #SparkleKnight</span>
                   </li>
-                  <li className="istok-font">
+                  <li className="istok-font ul-text">
                     ◆ Level:
-                    <span className="istok-font"> #Impresario</span>
+                    <span className="istok-font "> #Impresario</span>
                   </li>
-                  <li className="istok-font">
+                  <li className="istok-font ul-text">
                     ◆ Member Since:
-                    <span className="istok-font"> 2022</span>
+                    <span className="istok-font "> 2022</span>
                   </li>
-                  <li className="istok-font">
+                  <li className="istok-font ul-text">
                     ◆ Favorite Template:
                     <span className="istok-font"> Stylish Social</span>
                   </li>
@@ -60,7 +61,7 @@ const ProfilePageHero = () => {
               </lower-items>
             </center-items>
             <right-items>
-              {plans.map((plan, key) => (
+              {profile_buttons_data.map((info, key) => (
                 <motion.div
                   className="account-buttons-column"
                   initial={{ opacity: 0, traslateX: -50, translateY: -50 }}
@@ -68,20 +69,11 @@ const ProfilePageHero = () => {
                   transition={{ duration: 1, delay: 0.25 + key * 0.25 }}
                 >
                   <ShowmanAccountGlowButton
-                    button_text={'Account Info'}
-                    icon={<BsInfoCircle className="button-icon" />}
+                    button_text={info.title}
+                    icon={info.icon}
                   />
                 </motion.div>
               ))}
-
-              <ShowmanAccountGlowButton
-                button_text={'Change Password'}
-                icon={<CgPassword className="button-icon" />}
-              />
-              <ShowmanAccountGlowButton
-                button_text={'Order History'}
-                icon={<RiHistoryFill className="button-icon" />}
-              />
             </right-items>
           </profile-hero-content>
         </profile-hero-parent>

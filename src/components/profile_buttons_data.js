@@ -1,30 +1,23 @@
 import React from 'react';
-
+import { BsInfoCircle } from 'react-icons/all';
+import { CgPassword } from 'react-icons/all';
+import { RiHistoryFill } from 'react-icons/all';
 const profile_buttons_data = [
   {
     id: 1,
-    title: 'Basic',
-    details: 'Free account, Pay per template',
-    users: '3 Users',
-    downloads: 'Unlimited Downloads',
-    license: 'perpetual license',
+    title: 'Account Info',
+    icon: <BsInfoCircle className="button-icon" />,
   },
   {
     id: 2,
-    title: 'Advanced',
-    details: 'For small businesses',
-    users: '3+ Users',
-    downloads: 'Unlimited Downloads',
-    license: 'perpetual license',
+    title: 'Change Password',
+    icon: <CgPassword className="button-icon" />,
   },
 
   {
     id: 3,
-    title: 'Impresario',
-    details: 'Free account, Pay per template',
-    users: '3 Users',
-    downloads: 'Unlimited Downloads',
-    license: 'perpetual license',
+    title: 'Order History',
+    icon: <RiHistoryFill className="button-icon" />,
   },
 ];
 

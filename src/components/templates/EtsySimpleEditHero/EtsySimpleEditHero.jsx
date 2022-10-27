@@ -1,4 +1,5 @@
 import React from 'react';
+import { useState } from 'react';
 import './EtsySimpleEditHero.css';
 import AnimatedGlowButton from '../../UI/atoms/AnimatedGlowButton/AnimatedGlowButton';
 import TextEditorBox from '../../UI/atoms/TextEditorBox/TextEditorBox';
@@ -6,31 +7,31 @@ import plans from '../../plans_data.js';
 import BasicButton from '../../UI/atoms/BasicButton/BasicButton';
 import '@melloware/coloris/dist/coloris.css';
 import { coloris, init } from '@melloware/coloris';
+import { EtsyEditContext } from '../../../Contexts/EtsyEditContext';
 init();
 coloris({
   parent: '.container',
   el: '.color-field',
   themeMode: 'dark',
-  alpha: true,
+  alpha: false,
   formatToggle: true,
   theme: 'polaroid',
   wrap: true,
   margin: 2,
-  format: 'hex',
+
   formatToggle: true,
   swatches: [],
   swatchesOnly: false,
-  alpha: true,
   forceAlpha: false,
   focusInput: false,
   selectInput: false,
-
   defaultColor: '#000000',
-  clearButton: true,
-  clearLabel: 'Clear',
 });
 
 const EtsySimpleEditHero = () => {
+  const [isActive, setIsActive] = useState(false);
+  const [clickedId, setClickedId] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(0);
   return (
     <div className="etsy-hero">
       <fade-bg1></fade-bg1>
@@ -46,9 +47,51 @@ const EtsySimpleEditHero = () => {
         </left-items>
         <right-items>
           <top-items>
-            <AnimatedGlowButton button_text={'Change Text'} />
-            <AnimatedGlowButton button_text={'Change Colors'} />
-            <AnimatedGlowButton button_text={'Change Images'} />
+            <AnimatedGlowButton
+              button_text={'Change Text'}
+              onClick={() => {
+                setClickedId(0);
+                setActiveIndex(0);
+              }}
+              neon_button_box_className={
+                clickedId === 0 ? 'neon_button_box_clicked' : 'neon_button_box'
+              }
+              neon_button_background_box_className={
+                clickedId === 0
+                  ? 'neon_button_background_box_clicked'
+                  : 'neon_button_background_box'
+              }
+            />
+            <AnimatedGlowButton
+              button_text={'Change Colors'}
+              onClick={() => {
+                setClickedId(1);
+                setActiveIndex(1);
+              }}
+              neon_button_box_className={
+                clickedId === 1 ? 'neon_button_box_clicked' : 'neon_button_box'
+              }
+              neon_button_background_box_className={
+                clickedId === 1
+                  ? 'neon_button_background_box_clicked'
+                  : 'neon_button_background_box'
+              }
+            />
+            <AnimatedGlowButton
+              button_text={'Change Images'}
+              onClick={() => {
+                setClickedId(2);
+                setActiveIndex(2);
+              }}
+              neon_button_box_className={
+                clickedId === 2 ? 'neon_button_box_clicked' : 'neon_button_box'
+              }
+              neon_button_background_box_className={
+                clickedId === 2
+                  ? 'neon_button_background_box_clicked'
+                  : 'neon_button_background_box'
+              }
+            />
           </top-items>
           <center-card>
             <center-card-content>
