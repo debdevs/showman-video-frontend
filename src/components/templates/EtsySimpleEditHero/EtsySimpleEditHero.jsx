@@ -8,6 +8,8 @@ import BasicButton from '../../UI/atoms/BasicButton/BasicButton';
 import '@melloware/coloris/dist/coloris.css';
 import { coloris, init } from '@melloware/coloris';
 import { EtsyEditContext } from '../../../Contexts/EtsyEditContext';
+import { motion } from 'framer-motion/dist/framer-motion';
+import { AnimatePresence } from 'framer-motion/dist/framer-motion';
 init();
 coloris({
   parent: '.container',
@@ -96,7 +98,8 @@ const EtsySimpleEditHero = () => {
           <center-card>
             <center-card-content>
               <fields-container>
-                <main-color-container
+                <motion.div
+                  className="main-color-container"
                   style={{
                     opacity: clickedId === 0 ? '0' : '1',
                     display: clickedId === 0 ? 'none' : 'flex',
@@ -132,17 +135,28 @@ const EtsySimpleEditHero = () => {
                       />
                     </div>
                   </colors-container>
-                </main-color-container>
-                <main-text-container
-                  style={{
-                    opacity: clickedId === 0 ? '1' : '0',
-                    display: clickedId === 0 ? 'flex' : 'none',
-                  }}
-                >
-                  {plans.map((plan, key) => (
-                    <TextEditorBox default_text="Text" />
-                  ))}
-                </main-text-container>
+                </motion.div>
+                <AnimatePresence initial={true}>
+                  <motion.div
+                    key={0}
+                    className="main-text-container"
+                    initial={{ scaleX: 0.9, opacity: 0 }}
+                    animate={{ scaleX: 1, opacity: 1 }}
+                    exit={{
+                      scaleX: 0.97,
+                      opacity: 0,
+                      transition: { type: 'spring', stiffness: 50 },
+                      transitionEnd: {
+                        display: 'none',
+                      },
+                    }}
+                    transition={{ duration: 1 }}
+                  >
+                    {plans.map((plan, key) => (
+                      <TextEditorBox default_text="Text" />
+                    ))}
+                  </motion.div>
+                </AnimatePresence>
               </fields-container>
               <BasicButton
                 button_width={'144.81px'}
