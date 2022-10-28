@@ -4,7 +4,7 @@ import { MdHighlight } from 'react-icons/md';
 import { MdMenu } from 'react-icons/md';
 import { IoMdOptions } from 'react-icons/io';
 import { IoIosOptions } from 'react-icons/io';
-
+import NavbarProfileImage from '../../atoms/NavbarProfileImage/NavbarProfileImage';
 const MobileNavbar = () => {
   return (
     <mobile-nav-container className="mobile-nav-container">
@@ -19,6 +19,7 @@ const MobileNavbar = () => {
             <button className="Menu Sort">Sort</button>
           </li>
         </ul>
+        <NavbarProfileImage />
       </mobile-nav-content-container>
     </mobile-nav-container>
   );

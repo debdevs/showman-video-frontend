@@ -85,6 +85,7 @@ fade-bg-2{ z-index:5;
         justify-content: center;
         align-items: center;
         overflow: visible;
+        margin-top:15px;
     }
     .cover-image {
         width:100%;

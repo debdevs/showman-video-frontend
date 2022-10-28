@@ -43,6 +43,7 @@ const Page2 = () => {
         transition={{ delay: 0.6 }}
       >
         <Navbar className="navbar" />
+
         <TemplatesCarouselHero />
         {/* <TemplatesHero /> */}
         <TemplatesSubheading />

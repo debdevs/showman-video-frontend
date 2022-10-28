@@ -10,6 +10,7 @@ import { coloris, init } from '@melloware/coloris';
 import { EtsyEditContext } from '../../../Contexts/EtsyEditContext';
 import { motion } from 'framer-motion/dist/framer-motion';
 import { AnimatePresence } from 'framer-motion/dist/framer-motion';
+import ShowmanGlowButton from '../../UI/atoms/ShowmanGlowButton/ShowmanGlowButton';
 init();
 coloris({
   parent: '.container',
@@ -150,13 +151,16 @@ const EtsySimpleEditHero = () => {
                   ))}
                 </motion.div>
               </fields-container>
-              <BasicButton
-                button_width={'144.81px'}
-                button_height={'41.03px'}
-                button_padding={'1px 6px'}
-                button_opacity={'1'}
-                button_text={'PREVIEW'}
-              />
+              <result-button-row>
+                <ShowmanGlowButton button_text={'PREVIEW'} />
+                <BasicButton
+                  button_width={'144.81px'}
+                  button_height={'41.03px'}
+                  button_padding={'1px 6px'}
+                  button_opacity={'1'}
+                  button_text={'SUBMIT'}
+                />
+              </result-button-row>
             </center-card-content>
           </center-card>
         </right-items>

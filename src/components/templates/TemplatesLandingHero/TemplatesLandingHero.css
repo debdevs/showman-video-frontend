@@ -6,17 +6,20 @@
     height: 850px;
     overflow:hidden;
 }
-
+.modal-bg{
+    z-index: 3;
+}
 
 templates-landing-hero-container {
     display:flex;
     width:100%;
     width:95%;
     height: 75%;
-    background:black;
+    background:rgba(0, 0, 0, 0.122);
     border: 2px solid #534859;
     border-radius: 12px;
-
+    overflow:hidden;
+    z-index:2;
 }
 content-background {
     display:flex;
@@ -32,9 +35,12 @@ content-container {
 
     gap:115px;
     height:560px;
-    background:black;
+    background:transparent;
+    
     justify-content: space-between;
     align-items: center;
+    z-index:2;
+    flex-direction: row;
 }
 
 fade-bg1{
@@ -50,4 +56,28 @@ fade-bg1{
 .template-icon{
     color:grey;
     font-size:25px;
+}
+
+@media only screen and (max-width:480px){
+
+    templates-landing-hero-container {
+        display:flex;
+        width:100%;
+        width:95%;
+        height: 100%;
+        margin-top: 5%;
+        overflow:hidden;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+content-container {
+
+    flex-direction: column;
+    height:100%;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+}
 }

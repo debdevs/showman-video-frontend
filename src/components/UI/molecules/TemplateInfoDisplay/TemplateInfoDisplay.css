@@ -107,3 +107,59 @@ info-box{
 info-box h2{
     font-size: 14px;
 }
+
+
+@media only screen and (max-width:480px){
+
+    
+.template-info-column {
+
+    gap:15px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+   
+    
+}
+
+buttons-container{
+    justify-content: center;
+    align-items: center;
+}
+
+.cg-container {
+justify-content: center;
+align-items: center;
+}
+    template-text {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        gap:20px;
+        width:100%;
+     
+    }
+
+    
+    template-text h1{
+
+     font-size: 45px;
+    }
+
+
+    template-text p {
+
+        margin-top: 15px;
+        font-weight: 400;
+        font-size: 4vw;
+        line-height: 23px;
+        text-align: center;
+        width:90%;
+        color: #FFFFFF;
+        /* height:180px; */
+        }
+
+
+}

@@ -17,8 +17,6 @@ const TemplatesLandingHero = () => {
   return (
     <div className="templates-landing-parent">
       <templates-landing-hero-container>
-        <fade-bg />
-
         <content-background>
           <content-container>
             <MediaPreviewElement />

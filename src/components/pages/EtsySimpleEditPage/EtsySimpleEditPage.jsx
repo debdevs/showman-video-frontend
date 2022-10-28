@@ -17,10 +17,9 @@ const EtsySimpleEditPage = () => {
         activeIndex,
         setActiveIndex,
       }}
+      className="etsypage"
     >
-      <div>
-        <EtsySimpleEditHero />
-      </div>{' '}
+      <EtsySimpleEditHero />
     </EtsyEditContext.Provider>
   );
 };

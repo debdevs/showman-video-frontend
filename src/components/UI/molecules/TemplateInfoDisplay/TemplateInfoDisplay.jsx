@@ -44,6 +44,8 @@ const TemplateInfoDisplay = ({ button_1_function }) => {
         <AnimatedGlowButton
           button_text="Get it now"
           onClick={button_1_function}
+          neon_button_box_className="neon_button_box"
+          neon_button_background_box_className={'neon_button_background_box'}
         />
         <NeonButton button_text="Get it now" />
       </buttons-container>

@@ -19,7 +19,9 @@ const TemplatesLandingPage = () => {
       }}
       transition={{ delay: 0.6 }}
     >
+      <fade-bg1 />
       <Navbar />
+
       <TemplatesLandingHero />
       {/* <TemplatesLandingSubheading /> */}
       <TemplatesNavbar />
