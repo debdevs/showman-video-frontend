@@ -137,29 +137,18 @@ const EtsySimpleEditHero = () => {
                   </colors-container>
                 </motion.div>
 
-                <AnimatePresence initial={true}>
-                  {clickedId == 0 ? (
-                    <motion.div
-                      key={0}
-                      className="main-text-container"
-                      initial={{ scaleX: 0.9, opacity: 0 }}
-                      animate={{ scaleX: 1, opacity: 1 }}
-                      exit={{
-                        scaleX: 0.97,
-                        opacity: 0,
-                        transition: { type: 'spring', stiffness: 50 },
-                        transitionEnd: {
-                          display: 'none',
-                        },
-                      }}
-                      transition={{ duration: 1 }}
-                    >
-                      {plans.map((plan, key) => (
-                        <TextEditorBox default_text="Text" />
-                      ))}
-                    </motion.div>
-                  ) : null}
-                </AnimatePresence>
+                <motion.div
+                  key={0}
+                  className={
+                    clickedId === 0
+                      ? 'main-text-container'
+                      : 'main-text-container-deactivated'
+                  }
+                >
+                  {plans.map((plan, key) => (
+                    <TextEditorBox default_text="Text" />
+                  ))}
+                </motion.div>
               </fields-container>
               <BasicButton
                 button_width={'144.81px'}
