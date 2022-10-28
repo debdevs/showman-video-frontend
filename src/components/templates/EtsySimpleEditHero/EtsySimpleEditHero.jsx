@@ -99,11 +99,11 @@ const EtsySimpleEditHero = () => {
             <center-card-content>
               <fields-container>
                 <motion.div
-                  className="main-color-container"
-                  style={{
-                    opacity: clickedId === 0 ? '0' : '1',
-                    display: clickedId === 0 ? 'none' : 'flex',
-                  }}
+                  className={
+                    clickedId === 1
+                      ? 'main-color-container'
+                      : 'main-color-container-deactivated'
+                  }
                 >
                   <colors-container>
                     <h1 className="istok-font">Text Heading</h1>
@@ -136,26 +136,29 @@ const EtsySimpleEditHero = () => {
                     </div>
                   </colors-container>
                 </motion.div>
+
                 <AnimatePresence initial={true}>
-                  <motion.div
-                    key={0}
-                    className="main-text-container"
-                    initial={{ scaleX: 0.9, opacity: 0 }}
-                    animate={{ scaleX: 1, opacity: 1 }}
-                    exit={{
-                      scaleX: 0.97,
-                      opacity: 0,
-                      transition: { type: 'spring', stiffness: 50 },
-                      transitionEnd: {
-                        display: 'none',
-                      },
-                    }}
-                    transition={{ duration: 1 }}
-                  >
-                    {plans.map((plan, key) => (
-                      <TextEditorBox default_text="Text" />
-                    ))}
-                  </motion.div>
+                  {clickedId == 0 ? (
+                    <motion.div
+                      key={0}
+                      className="main-text-container"
+                      initial={{ scaleX: 0.9, opacity: 0 }}
+                      animate={{ scaleX: 1, opacity: 1 }}
+                      exit={{
+                        scaleX: 0.97,
+                        opacity: 0,
+                        transition: { type: 'spring', stiffness: 50 },
+                        transitionEnd: {
+                          display: 'none',
+                        },
+                      }}
+                      transition={{ duration: 1 }}
+                    >
+                      {plans.map((plan, key) => (
+                        <TextEditorBox default_text="Text" />
+                      ))}
+                    </motion.div>
+                  ) : null}
                 </AnimatePresence>
               </fields-container>
               <BasicButton
