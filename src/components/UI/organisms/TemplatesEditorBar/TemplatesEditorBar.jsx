@@ -9,7 +9,7 @@ import ShowmanGlowButton from '../../atoms/ShowmanGlowButton/ShowmanGlowButton';
 import { BsFillDropletFill } from 'react-icons/bs';
 import { BsImageFill } from 'react-icons/bs';
 import { BsFonts } from 'react-icons/bs';
-
+import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
 const TemplatesEditorBar = () => {
   return (
     <templates-editor-nav-container className="templates-editor-nav-container">
