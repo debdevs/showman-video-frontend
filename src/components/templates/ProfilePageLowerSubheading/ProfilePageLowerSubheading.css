@@ -16,13 +16,14 @@
 }
 order-section{
     display:flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     flex-direction: column;  
     gap:15px;
 }
 order-section top-items{
-    width:60%;
+    width:85%;
+    margin-left: 9%;
 }
 
 order-section top-items h1{

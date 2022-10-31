@@ -1,14 +1,14 @@
 :root{
-  --order-history-card-width: 467px;
-  --order-history-card-height: 134.09px;
+  --order-history-card-width: 450.72px;
+  --order-history-card-height: 129.42px;
   --order-history-card-borderradius:12px;
   --order-history-imagefx-height: 134.09px;
-  --order-history-card-fontsize:31.5px;
+  --order-history-card-fontsize:25px;
   --order-history-card-image-width: 188.51px;
 }
 order-history-title{
     position: absolute;
-    justify-content: flex-end;
+    justify-content: flex-start;
   }
   .order_card_container{
     display: flex;
@@ -21,7 +21,7 @@ order-history-title{
   }
   .order_history_animation_box {
       position:absolute;
-    
+      width: var(--order-history-card-width);
       display: flex;
    
       height: var(--order-history-card-height);
@@ -47,6 +47,7 @@ order-history-title{
       box-shadow: 0 10px 15px 2px;
       background: linear-gradient(#2F2E2E, #080214); 
       background: linear-gradient(#161515, #080214); 
+      background: linear-gradient(180deg, #080214 97.92%, #2F2E2E 100%);
       transition:all .4s ease-in-out;
     }
   
@@ -152,8 +153,8 @@ order-history-title{
         font-weight: 400;
         font-size: var(--order-history-card-fontsize);
         line-height: 40px;
-        text-align: center;
-        
+        text-align: left;
+        width:100%;
         background: linear-gradient(180deg, rgba(187, 101, 255, 0.35) 43.75%, rgba(147, 11, 255, 0.35) 57.81%), linear-gradient(251.44deg, #CBC8C8 37.43%, #E2D6D6 44.39%, #F1F1F1 67.13%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;

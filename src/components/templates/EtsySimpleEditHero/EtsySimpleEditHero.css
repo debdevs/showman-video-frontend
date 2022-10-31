@@ -81,7 +81,10 @@ form-container left-items center-card{
     width: 486px;
     height: 590px;
 
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 
     border: 2px solid #534859;
     border: 2px solid rgba(168, 26, 255, .15);
@@ -341,7 +344,7 @@ result-button-row{
 
         width: 95%;
         height: 590px;
-    
+
 
     }
 

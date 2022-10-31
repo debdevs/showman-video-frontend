@@ -18,7 +18,6 @@ const OrderHistoryCard = ({
 }) => {
   return (
     <div onClick={cardClick} className="order_card_container">
-      <div className="order_history_animation_box" />
       <div className="order_history_box">
         <div className="order_history_image_fx_container">
           <order-history-image className="order_history_image">

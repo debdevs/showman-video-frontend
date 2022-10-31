@@ -28,7 +28,7 @@ const TemplatesLandingHero = () => {
           </content-container>
         </content-background>
       </templates-landing-hero-container>
-      <AnimatePresence>
+      <AnimatePresence className="modal-content">
         {openScreen && (
           <>
             <motion.div
@@ -50,6 +50,7 @@ const TemplatesLandingHero = () => {
               }}
             />
             <motion.div
+              className="modal-content"
               key="modal-content"
               initial={{ scaleX: 0.9, opacity: 0, x: -100 }}
               animate={{ scaleX: 1, opacity: 1, x: 0 }}

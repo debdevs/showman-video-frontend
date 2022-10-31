@@ -23,7 +23,7 @@ const TemplatesLandingPage = () => {
       <Navbar />
 
       <TemplatesLandingHero />
-      {/* <TemplatesLandingSubheading /> */}
+
       <TemplatesNavbar />
       <TemplatesEditorBar />
     </motion.div>

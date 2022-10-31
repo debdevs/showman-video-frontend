@@ -11,6 +11,7 @@ import { EtsyEditContext } from '../../../Contexts/EtsyEditContext';
 import { motion } from 'framer-motion/dist/framer-motion';
 import { AnimatePresence } from 'framer-motion/dist/framer-motion';
 import ShowmanGlowButton from '../../UI/atoms/ShowmanGlowButton/ShowmanGlowButton';
+import EtsyVideoDisplay from '../../UI/atoms/EtsyVideoDisplay/EtsyVideoDisplay';
 init();
 coloris({
   parent: '.container',
@@ -46,7 +47,9 @@ const EtsySimpleEditHero = () => {
               Edit Your <span>Etsy</span> Order
             </h2>
           </top-items>
-          <center-card></center-card>
+          <center-card>
+            <EtsyVideoDisplay />
+          </center-card>
         </left-items>
         <right-items>
           <top-items>
