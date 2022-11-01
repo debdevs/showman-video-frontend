@@ -16,6 +16,7 @@ export const EtsyVideoDisplay = (props) => {
       {
         src: video_file,
         type: 'video/mp4',
+        options: true,
       },
     ],
   };
