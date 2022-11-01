@@ -18,7 +18,6 @@ const VideoJS = ({ options, themeName = 'sea' }) => {
 
     return () => {
       if (player) {
-        player.dispose();
         playerRef.current = null;
       }
     };
@@ -26,11 +25,19 @@ const VideoJS = ({ options, themeName = 'sea' }) => {
   const video_width = '307.2px';
   const video_height = '512px';
   return (
-    <div data-vjs-player style={{ width: video_width, height: video_height }}>
+    <div
+      data-vjs-player
+      style={{ width: video_width, height: video_height }}
+      key={'my_video_const'}
+      id={0}
+      className="const"
+    >
       <video
         ref={videoRef}
         // className={`video-js vjs-big-play-centered vjs-theme-${themeName}`}
         className="video-js vjs-default-skin"
+        key={'my_video_const'}
+        id={0}
       />
     </div>
   );

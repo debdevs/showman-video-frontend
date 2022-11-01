@@ -1,5 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
+import { useRef } from 'react';
+import { useEffect } from 'react';
 import './EtsySimpleEditHero.css';
 import AnimatedGlowButton from '../../UI/atoms/AnimatedGlowButton/AnimatedGlowButton';
 import TextEditorBox from '../../UI/atoms/TextEditorBox/TextEditorBox';
@@ -12,6 +14,7 @@ import { motion } from 'framer-motion/dist/framer-motion';
 import { AnimatePresence } from 'framer-motion/dist/framer-motion';
 import ShowmanGlowButton from '../../UI/atoms/ShowmanGlowButton/ShowmanGlowButton';
 import EtsyVideoDisplay from '../../UI/atoms/EtsyVideoDisplay/EtsyVideoDisplay';
+
 init();
 coloris({
   parent: '.container',
@@ -33,9 +36,8 @@ coloris({
 });
 
 const EtsySimpleEditHero = () => {
-  const [isActive, setIsActive] = useState(false);
-  const [clickedId, setClickedId] = useState(0);
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [selectedId, setSelectedId] = useState(0);
+
   return (
     <div className="etsy-hero">
       <fade-bg1></fade-bg1>
@@ -47,23 +49,22 @@ const EtsySimpleEditHero = () => {
               Edit Your <span>Etsy</span> Order
             </h2>
           </top-items>
-          <center-card>
+          <left-center-card>
             <EtsyVideoDisplay />
-          </center-card>
+          </left-center-card>
         </left-items>
         <right-items>
           <top-items>
             <AnimatedGlowButton
               button_text={'Change Text'}
               onClick={() => {
-                setClickedId(0);
-                setActiveIndex(0);
+                setSelectedId(0);
               }}
               neon_button_box_className={
-                clickedId === 0 ? 'neon_button_box_clicked' : 'neon_button_box'
+                selectedId === 0 ? 'neon_button_box_clicked' : 'neon_button_box'
               }
               neon_button_background_box_className={
-                clickedId === 0
+                selectedId === 0
                   ? 'neon_button_background_box_clicked'
                   : 'neon_button_background_box'
               }
@@ -71,14 +72,13 @@ const EtsySimpleEditHero = () => {
             <AnimatedGlowButton
               button_text={'Change Colors'}
               onClick={() => {
-                setClickedId(1);
-                setActiveIndex(1);
+                setSelectedId(1);
               }}
               neon_button_box_className={
-                clickedId === 1 ? 'neon_button_box_clicked' : 'neon_button_box'
+                selectedId === 1 ? 'neon_button_box_clicked' : 'neon_button_box'
               }
               neon_button_background_box_className={
-                clickedId === 1
+                selectedId === 1
                   ? 'neon_button_background_box_clicked'
                   : 'neon_button_background_box'
               }
@@ -86,14 +86,13 @@ const EtsySimpleEditHero = () => {
             <AnimatedGlowButton
               button_text={'Change Images'}
               onClick={() => {
-                setClickedId(2);
-                setActiveIndex(2);
+                setSelectedId(2);
               }}
               neon_button_box_className={
-                clickedId === 2 ? 'neon_button_box_clicked' : 'neon_button_box'
+                selectedId === 2 ? 'neon_button_box_clicked' : 'neon_button_box'
               }
               neon_button_background_box_className={
-                clickedId === 2
+                selectedId === 2
                   ? 'neon_button_background_box_clicked'
                   : 'neon_button_background_box'
               }
@@ -102,9 +101,9 @@ const EtsySimpleEditHero = () => {
           <center-card>
             <center-card-content>
               <fields-container>
-                <motion.div
+                <div
                   className={
-                    clickedId === 1
+                    selectedId === 1
                       ? 'main-color-container'
                       : 'main-color-container-deactivated'
                   }
@@ -139,12 +138,12 @@ const EtsySimpleEditHero = () => {
                       />
                     </div>
                   </colors-container>
-                </motion.div>
+                </div>
 
-                <motion.div
+                <div
                   key={0}
                   className={
-                    clickedId === 0
+                    selectedId === 0
                       ? 'main-text-container'
                       : 'main-text-container-deactivated'
                   }
@@ -152,7 +151,7 @@ const EtsySimpleEditHero = () => {
                   {plans.map((plan, key) => (
                     <TextEditorBox default_text="Text" />
                   ))}
-                </motion.div>
+                </div>
               </fields-container>
               <result-button-row>
                 <ShowmanGlowButton button_text={'PREVIEW'} />

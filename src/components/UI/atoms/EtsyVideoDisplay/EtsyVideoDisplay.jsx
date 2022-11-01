@@ -3,6 +3,7 @@ import videojs from 'video.js';
 import 'video.js/dist/video-js.css';
 import VideoJS from '../VideoJS/VideoJS';
 import video_file from '../../../../assets/videos/video.mp4';
+import { useRef } from 'react';
 export const EtsyVideoDisplay = (props) => {
   const playerRef = React.useRef(null);
 
