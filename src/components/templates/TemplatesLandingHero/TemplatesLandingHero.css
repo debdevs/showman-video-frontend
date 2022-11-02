@@ -67,6 +67,15 @@ fade-bg1{
 }
 
 @media only screen and (max-width:480px){
+    .templates-landing-parent{
+        display:flex;
+        justify-content: center;
+        align-items: flex-start;
+        width:100%;
+        height:900px;
+        overflow:hidden;
+        margin-top:15%;
+    }
 
     templates-landing-hero-container {
         display:flex;
@@ -76,7 +85,7 @@ fade-bg1{
         margin-top: 5%;
         overflow:hidden;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
 
     }
 
@@ -87,5 +96,6 @@ content-container {
     gap:20px;
     justify-content: center;
     align-items: center;
+    margin-top: 39%;
 }
 }
