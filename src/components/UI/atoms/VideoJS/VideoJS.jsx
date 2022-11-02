@@ -4,7 +4,7 @@ import { useRef } from 'react';
 import videojs from 'video.js';
 import './VideoJS.css';
 import '@videojs/themes/dist/sea/index.css';
-const VideoJS = ({ options, themeName = 'sea' }) => {
+const VideoJS = ({ options, themeName = 'sea', video_width, video_height }) => {
   const videoRef = useRef(null);
   const playerRef = useRef(null);
 
@@ -22,8 +22,8 @@ const VideoJS = ({ options, themeName = 'sea' }) => {
       }
     };
   }, [options, videoRef, playerRef]);
-  const video_width = '307.2px';
-  const video_height = '512px';
+  // const video_width = '307.2px';
+  // const video_height = '512px';
   return (
     <div
       data-vjs-player

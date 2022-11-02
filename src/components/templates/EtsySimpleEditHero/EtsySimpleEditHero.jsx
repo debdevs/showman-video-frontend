@@ -50,7 +50,7 @@ const EtsySimpleEditHero = () => {
             </h2>
           </top-items>
           <left-center-card>
-            <EtsyVideoDisplay />
+            <EtsyVideoDisplay video_height={'512px'} video_width={'307.2px'} />
           </left-center-card>
         </left-items>
         <right-items>

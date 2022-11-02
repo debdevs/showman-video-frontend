@@ -4,7 +4,7 @@ import 'video.js/dist/video-js.css';
 import VideoJS from '../VideoJS/VideoJS';
 import video_file from '../../../../assets/videos/video.mp4';
 import { useRef } from 'react';
-export const EtsyVideoDisplay = (props) => {
+export const EtsyVideoDisplay = ({ props, video_height, video_width }) => {
   const playerRef = React.useRef(null);
 
   const videoJsOptions = {
@@ -33,11 +33,17 @@ export const EtsyVideoDisplay = (props) => {
       videojs.log('player will dispose');
     });
   };
-
+  // const video_width = '307.2px';
+  // const video_height = '512px';
   return (
     <>
       <div>Rest of app here</div>
-      <VideoJS options={videoJsOptions} onReady={handlePlayerReady} />
+      <VideoJS
+        options={videoJsOptions}
+        onReady={handlePlayerReady}
+        video_height={video_height}
+        video_width={video_width}
+      />
       <div>Rest of app here</div>
     </>
   );
