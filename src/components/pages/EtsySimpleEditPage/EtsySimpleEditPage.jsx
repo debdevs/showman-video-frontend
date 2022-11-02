@@ -4,7 +4,7 @@ import './EtsySimpleEditPage.css';
 import EtsySimpleEditHero from '../../templates/EtsySimpleEditHero/EtsySimpleEditHero';
 import { EtsyEditContext } from '../../../Contexts/EtsyEditContext';
 import ImageUploader from '../../UI/atoms/ImageUploader/ImageUploader';
-import EtsyVideoDisplay from '../../UI/atoms/EtsyVideoDisplay/EtsyVideoDisplay';
+
 import Footer from '../../templates/Footer/Footer';
 const EtsySimpleEditPage = () => {
   const [isActive, setIsActive] = useState(false);
@@ -23,7 +23,7 @@ const EtsySimpleEditPage = () => {
       className="etsypage"
     >
       <EtsySimpleEditHero />
-      <EtsyVideoDisplay />
+
       <Footer />
     </EtsyEditContext.Provider>
   );
