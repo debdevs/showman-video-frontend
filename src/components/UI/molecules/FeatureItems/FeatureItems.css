@@ -4,6 +4,7 @@ feature-parent{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    align-items: flex-start;
 }
 
 
@@ -67,7 +68,7 @@ feature-parent p {
         text-align: center;
     }  
     feature-parent p.istok-font{
-        text-align: center;
+        text-align: left;
         width:305px;
     }  
     line-div{

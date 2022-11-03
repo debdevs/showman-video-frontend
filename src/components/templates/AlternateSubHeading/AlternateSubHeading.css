@@ -11,7 +11,7 @@ alternate-subheading-container {
         display: block;
         background: linear-gradient(180deg, #000000 -120.77%, #110116 -20.77%);
         width: 100%;
-        height: 350px;
+        height: var(--hero-height);
         align-items: center;
         justify-content: center;
         display: flex;
@@ -20,7 +20,7 @@ alternate-subheading-container {
     
     alternate-subheading-container subheading-container-main subheading-bg {
         width: 100%;
-        height: 350px;
+        height: var(--hero-height);
   
     
         position:absolute;
@@ -30,12 +30,13 @@ alternate-subheading-container {
     alternate-subheading-container subheading-container-main subheading-content-parent {
         display: flex;
         width: 75%;
-        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
         flex-direction: row-reverse;
     }
     
     alternate-subheading-container subheading-container-main subheading-content-parent left-items {
-        margin-top: 85px;
+     
         display:flex;
         flex-wrap: wrap;
         gap: 15px;
@@ -44,7 +45,15 @@ alternate-subheading-container {
         margin-right: 70px;
     
     
-    
+        display:flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 594px;
+    height: 339.11px;
+    margin-right: 0px;
+    align-items: center;
+    justify-content: center;
+ 
     }
     
     
@@ -101,6 +110,10 @@ alternate-subheading-container {
             height:350px;
             display: flex;
             align-items: center;
+            justify-content: center;
+            
+        }
+        alternate-subheading-container subheading-container-main subheading-content-parent{
             justify-content: center;
         }
         alternate-subheading-container subheading-container-main subheading-content-parent left-items {

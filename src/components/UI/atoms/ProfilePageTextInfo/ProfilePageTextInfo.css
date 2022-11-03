@@ -1,10 +1,15 @@
 .profile-info-text{
-    width:45%;
+    width:35%;
     display:flex;
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     gap:5px;
+    transition: all .4s ease;
+    cursor:pointer;
+    padding: 5%;
+    border: 1.6389px solid rgba(185, 185, 185, 0.1);
+    border-radius: 6.48913px;
 }
 
 .profile-info-text h1{
@@ -29,4 +34,12 @@ text-fill-color: transparent;
 
 text-shadow: 0px 17.3879px 40.5717px #000000;
 font-size: 25px;
+}
+
+.profile-info-text:hover{
+    
+background: linear-gradient(180deg, rgba(168, 26, 255, 0) 66.56%, rgba(168, 26, 255, 0.37) 122.81%);
+border: 1.6389px solid rgba(185, 185, 185, 0.1);
+box-shadow: 2.7038px 2.16304px 18.9266px rgba(168, 26, 255, 0.35);
+border-radius: 6.48913px;
 }

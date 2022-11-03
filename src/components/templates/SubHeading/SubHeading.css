@@ -37,13 +37,15 @@ subheading-content-parent {
 }
 
 subheading-content-parent left-items {
-    margin-top: 85px;
+
     display:flex;
     flex-wrap: wrap;
     gap: 15px;
     width: 594px;
     height: 339.11px;
     margin-right: 0px;
+    align-items: flex-start;
+    justify-content: center;
  
 
 
