@@ -15,7 +15,6 @@ mobile-nav-container{
     bottom:0;
     position:fixed;
     z-index:200;
-    transition: all.4s ease;
 }
 
 mobile-nav-content-container{
@@ -32,18 +31,12 @@ mobile-nav-content-container ul {
     justify-content: center;
     align-items: center;
     display:flex;
-    gap:25px;
+    gap:35px;
 }
 
 .nav-icon {
     color:grey;
     font-size: 35px;
-    cursor:pointer;
-}
-
-.nav-icon:hover {
-    color:rgb(116, 97, 126);
-    transform: scale(.98);
     cursor:pointer;
 }
 @media screen and (min-width : 480px){

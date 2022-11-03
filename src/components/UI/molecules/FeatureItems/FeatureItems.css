@@ -1,5 +1,9 @@
 feature-parent{
     width: 305px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 
@@ -78,3 +82,41 @@ feature-parent p {
 
 
     
+@media only screen and (max-width: 480px) {
+
+
+
+    feature-parent {
+        width: 305px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+  
+    feature-parent h1{
+        font-size: 18.2022px;
+        font-size: 6vw;
+    }
+    feature-parent h2{
+        text-align: center;
+        font-size: 6.5vw;
+    }  
+    feature-parent p.istok-font{
+        text-align: center;
+        width:305px;
+        font-size: 4.2vw;
+        font-size: 16.7461px;
+        line-height: 24px;
+        font-size: 4.1vw;
+    }  
+    line-div{
+
+        width: 35vw;
+
+    
+    
+    }       
+
+}

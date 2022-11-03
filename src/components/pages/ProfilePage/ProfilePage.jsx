@@ -6,6 +6,7 @@ import ProfilePageSubheading from '../../templates/ProfilePageSubheading/Profile
 import ProfilePageLowerSubheading from '../../templates/ProfilePageLowerSubheading/ProfilePageLowerSubheading';
 import Footer from '../../templates/Footer/Footer';
 import { motion } from 'framer-motion/dist/framer-motion';
+import MobileNavbar from '../../UI/organisms/MobileNavbar/MobileNavbar';
 const ProfilePage = () => {
   return (
     <motion.div
@@ -24,6 +25,7 @@ const ProfilePage = () => {
       <ProfilePageSubheading />
       <ProfilePageLowerSubheading />
       <Footer />
+      <MobileNavbar />
     </motion.div>
   );
 };

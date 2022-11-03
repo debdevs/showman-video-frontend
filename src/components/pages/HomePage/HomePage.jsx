@@ -9,6 +9,7 @@ import Footer from '../../../components/templates/Footer/Footer';
 import { motion } from 'framer-motion/dist/framer-motion';
 import '../../../App.css';
 import '../../../meyer-reset.css';
+import MobileNavbar from '../../UI/organisms/MobileNavbar/MobileNavbar';
 const HomePage = () => {
   return (
     <motion.div
@@ -28,6 +29,7 @@ const HomePage = () => {
       <AlternateSubHeading />
       <FrontInfoSection />
       <Footer />
+      <MobileNavbar />
     </motion.div>
   );
 };
