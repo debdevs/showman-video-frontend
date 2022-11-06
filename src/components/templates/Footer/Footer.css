@@ -95,6 +95,8 @@ footer-parent footer-content-container footer-center-items ul li{
     color: white;
     font-size: 18.9816px;
     line-height: 27px;
+    cursor:pointer;
+    transition: all .4s ease;
  
 }
 
@@ -119,6 +121,15 @@ footer-right-items {
 
 
 
+}
+
+
+footer-parent footer-content-container footer-center-items ul li:hover{
+
+    color: var(--theme-color-5);
+    font-size: 18.9816px;
+    line-height: 27px;
+ 
 }
 
 @media screen and (max-width : 480px) {

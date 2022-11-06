@@ -21,6 +21,7 @@ alternate-subheading-container {
     alternate-subheading-container subheading-container-main subheading-bg {
         width: 100%;
         height: var(--hero-height);
+        height:350px;
   
     
         position:absolute;
