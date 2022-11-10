@@ -7,13 +7,11 @@ import EditorButton from '../../UI/atoms/EditorButton/EditorButton';
 import TextEditorBox from '../../UI/atoms/TextEditorBox/TextEditorBox';
 import ShowmanGlowButton from '../../UI/atoms/ShowmanGlowButton/ShowmanGlowButton';
 import SubmitButton from '../../UI/atoms/SubmitButton/SubmitButton';
-import PreviewThumb from '../../UI/atoms/PreviewThumb/PreviewThumb';
 import MediaPreviewSlider from '../../UI/molecules/MediaPreviewSlider/MediaPreviewSlider';
 import image from '../../../assets/images/pexels-yuri-manei-2690323.jpg';
 import { useState } from 'react';
 import { RiArrowGoBackFill } from 'react-icons/all';
-import { motion } from 'framer-motion/dist/framer-motion';
-import { AnimatePresence } from 'framer-motion/dist/framer-motion';
+
 const TemplatesLandingSubheading = ({ closeScreen }) => {
   const [openScreen, setOpenScreen] = useState(false);
 

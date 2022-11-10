@@ -10,6 +10,7 @@ const FrontCategoryCard = ({ title }) => {
             <img
               className="product-category-box-image"
               src="https://landisher.com/wp-content/uploads/2018/12/instagram-stories-template-pack-bundle-after-effects-psd-apple-download.jpg"
+              alt=""
             ></img>
           </product-image>
           <product-inset-shadow />
