@@ -21,7 +21,7 @@ const TemplatesCarouselHero = () => {
           categories
             .filter((category) => category.id === activeIndex + 1)
             .map((category, key) => (
-              <CarouselItem>
+              <CarouselItem key={key}>
                 <item-container className="item-container">
                   <img src={category.image} className="cover-image" />
                   <box-shadow-overlay className="box-shadow-overlay" />

@@ -13,25 +13,25 @@ const FilterSection = () => {
         <form>
           <div className="form-group">
             <input type="checkbox" id="html"></input>
-            <label for="html" className="istok-font">
+            <label htmlFor="html" className="istok-font">
               Wedding
             </label>
           </div>
           <div className="form-group">
             <input type="checkbox" id="css"></input>
-            <label for="css" className="istok-font">
+            <label htmlFor="css" className="istok-font">
               Logo Sting
             </label>
           </div>
           <div className="form-group">
             <input type="checkbox" id="3"></input>
-            <label for="3" className="istok-font">
+            <label htmlFor="3" className="istok-font">
               Gaming
             </label>
           </div>
           <div className="form-group">
             <input type="checkbox" id="4"></input>
-            <label for="4" className="istok-font">
+            <label htmlFor="4" className="istok-font">
               Social
             </label>
           </div>

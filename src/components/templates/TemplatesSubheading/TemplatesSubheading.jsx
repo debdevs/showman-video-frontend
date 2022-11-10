@@ -111,6 +111,7 @@ const TemplatesSubheading = () => {
                 <template-button-array>
                   {products_templates.slice(0, 4).map((product, key) => (
                     <ToolTipMediaButton
+                      key={key}
                       title={product.title}
                       image={product.image}
                     />
