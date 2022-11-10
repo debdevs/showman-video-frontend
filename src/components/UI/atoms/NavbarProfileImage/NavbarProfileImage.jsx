@@ -8,7 +8,7 @@ const NavbarProfileImage = () => {
       <div className="navbar_profile_image_fx_container">
         <navbar-profile-image className="navbar_profile_image">
           <img
-            class="navbar-profile-category-box-image"
+            className="navbar-profile-category-box-image"
             src={
               require('../../../../assets/pexels-yuri-manei-2690323.jpg')
                 .default

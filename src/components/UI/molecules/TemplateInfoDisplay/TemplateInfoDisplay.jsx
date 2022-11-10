@@ -7,7 +7,7 @@ import { CgScreen } from 'react-icons/all';
 import { ImVideoCamera } from 'react-icons/all';
 const TemplateInfoDisplay = ({ button_1_function }) => {
   return (
-    <div class="template-info-column">
+    <div className="template-info-column">
       <details-row>
         <h4 className="template-label istok-font">NEW</h4>
         <h5 className="template-price rumble-brave-font">$12</h5>

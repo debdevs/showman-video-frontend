@@ -10,7 +10,7 @@ const ToolTipButton = () => {
         <tool-tip-container>
           <tool-tip-imagefx-container>
             <img
-              class="tool-tip-image"
+              className="tool-tip-image"
               src="https://landisher.com/wp-content/uploads/2018/12/instagram-stories-template-pack-bundle-after-effects-psd-apple-download.jpg"
             ></img>
 

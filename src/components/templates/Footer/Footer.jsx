@@ -26,13 +26,13 @@ const Footer = () => {
         </footer-left-items>
 
         <footer-center-items>
-          <ul class="center-links">
-            <li class="footer-link istok-font">Home</li>
-            <li class="footer-link istok-font">Templates</li>
-            <li class="footer-link istok-font">About</li>
-            <li class="footer-link istok-font">Contact</li>
+          <ul className="center-links">
+            <li className="footer-link istok-font">Home</li>
+            <li className="footer-link istok-font">Templates</li>
+            <li className="footer-link istok-font">About</li>
+            <li className="footer-link istok-font">Contact</li>
           </ul>
-          <p class="istok-font footer-paragraph">
+          <p className="istok-font footer-paragraph">
             Find the most stylish media templates here at Showman. No
             subscription required. Customizable and Social media ready.
           </p>

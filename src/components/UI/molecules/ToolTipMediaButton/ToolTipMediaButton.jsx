@@ -6,10 +6,10 @@ const ToolTipMediaButton = ({ title, image, category, price, label }) => {
   return (
     <div>
       <button className="tool-button istok-font">
-        <span class="button_text">{title}</span>
+        <span className="button_text">{title}</span>
 
         <image-container>
-          <img class="tool-tip-image" src={image}></img>
+          <img className="tool-tip-image" src={image}></img>
           <shadow-element />
           <outline-element>
             <shine-element />
@@ -17,7 +17,7 @@ const ToolTipMediaButton = ({ title, image, category, price, label }) => {
         </image-container>
         <tool-tip-container>
           <tool-tip-imagefx-container>
-            <img class="tool-tip-image" src={image}></img>
+            <img className="tool-tip-image" src={image}></img>
 
             <tool-tip-basic-inset-shadow />
             <tool-tip-basic-cover-outline id="myDiv">

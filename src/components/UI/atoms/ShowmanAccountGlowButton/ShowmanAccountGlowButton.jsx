@@ -3,7 +3,7 @@ import './ShowmanAccountGlowButton.css';
 import { ReactComponent as Logo } from '../../../../assets/images/button-rhombus.svg';
 const ShowmanAccountGlowButton = ({ button_text, icon }) => {
   return (
-    <div href="#" class="showman-account-glow-button-box">
+    <div href="#" className="showman-account-glow-button-box">
       <button className="showman-account-glow-button-background-box">
         <a href="#">
           <Logo className=".svg" />

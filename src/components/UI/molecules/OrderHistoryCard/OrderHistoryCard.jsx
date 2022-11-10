@@ -22,7 +22,7 @@ const OrderHistoryCard = ({
         <div className="order_history_image_fx_container">
           <order-history-image className="order_history_image">
             <img
-              class="order-history-category-box-image"
+              className="order-history-category-box-image"
               src={cover_image}
             ></img>
           </order-history-image>
@@ -32,9 +32,9 @@ const OrderHistoryCard = ({
           </div>
         </div>
         <order-history-info-container>
-          <h2 class="rumble-brave-font">{title}</h2>
-          <h3 class="istok-font">Date: {date}</h3>
-          <h4 class="istok-font">Status: {status}</h4>
+          <h2 className="rumble-brave-font">{title}</h2>
+          <h3 className="istok-font">Date: {date}</h3>
+          <h4 className="istok-font">Status: {status}</h4>
         </order-history-info-container>
       </div>
     </div>

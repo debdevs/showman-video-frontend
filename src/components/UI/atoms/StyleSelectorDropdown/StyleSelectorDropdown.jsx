@@ -2,9 +2,9 @@ import React from 'react';
 import './StyleSelectorDropdown.css';
 const StyleSelectorDropdown = () => {
   return (
-    <div class="dropdown">
-      <button class="dropbtn">Dropdown</button>
-      <div class="dropdown-content">
+    <div className="dropdown">
+      <button className="dropbtn">Dropdown</button>
+      <div className="dropdown-content">
         <a href="#">Link 1</a>
         <a href="#">Link 2</a>
         <a href="#">Link 3</a>

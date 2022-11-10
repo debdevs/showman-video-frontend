@@ -113,7 +113,7 @@ const EtsySimpleEditHero = () => {
                     <div className="full">
                       <input
                         type="text"
-                        class="color-field"
+                        className="color-field"
                         value="rgb(0,0,0)"
                       />
                     </div>
@@ -123,7 +123,7 @@ const EtsySimpleEditHero = () => {
                     <div className="full">
                       <input
                         type="text"
-                        class="color-field"
+                        className="color-field"
                         value="rgb(0,0,0)"
                       />
                     </div>
@@ -133,7 +133,7 @@ const EtsySimpleEditHero = () => {
                     <div className="full">
                       <input
                         type="text"
-                        class="color-field"
+                        className="color-field"
                         value="rgb(0,0,0)"
                       />
                     </div>

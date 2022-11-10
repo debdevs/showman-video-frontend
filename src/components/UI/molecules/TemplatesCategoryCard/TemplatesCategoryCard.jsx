@@ -14,7 +14,6 @@ const TemplatesCategoryCard = ({
   cat_card_container_className,
   class_name,
 }) => {
-  
   return (
     <div onClick={cardClick} className={cat_card_container_className}>
       <div className={product_category_animation_box_className} />
@@ -22,7 +21,7 @@ const TemplatesCategoryCard = ({
         <div className={product_category_image_fx_container_className}>
           <product-category-image className={product_category_image_className}>
             <img
-              class="product-category-category-box-image"
+              className="product-category-category-box-image"
               src={cover_image}
             ></img>
           </product-category-image>
@@ -32,7 +31,7 @@ const TemplatesCategoryCard = ({
           </div>
         </div>
         <product-category-info-container>
-          <h2 class="rumble-brave-font">{title}</h2>
+          <h2 className="rumble-brave-font">{title}</h2>
         </product-category-info-container>
       </div>
     </div>

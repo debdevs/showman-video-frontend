@@ -13,10 +13,10 @@ import NavbarProfileImage from '../../atoms/NavbarProfileImage/NavbarProfileImag
 const logo1 = require('../../../../assets/images/logo.png').default;
 const Navbar = () => {
   return (
-    <navbar-element class="navbar-element">
+    <navbar-element className="navbar-element">
       <navbar-elements-container>
         <Link to="/">
-          <logo-parent class="logo-parent">
+          <logo-parent className="logo-parent">
             <img src={require('../../../../assets/images/logo.png').default} />
           </logo-parent>
         </Link>

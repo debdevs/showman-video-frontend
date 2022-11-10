@@ -2,7 +2,7 @@ import React from 'react';
 import './SubmitButton.css';
 const SubmitButton = ({ button_text }) => {
   return (
-    <div href="#" class="submit-button-box">
+    <div href="#" className="submit-button-box">
       <button className="submit-button-background-box">
         <a href="#">
           <svg

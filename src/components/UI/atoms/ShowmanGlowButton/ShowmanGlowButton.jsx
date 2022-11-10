@@ -2,7 +2,7 @@ import React from 'react';
 import './ShowmanGlowButton.css';
 const ShowmanGlowButton = ({ button_text }) => {
   return (
-    <div href="#" class="showman-glow-button-box">
+    <div href="#" className="showman-glow-button-box">
       <button className="showman-glow-button-background-box">
         <a href="#">
           <svg
