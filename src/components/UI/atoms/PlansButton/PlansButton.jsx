@@ -19,7 +19,7 @@ const PlansButton = () => {
             height="34.9076"
             transform="matrix(0.951673 -0.307113 0.951673 0.307113 0 10.7206)"
             fill="black"
-            fill-opacity="0.21"
+            fillOpacity="0.21"
           />
         </svg>
       </a>
