@@ -1,51 +1,35 @@
 
-.button-items{
-     
-      display:flex;
 
+    .product_button_parent{
+      overflow: hidden;
+      cursor: pointer;
+      display: flex;
+    
+      background: red;
       justify-content: center;
       align-items: center;
-      height: var(--basic-button-height);
-      width: var(--basic-button-width);
-
-      border-radius: 5px;
-      transition:all .5s ease-in-out;
-      cursor: pointer;
-      transition:all .5s ease-in-out;
-    
-    }
+      padding: 10px 20px;
 
 
-    .button-parent{
-      overflow: hidden;
-   cursor: pointer;
-    display: flex;
-    width:inherit;
-    background: red;
-    justify-content: center;
-    align-items: center;
-    height: var(--basic-button-height);
-    width: var(--basic-button-width);
-    width:100%;
-
-    
-    background: linear-gradient(95.12deg, #994DFF -18.8%, #702EFF 18.42%, #B02EFF 48.79%);
-    border: 2px solid #534859;
-    box-shadow: 0px 4px 35px 15px rgba(168, 26, 255, 0.09);
-    border-radius: 5px;  
       
-    transition:all .5s ease-in-out;
-      padding: 1px 6px;
+      background: linear-gradient(95.12deg, #994DFF -18.8%, #702EFF 18.42%, #B02EFF 48.79%);
+      border: 2px solid #534859;
+      box-shadow: 0px 4px 35px 15px rgba(168, 26, 255, 0.09);
+      border-radius: 5px;  
+        
+      transition:all .5s ease-in-out;
+   
     
   }
   
-  .button-parent h3{
+  .product_button_parent h3{
   
     position: absolute; 
   
     color: white;
-    font-size: var(--basic-button-fontsize);
+    font-size: 12px;
     text-align: center;
+    font-family: 'outfit', serif;
   
   
 /*      
@@ -59,7 +43,7 @@
 
 
   }
-  .button-parent a{
+  .product_button_parent a{
     position:absolute;
     transform: scale(var(--basic-button-svgsize));
     margin-top:4px;
@@ -67,10 +51,10 @@
   }
   
 
-  .button-parent .logo{
+  .product_button_parent .logo{
     position:absolute;
     transform: scale(var(--basic-button-svgsize));
-    transform: scale(100%);
+    transform: scale(50%);
 
 
     opacity:200;
@@ -78,7 +62,7 @@
   
  
 
-.button-parent:hover  {
+.product_button_parent:hover  {
   
     border: 2px solid white;
     background: rgba(189, 0, 255, 0.12);

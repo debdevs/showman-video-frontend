@@ -107,7 +107,7 @@ const TemplatesSubheading = () => {
 
             <right-area>
               <template-button-array-area>
-                <h2 className="istok-font">Browse Templates</h2>
+                <h2 className="outfit">Browse Templates</h2>
                 <template-button-array>
                   {products_templates.slice(0, 4).map((product, key) => (
                     <ToolTipMediaButton

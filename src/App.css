@@ -11,6 +11,12 @@
     font-family: 'javanese-text';
     src: local('javanese-text'), url(./assets/fonts/Javanese-Text.ttf) format('opentype');
   }
+  @font-face {
+    font-family: 'outfit';
+    src: local('outfit'), url(./assets/fonts/Outfit-VariableFont_wght.ttf) format('truetype');
+  }
+
+
 :root{
 
   -webkit-backface-visibility: hidden;
@@ -33,10 +39,10 @@
     --main-color: rgba(213, 95, 255, 1);  
 
 
-    --product-box-width: 284px;
-    --product-box-height: 206px;
+    --product-box-width: 266.21px;
+    --product-box-height: 193.09px;
     --product-imagefx-height: 148.59px;
-    --product-box-header-size:16px;
+    --product-box-header-size:15px;
     --product-box-button-fontsize: 13px;
 
     --main-color: rgba(213, 95, 255, 1);
@@ -78,7 +84,10 @@ body {
     font-family: "javanese-text", serif;
     color: white;
   }
-
+  .outfit{
+    font-family: "outfit", serif;
+    color: white;
+  }
 .home-column{
   display:flex;
   width: 100%;

@@ -5,11 +5,11 @@ import './ToolTipMediaButton.css';
 const ToolTipMediaButton = ({ title, image, category, price, label }) => {
   return (
     <div>
-      <button className="tool-button istok-font">
-        <span className="button_text">{title}</span>
+      <button className="tool-button outfit">
+        <span class="button_text">{title}</span>
 
         <image-container>
-          <img alt="" className="tool-tip-image" src={image}></img>
+          <img class="tool-tip-image" src={image}></img>
           <shadow-element />
           <outline-element>
             <shine-element />
@@ -17,7 +17,7 @@ const ToolTipMediaButton = ({ title, image, category, price, label }) => {
         </image-container>
         <tool-tip-container>
           <tool-tip-imagefx-container>
-            <img alt="" className="tool-tip-image" src={image}></img>
+            <img class="tool-tip-image" src={image}></img>
 
             <tool-tip-basic-inset-shadow />
             <tool-tip-basic-cover-outline id="myDiv">
@@ -30,8 +30,8 @@ const ToolTipMediaButton = ({ title, image, category, price, label }) => {
           <tool-tip-bottom>
             <tool-tip-main-content>
               <tool-tip-left-items>
-                <h1 className="istok-font">Luxury Instagram</h1>
-                <h2 className="istok-font">Basic, Slideshow</h2>
+                <h1 className="outfit">Luxury Instagram</h1>
+                <h2 className="outfit">Basic, Slideshow</h2>
               </tool-tip-left-items>
               <tool-tip-right-items>
                 <h3 className="rumble-brave-font">$12</h3>

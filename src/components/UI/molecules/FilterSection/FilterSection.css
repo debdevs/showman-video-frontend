@@ -7,6 +7,10 @@
     justify-content: center;
   }
 
+  .filter-column >*{
+font-weight: 100;
+  }
+
   filter-header-items{
     display:flex;
     flex-direction: column;
