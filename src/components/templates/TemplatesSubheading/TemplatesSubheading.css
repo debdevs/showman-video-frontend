@@ -41,7 +41,9 @@ product-filters-container{
     height:100vh;
     background:white;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.13) 94.27%);
-    padding:0px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 template-button-array-area{
     margin-left:5%;
