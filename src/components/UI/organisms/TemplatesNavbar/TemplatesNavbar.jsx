@@ -12,7 +12,7 @@ const TemplatesNavbar = () => {
       <templates-nav-content-container>
         <ul>
           <li>
-            <img src={desaturated_icon} />
+            <img src={desaturated_icon} alt="" />
           </li>
 
           <li>

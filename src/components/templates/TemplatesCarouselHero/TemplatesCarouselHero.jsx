@@ -23,7 +23,7 @@ const TemplatesCarouselHero = () => {
             .map((category, key) => (
               <CarouselItem key={key}>
                 <item-container className="item-container">
-                  <img src={category.image} className="cover-image" />
+                  <img src={category.image} className="cover-image" alt="" />
                   <box-shadow-overlay className="box-shadow-overlay" />
                   <gradient-overlay className="gradient_overlay" />
                   <CarouselText

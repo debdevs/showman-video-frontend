@@ -10,6 +10,7 @@ const FrontInfoSection = () => {
         <h2 className="istok-font">How To Use</h2>
         <img
           src={require('../../../assets/images/logo-desaturated.png').default}
+          alt=""
         />
         <info-card-row>
           <FrontInfoCard

@@ -17,7 +17,10 @@ const Navbar = () => {
       <navbar-elements-container>
         <Link to="/">
           <logo-parent className="logo-parent">
-            <img src={require('../../../../assets/images/logo.png').default} />
+            <img
+              src={require('../../../../assets/images/logo.png').default}
+              alt=""
+            />
           </logo-parent>
         </Link>
         <nav-container>

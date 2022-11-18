@@ -11,7 +11,10 @@ const Footer = () => {
     <footer-parent>
       <footer-content-container>
         <footer-left-items>
-          <img src={require('../../../assets/images/logo.png').default} />
+          <img
+            src={require('../../../assets/images/logo.png').default}
+            alt=""
+          />
           <social-row>
             <icon-box>
               <RiFacebookFill className="social-icon" />

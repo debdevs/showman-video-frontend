@@ -18,7 +18,7 @@ const PlansHeroAnimated = () => {
     <plans-hero-parent-container>
       <plans-hero-container>
         <plans-hero-background-image>
-          <img className="background" src={bg} />
+          <img className="background" src={bg} alt="" />
         </plans-hero-background-image>
         <ParticleHero />
         <plans-hero-overlay-gradient />

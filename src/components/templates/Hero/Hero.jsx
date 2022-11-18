@@ -17,12 +17,15 @@ const Hero = () => {
       <fade-bg1></fade-bg1>
       <hero-container>
         <hero-background-image>
-          <img src={bg} />
+          <img src={bg} alt="" />
         </hero-background-image>
         <ParticleHero />
         <hero-overlay-gradient />
         <hero-main-content>
-          <img src={require('../../../assets/images/logo.png').default} />
+          <img
+            src={require('../../../assets/images/logo.png').default}
+            alt=""
+          />
           <h1 className="istok-font">
             Create any kind of video you want. No subscription necessary
           </h1>

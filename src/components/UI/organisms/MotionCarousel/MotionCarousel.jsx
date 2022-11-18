@@ -30,7 +30,7 @@ export const CarouselItem = ({ children, width }) => {
         transition={{ duration: 1 }}
       >
         <carousel-item>
-          <img src=""></img>
+          <img src="" alt=""></img>
           {children}
         </carousel-item>
       </motion.div>

@@ -39,7 +39,7 @@ const HomeSearchBox = () => {
         border_value={
           activeItem === true
             ? '0px solid var(--theme-color-5)'
-            : '2px solid #534859;'
+            : { border: '2px solid #534859;' }
         }
         // scalex={activeItem === true ? 'scaleX(2%)' : 'scaleX(8000%);'}
       />

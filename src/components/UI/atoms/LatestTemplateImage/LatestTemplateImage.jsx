@@ -7,6 +7,7 @@ const LatestTemplateImage = ({ image_height, image_width, image_class }) => {
       <div className="product_category_image_fx_container">
         <product-category-image className="product_category_image">
           <img
+            alt=""
             className="product-category-category-box-image"
             src={template_image}
           ></img>

@@ -13,6 +13,7 @@ const NavbarProfileImage = () => {
               require('../../../../assets/pexels-yuri-manei-2690323.jpg')
                 .default
             }
+            alt=""
           ></img>
         </navbar-profile-image>
         <navbar-profile-inset-shadow />

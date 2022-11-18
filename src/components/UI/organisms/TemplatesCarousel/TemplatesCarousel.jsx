@@ -27,7 +27,7 @@ export const CarouselItem = ({ children, width }) => {
       }}
     >
       <carousel-item>
-        <img src=""></img>
+        <img src="" alt=""></img>
         {children}
       </carousel-item>
     </motion.div>

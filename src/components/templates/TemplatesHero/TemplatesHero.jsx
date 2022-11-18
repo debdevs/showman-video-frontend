@@ -15,12 +15,16 @@ const TemplatesHero = () => {
               require('../../../assets/images/pexels-yuri-manei-2690323.jpg')
                 .default
             }
+            alt=""
           />
         </templates-hero-background-image>
         <ParticleHero className="particle-hero" />
         <templates-hero-overlay-gradient />
         <templates-hero-main-content>
-          <img src={require('../../../assets/images/logo.png').default} />
+          <img
+            src={require('../../../assets/images/logo.png').default}
+            alt=""
+          />
           <h1 className="istok-font">
             Create any kind of video you want. No subscription necessary
           </h1>

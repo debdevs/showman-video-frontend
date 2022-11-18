@@ -6,7 +6,7 @@ const ProfileCardImage = () => {
     <div className="profile-card-image">
       {' '}
       <image-container>
-        <img src={profile_image} className="profile-image" />
+        <img src={profile_image} className="profile-image" alt="" />
         <image-shadow />
         <image-outline />
       </image-container>

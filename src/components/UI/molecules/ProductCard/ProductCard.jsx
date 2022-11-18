@@ -8,7 +8,11 @@ const ProductCard = ({ title, image, template_link }) => {
       <product-basic-box>
         <product-basic-image-fx-container>
           <product-basic-image>
-            <img className="product-basic-category-box-image" src={image}></img>
+            <img
+              alt=""
+              className="product-basic-category-box-image"
+              src={image}
+            ></img>
           </product-basic-image>
           <product-basic-inset-shadow />
           <product-basic-cover-outline id="myDiv">
