@@ -51,6 +51,9 @@ product-category-title{
     justify-content: center;
     
   }
+  product-category-image{
+    width: 100%;
+  }
   product-category-image img{
       display: block;
       width: var(--templates-category-card-width);

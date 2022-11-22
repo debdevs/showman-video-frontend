@@ -1,11 +1,14 @@
 
 marketplace-content-parent{
     width:100%;
-    display:block;
+
     height:100%;
     background-color:rgb(0, 0, 0);
     justify-content:center;
-    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   
 }
 
@@ -116,6 +119,15 @@ product-card-container >*{
     font-size: 22px;
     
   }
+  .cat-card-motion {
+    max-width:var( --templates-category-card-width);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    
+  
+  }
   .cat-card-motion-1 {
     max-width:var( --product-box-width);
     max-height:var( --product-box-height);
@@ -181,6 +193,7 @@ product-card-container >*{
   justify-content: center;
   align-items: center;
   width:100%;
+  
 
 }
 .cat-card-motion-1 {

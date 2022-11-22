@@ -162,11 +162,19 @@ background: linear-gradient(180deg, var(--theme-color-5) 0%, rgba(0, 255, 224, 0
 }
 
 
+@media screen and (min-width: 1900px) {
+  :root {
+
+    --product-box-width: 383.4px;
+    --product-box-height: 278.1px;
+    --product-imagefx-height: 200.5965px;
+
+  }
+}
 
 
 
-
-/* 90% zoom values */
+/* 90% zoom values
 @media screen and (min-width: 900px) {
   :root {
 
@@ -186,7 +194,7 @@ background: linear-gradient(180deg, var(--theme-color-5) 0%, rgba(0, 255, 224, 0
 
     
   }
-}
+} */
 
 
 @media screen and (max-width: 480px) {

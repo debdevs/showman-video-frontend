@@ -1,6 +1,6 @@
 carousel-text {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
     position: absolute;
     z-index: 3;
@@ -13,7 +13,7 @@ carousel-text {
     height: 100%;
     /* background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 30.21%); */
     background: linear-gradient(90deg, #00000063 14.06%, rgba(0, 0, 0, 0) 75%);
-    padding-top: 12%;
+    /* padding-top: 12%; */
     
 }
 
