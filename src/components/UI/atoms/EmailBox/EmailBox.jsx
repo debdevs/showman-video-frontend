@@ -4,7 +4,7 @@ import './EmailBox.css'
 const EmailBox = () => {
   return (   
     <email-container>
-    <input className='email-input istok-font'></input>
+    <input className='email-input outfit'></input>
     <button className='submit-button'>o</button>
     </email-container>
   )

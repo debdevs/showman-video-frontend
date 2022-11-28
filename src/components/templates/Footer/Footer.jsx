@@ -30,12 +30,12 @@ const Footer = () => {
 
         <footer-center-items>
           <ul className="center-links">
-            <li className="footer-link istok-font">Home</li>
-            <li className="footer-link istok-font">Templates</li>
-            <li className="footer-link istok-font">About</li>
-            <li className="footer-link istok-font">Contact</li>
+            <li className="footer-link outfit">Home</li>
+            <li className="footer-link outfit">Templates</li>
+            <li className="footer-link outfit">About</li>
+            <li className="footer-link outfit">Contact</li>
           </ul>
-          <p className="istok-font footer-paragraph">
+          <p className="outfit footer-paragraph">
             Find the most stylish media templates here at Showman. No
             subscription required. Customizable and Social media ready.
           </p>

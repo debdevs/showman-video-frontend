@@ -8,7 +8,7 @@ const PlansCard = ({ title, details, users, downloads, license }) => {
       <plans-card-content>
         <header-items>
           <h1 className="rumble-brave-font">{title}</h1>
-          <p className="istok-font">{details}</p>
+          <p className="outfit">{details}</p>
         </header-items>
         <center-items>
           <button>{users}</button>

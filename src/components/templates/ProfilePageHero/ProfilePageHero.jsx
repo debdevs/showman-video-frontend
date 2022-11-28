@@ -37,25 +37,25 @@ const ProfilePageHero = () => {
             <center-items>
               <header-texts>
                 <h1 className="rumble-brave-font">SparkleKnight</h1>
-                <h2 className="istok-font">IMPRESARIO</h2>
+                <h2 className="outfit">IMPRESARIO</h2>
               </header-texts>
               <lower-items>
                 <ul>
-                  <li className="istok-font ul-text">
+                  <li className="outfit ul-text">
                     ◆ Backstage pass ID:
-                    <span className="istok-font"> #SparkleKnight</span>
+                    <span className="outfit"> #SparkleKnight</span>
                   </li>
-                  <li className="istok-font ul-text">
+                  <li className="outfit ul-text">
                     ◆ Level:
-                    <span className="istok-font "> #Impresario</span>
+                    <span className="outfit "> #Impresario</span>
                   </li>
-                  <li className="istok-font ul-text">
+                  <li className="outfit ul-text">
                     ◆ Member Since:
-                    <span className="istok-font "> 2022</span>
+                    <span className="outfit "> 2022</span>
                   </li>
-                  <li className="istok-font ul-text">
+                  <li className="outfit ul-text">
                     ◆ Favorite Template:
-                    <span className="istok-font"> Stylish Social</span>
+                    <span className="outfit"> Stylish Social</span>
                   </li>
                 </ul>
               </lower-items>

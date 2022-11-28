@@ -7,7 +7,7 @@ const FrontInfoSection = () => {
   return (
     <div>
       <front-info-container>
-        <h2 className="istok-font">How To Use</h2>
+        <h2 className="outfit">How To Use</h2>
         <img
           src={require('../../../assets/images/logo-desaturated.png').default}
           alt=""
@@ -26,7 +26,7 @@ const FrontInfoSection = () => {
             stepDescription={'Enter your Email, Click submit & wait'}
           />
         </info-card-row>
-        <button className="view-info-button istok-font">Video Demo</button>
+        <button className="view-info-button outfit">Video Demo</button>
       </front-info-container>
     </div>
   );

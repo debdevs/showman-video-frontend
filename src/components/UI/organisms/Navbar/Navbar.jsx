@@ -26,24 +26,24 @@ const Navbar = () => {
         <nav-container>
           <ul>
             <Link to="/">
-              <li className="istok-font">
+              <li className="outfit">
                 <AiFillHome className="icon" />
                 HOME
               </li>
             </Link>
             <Link to="/template-landing-page">
-              <li className="istok-font">
+              <li className="outfit">
                 <FiSearch className="icon" />
                 SEARCH
               </li>
             </Link>
             <Link to="/Page2">
-              <li className="istok-font">
+              <li className="outfit">
                 <MdVideoLibrary className="icon" />
                 TEMPLATES
               </li>
             </Link>
-            <li className="istok-font">
+            <li className="outfit">
               <BsFillInfoSquareFill className="icon" />
               ABOUT
             </li>
@@ -51,7 +51,7 @@ const Navbar = () => {
           <Link to="/profile">
             <profile-card-container>
               <NavbarProfileImage />
-              <h2 className="istok-font">Ashley</h2>
+              <h2 className="outfit">Ashley</h2>
             </profile-card-container>
           </Link>
         </nav-container>

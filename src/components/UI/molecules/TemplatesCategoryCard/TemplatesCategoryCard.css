@@ -382,3 +382,12 @@ background-size: 800%;
 /* 
 clicked styles end */
 
+@media only screen and (min-width:1900px){
+
+  product-category-info-container h2.rumble-brave-font{
+
+
+    line-height: 115%;
+  }
+
+}

@@ -31,7 +31,7 @@ const BasicButton = ({
     >
       <Rhombus className="logo" />
 
-      <h3 className="istok-font" style={{ opacity: button_text_opacity }}>
+      <h3 className="outfit" style={{ opacity: button_text_opacity }}>
         {button_text}
       </h3>
     </button>

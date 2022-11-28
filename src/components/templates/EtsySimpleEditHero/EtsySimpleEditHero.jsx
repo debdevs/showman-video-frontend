@@ -45,7 +45,7 @@ const EtsySimpleEditHero = () => {
         <left-items>
           <top-items>
             <h1 className="rumble-brave-font">Stylish Media Social</h1>
-            <h2 className="istok-font">
+            <h2 className="outfit">
               Edit Your <span>Etsy</span> Order
             </h2>
           </top-items>
@@ -109,7 +109,7 @@ const EtsySimpleEditHero = () => {
                   }
                 >
                   <colors-container>
-                    <h1 className="istok-font">Text Heading</h1>
+                    <h1 className="outfit">Text Heading</h1>
                     <div className="full">
                       <input
                         type="text"
@@ -119,7 +119,7 @@ const EtsySimpleEditHero = () => {
                     </div>
                   </colors-container>
                   <colors-container>
-                    <h1 className="istok-font">Text Heading</h1>
+                    <h1 className="outfit">Text Heading</h1>
                     <div className="full">
                       <input
                         type="text"
@@ -129,7 +129,7 @@ const EtsySimpleEditHero = () => {
                     </div>
                   </colors-container>
                   <colors-container>
-                    <h1 className="istok-font">Text Heading</h1>
+                    <h1 className="outfit">Text Heading</h1>
                     <div className="full">
                       <input
                         type="text"

@@ -5,7 +5,7 @@ import './ToolTipButton.css';
 const ToolTipButton = () => {
   return (
     <div>
-      <button className="tool-button istok-font">
+      <button className="tool-button outfit">
         Luxury Instagram
         <tool-tip-container>
           <tool-tip-imagefx-container>
@@ -26,8 +26,8 @@ const ToolTipButton = () => {
           <tool-tip-bottom>
             <tool-tip-main-content>
               <tool-tip-left-items>
-                <h1 className="istok-font">Luxury Instagram</h1>
-                <h2 className="istok-font">Basic, Slideshow</h2>
+                <h1 className="outfit">Luxury Instagram</h1>
+                <h2 className="outfit">Basic, Slideshow</h2>
               </tool-tip-left-items>
               <tool-tip-right-items>
                 <h3 className="rumble-brave-font">$12</h3>

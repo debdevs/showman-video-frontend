@@ -25,7 +25,7 @@ const ProductCardButton = () => {
           </svg>
         </a>
 
-        <h3 className="istok-font">VIEW</h3>
+        <h3 className="outfit">VIEW</h3>
       </product-button-parent>
     </product-button-items>
   );

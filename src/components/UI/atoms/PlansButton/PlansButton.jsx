@@ -24,7 +24,7 @@ const PlansButton = () => {
         </svg>
       </a>
 
-      <h3 className="istok-font">DEMO</h3>
+      <h3 className="outfit">DEMO</h3>
     </button>
   );
 };

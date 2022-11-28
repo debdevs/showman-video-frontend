@@ -25,7 +25,7 @@ const TemplatesHero = () => {
             src={require('../../../assets/images/logo.png').default}
             alt=""
           />
-          <h1 className="istok-font">
+          <h1 className="outfit">
             Create any kind of video you want. No subscription necessary
           </h1>
 

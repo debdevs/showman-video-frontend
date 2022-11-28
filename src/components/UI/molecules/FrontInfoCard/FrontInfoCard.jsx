@@ -8,7 +8,7 @@ const FrontInfoCard = ({ stepNumber, stepDescription }) => {
       <number-box className="rumble-brave-font">{stepNumber}</number-box>
       <line-div />
       <front-step-box>
-        <p className="istok-font">{stepDescription}</p>
+        <p className="outfit">{stepDescription}</p>
       </front-step-box>
     </front-step-info-container>
   );

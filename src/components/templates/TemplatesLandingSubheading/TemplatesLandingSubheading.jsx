@@ -32,7 +32,7 @@ const TemplatesLandingSubheading = ({ closeScreen }) => {
           </h1>
           <extra-details-row>
             <extra-details-column-1>
-              <h1 className="istok-font">
+              <h1 className="outfit">
                 Available Styles{' '}
                 <span className="style-number rumble-brave-font">5</span>
               </h1>
@@ -40,7 +40,7 @@ const TemplatesLandingSubheading = ({ closeScreen }) => {
               <StyleSelectorDropdown />
             </extra-details-column-1>
             <extra-details-column-2>
-              <h1 className="istok-font">Available Styles</h1>
+              <h1 className="outfit">Available Styles</h1>
               <button-row>
                 <AnimatedResolutionButton button_text="Landscape" />
                 <AnimatedResolutionButton button_text="Vertical" />

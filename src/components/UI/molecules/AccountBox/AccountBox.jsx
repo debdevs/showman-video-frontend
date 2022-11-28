@@ -8,19 +8,19 @@ const AccountBox = () => {
       <ul>
         <li>
           <FaUserAlt className="account-icons" />
-          <h3 className="istok-font">Account Info</h3>
+          <h3 className="outfit">Account Info</h3>
         </li>
         <li>
           <FaUserLock className="account-icons" />
-          <h3 className="istok-font">Change Password</h3>
+          <h3 className="outfit">Change Password</h3>
         </li>
         <li>
           <FaUserAlt className="account-icons" />
-          <h3 className="istok-font">Account Info</h3>
+          <h3 className="outfit">Account Info</h3>
         </li>
         <li>
           <FaUserAlt className="account-icons" />
-          <h3 className="istok-font">Account Info</h3>
+          <h3 className="outfit">Account Info</h3>
         </li>
         <li>
           <FaUserAlt className="account-icons" />

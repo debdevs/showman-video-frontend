@@ -67,7 +67,7 @@ templates-hero-main-content img {
     transition: all .4s ease;
 }
 
-templates-hero-main-content h1.istok-font{
+templates-hero-main-content h1.outfit{
     margin-top: 15px;
     display:block;
     color: white;
@@ -113,7 +113,7 @@ templates-hero-main-content h1.istok-font{
         
       }
 
-      templates-hero-main-content h1.istok-font{
+      templates-hero-main-content h1.outfit{
         display:none;
      
     }
@@ -132,7 +132,7 @@ templates-hero-main-content h1.istok-font{
     }
     
     
-    templates-hero-main-content h1.istok-font{
+    templates-hero-main-content h1.outfit{
     
     
     

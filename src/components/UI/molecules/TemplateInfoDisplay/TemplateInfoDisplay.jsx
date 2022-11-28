@@ -9,14 +9,14 @@ const TemplateInfoDisplay = ({ button_1_function }) => {
   return (
     <div className="template-info-column">
       <details-row>
-        <h4 className="template-label istok-font">NEW</h4>
+        <h4 className="template-label outfit">NEW</h4>
         <h5 className="template-price rumble-brave-font">$12</h5>
       </details-row>
       <template-text>
         <h1 className="template-header rumble-brave-font">
           Stylish Media Social
         </h1>
-        <p className="template-description istok-font">
+        <p className="template-description outfit">
           A stylish Instagram story to add pizzazz to your newest social media
           posts. tweak the colors, add your images and make it yours. Get ready
           to broadcast yourself in the most stylish way possible
@@ -25,19 +25,19 @@ const TemplateInfoDisplay = ({ button_1_function }) => {
       <div className="cg-container">
         <info-box>
           <CgScreen className="template-data-icon" />
-          <h2 className="istok-font">24FPS</h2>
+          <h2 className="outfit">24FPS</h2>
         </info-box>
         <info-box>
           <ImVideoCamera className="template-data-icon" />
-          <h2 className="istok-font">1920X1080</h2>
+          <h2 className="outfit">1920X1080</h2>
         </info-box>
         <info-box>
           <CgScreen className="template-data-icon" />
-          <h2 className="istok-font">Audio Included</h2>
+          <h2 className="outfit">Audio Included</h2>
         </info-box>
         <info-box>
           <ImVideoCamera className="template-data-icon" />
-          <h2 className="istok-font">Fast Delivery</h2>
+          <h2 className="outfit">Fast Delivery</h2>
         </info-box>
       </div>
       <buttons-container>

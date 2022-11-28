@@ -74,7 +74,7 @@ hero-main-content img {
     transition: all .4s ease;
 }
 
-hero-main-content h1.istok-font{
+hero-main-content h1.outfit{
     margin-top: 15px;
     display:block;
     color: white;
@@ -97,7 +97,7 @@ hero-main-content h1.istok-font{
     }
 
 
-    hero-main-content h1.istok-font{
+    hero-main-content h1.outfit{
    
 
 
@@ -122,7 +122,7 @@ hero-main-content h1.istok-font{
         margin-top: 5%;
     }
     
-    hero-main-content h1.istok-font{
+    hero-main-content h1.outfit{
         font-size: 3.5vw;
         margin-top: 0px;
     }
