@@ -10,6 +10,7 @@ hero-parent-container{
 }
 
 hero-container {
+    max-width: 130rem;
     display: flex;
     background: black;
     width: 97.3958333%;

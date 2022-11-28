@@ -10,7 +10,7 @@
 
 
 item-container{
-  
+    max-width: 130rem;
     top:0;
     display:flex;
     width:95%;

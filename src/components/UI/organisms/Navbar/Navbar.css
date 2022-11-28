@@ -52,6 +52,7 @@ navbar-elements-container {
     height: 100%;
     padding-left: 90.51px;;
     align-items: center;
+    max-width: 130rem;
 
 }
 

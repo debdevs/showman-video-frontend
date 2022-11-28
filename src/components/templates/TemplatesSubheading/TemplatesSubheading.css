@@ -38,6 +38,7 @@ product-details-container{
     display:flex;
     flex:1;
     gap:5px;
+    justify-content: center;
 }
 product-filters-container{
     width: 282px;
@@ -288,4 +289,18 @@ product-card-container >*{
 
 }
 
+
+
+
+  }
+
+
+  @media only screen and (min-width: 1800px){
+
+    right-area{
+      display:flex;
+      flex-direction: column; 
+      width:70%;
+      gap:35px;
+    }
   }
