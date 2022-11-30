@@ -10,10 +10,10 @@ const ProfilePageSubheading = () => {
       <profile-subheading-content>
         <left-items>
           <texts-container>
-            <ProfilePageTextInfo />
-            <ProfilePageTextInfo />
-            <ProfilePageTextInfo />
-            <ProfilePageTextInfo />
+            <ProfilePageTextInfo header_text='Estimated Time'/>
+            <ProfilePageTextInfo header_text='Style'/>
+            <ProfilePageTextInfo header_text='Remaining'/>
+            <ProfilePageTextInfo header_text='Download Link'/>
           </texts-container>
         </left-items>
         <right-items>

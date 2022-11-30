@@ -40,9 +40,10 @@ profile-hero-parent {
     display: flex;
     justify-content: center;
     align-items: center;
-    height:93%;
+    height:100%;
     width:93%;
     border-radius:12px;
+    max-width:130rem;
 
     gap:5%;
     background: linear-gradient(180deg, rgba(168, 26, 255, 0) 66.56%, rgba(168, 26, 255, 0.37) 122.81%);
@@ -65,6 +66,7 @@ profile-hero-content{
     align-items: center;
     gap:5%;
     overflow: hidden;
+    max-width:1332px;
 }
 
 .profile-background-image {
@@ -117,6 +119,7 @@ profile-hero-content center-items{
     height:50%;
     width:35%;
     gap:25px;
+    padding-bottom: 3%;
 }
 profile-hero-content center-items header-texts{
     height:auto;

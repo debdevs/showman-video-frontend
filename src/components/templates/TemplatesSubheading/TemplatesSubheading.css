@@ -20,6 +20,7 @@ templates-category-card-parent{
     gap: 25px;
     margin-top: 0px;
     height:200px;
+    width:95%;
   
 }
 
@@ -149,7 +150,7 @@ product-card-container >*{
       gap: 8px;
       margin-top: 0px;
       height:150px;
-      width:100%;
+      width:95%;
     
   }
   templates-category-card-parent > :nth-child(n+5) {
@@ -296,6 +297,10 @@ product-card-container >*{
 
 
   @media only screen and (min-width: 1800px){
+    
+templates-category-card-parent{
+gap:1.5%;
+}
 
     right-area{
       display:flex;
