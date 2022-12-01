@@ -15,6 +15,7 @@ const SubHeading = () => {
 
         <subheading-content-parent>
             <left-items>
+            <overlay-card/>
                 <FeatureItems 
                 title={"The Power To Create"}
                 subtitle = {"is here"} 
@@ -22,12 +23,15 @@ const SubHeading = () => {
                 
             </left-items>
             <right-items>
+            
             <FrontCategoryCard title={"Weddings"}/>
                 <FrontCategoryCard title={"Real Estate"}/>
                 <FrontCategoryCard title={"News"}/>
                 <FrontCategoryCard title={"Slideshows"}/>
                 <FrontCategoryCard title={"Sports"}/>
+          
             </right-items>
+            
         </subheading-content-parent>      
 
         </subheading-container-main>

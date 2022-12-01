@@ -11,10 +11,11 @@ alternate-subheading-container {
         display: block;
         background: linear-gradient(180deg, #000000 -120.77%, #110116 -20.77%);
         width: 100%;
-        height: var(--hero-height);
+        /* height: var(--hero-height); */
         align-items: center;
         justify-content: center;
         display: flex;
+        z-index: 14;
      
     }
     
@@ -69,37 +70,7 @@ alternate-subheading-container {
         margin-right: 70px;
         overflow:hidden;
         padding:35px;
-    --mask-height: 2px;
-        padding-bottom: var(--mask-height);
-        padding-right: 20px;
-    
-    
-        --mask-image-content: linear-gradient(
-            to bottom,
-            transparent,
-            black var(--mask-height),
-            black calc(100% - var(--mask-height)),
-            transparent
-        );
-    
-      
-        --mask-size-content: calc(100% - var(--scrollbar-width)) 100%;
-    
-        --mask-image-scrollbar: linear-gradient(black, black);
-    
-        --mask-size-scrollbar: var(--scrollbar-width) 100%;
-    
-       
-        mask-image: var(--mask-image-content), var(--mask-image-scrollbar);
-        mask-size: var(--mask-size-content), var(--mask-size-scrollbar);
-    
-    
-        mask-position: 0 0, 100% 0;
-    
-    
-        mask-repeat: no-repeat, no-repeat;
-    
-    
+
     
     
     

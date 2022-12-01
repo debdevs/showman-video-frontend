@@ -308,4 +308,20 @@ gap:1.5%;
       width:65%;
       gap:35px;
     }
+
+    product-card-container{   
+ 
+
+ margin-left: 4%;
+  
+  }
+
+  template-button-array-area{
+    margin-left:10%;
+    display:flex;
+    justify-content: space-between;
+    background: rgba(29, 23, 23,0);
+    width:88%;
+    height:100px;
+}
   }

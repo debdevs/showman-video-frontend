@@ -147,9 +147,9 @@ background: linear-gradient(180deg, var(--theme-color-5) 0%, rgba(0, 255, 224, 0
    --basic-button-svgsize: 80%;
    --basic-button-fontsize: 12px;   
 
-   --product-box-width: 43%;
-   --product-box-height: 132.61px;
-   --product-imagefx-height: 95.65px;
+   --product-box-width: 30%;
+   --product-box-height: 202.61px;
+   --product-imagefx-height: 155.65px;
    --product-box-button-fontsize: 10px;
 
    --templates-category-card-width: 100%;

@@ -65,42 +65,26 @@ subheading-content-parent right-items {
     margin-right: 0px;
     overflow:hidden;
     padding:35px;
---mask-height: 2px;
-    padding-bottom: var(--mask-height);
-    padding-right: 20px;
 
-
-    --mask-image-content: linear-gradient(
-        to bottom,
-        transparent,
-        black var(--mask-height),
-        black calc(100% - var(--mask-height)),
-        transparent
-    );
-
-  
-    --mask-size-content: calc(100% - var(--scrollbar-width)) 100%;
-
-    --mask-image-scrollbar: linear-gradient(black, black);
-
-    --mask-size-scrollbar: var(--scrollbar-width) 100%;
-
-   
-    mask-image: var(--mask-image-content), var(--mask-image-scrollbar);
-    mask-size: var(--mask-size-content), var(--mask-size-scrollbar);
-
-
-    mask-position: 0 0, 100% 0;
-
-
-    mask-repeat: no-repeat, no-repeat;
-
-
-
-
+    
 
 }
+overlay-card{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 15px;
+    width: 594px;
+    height: 339.11px;
+    margin-right: 0px;
+    overflow:hidden;
 
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.87) 0%, rgba(0, 0,0 ,.97) 100%);
+    position: absolute;
+    z-index: -1;
+  
+ 
+}
 @media only screen and (max-width:480px){
     subheading-container {
         display: block;
@@ -129,8 +113,10 @@ subheading-content-parent right-items {
         align-items: center;
         justify-content: center;
         margin-top:0px;
+        z-index: 13;
     }
     subheading-content-parent right-items{
-        display:none;
+
+        position: absolute;
     }
 }
