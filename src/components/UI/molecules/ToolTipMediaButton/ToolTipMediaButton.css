@@ -3,7 +3,7 @@
     border: 1.2px solid rgba(168, 26, 255, 2);
     border: 1.2px solid rgb(60, 53, 62);
     height: 34px;
-    border-radius: 5px;
+    border-radius: 8px;
     background: linear-gradient(180deg, rgba(168, 26, 255, 0) 0%, rgba(8, 2, 20, 0.47) 100%);
 
     background:linear-gradient(#2f2e2e1b, #080214);
@@ -74,21 +74,21 @@ shadow-element{
   }
 
   outline-element{
-  display: block;
-   box-shadow: 0 0 10px 6px black inset;
-    box-shadow: 0 0px 0px 1.1px inset rgba(168, 26, 255, 1);
-    opacity:.5;
+    display: block;
+    box-shadow: 0 0 10px 6px black inset;
+    box-shadow: 0 0px 0px 1.1px inset rgb(168 26 255);
+    opacity: .5;
     border: 0px solid rgba(168, 26, 255, 100);
     width: inherit;
     width: 35px;
     height: 100%;
     z-index: 11;
-    border-radius:  3.5px;
-    position:absolute;
+    padding: 1px;
+    border-radius: 7px;
+    position: absolute;
     overflow: hidden;
-    margin:auto;
-  transition: .5s;
-
+    margin: auto;
+    transition: .5s;
   
   }
 

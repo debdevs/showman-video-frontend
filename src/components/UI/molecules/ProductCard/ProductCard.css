@@ -273,3 +273,16 @@ product-basic-animation-box:hover product-basic-box product-basic-info-container
 
   color: var(--main-color);
 }
+
+
+@media only screen and (min-width: 1800px){
+
+  product-basic-box {
+
+    border-radius: 20px;
+
+  }
+
+
+
+}
