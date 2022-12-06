@@ -10,8 +10,9 @@ alternate-subheading-container {
     
         display: block;
         background: linear-gradient(180deg, #000000 -120.77%, #110116 -20.77%);
+        background: linear-gradient(265.55deg, rgba(50, 5, 66, 0.33) 7.91%, rgba(0, 0, 0, 0.33) 57.58%);
         width: 100%;
-        /* height: var(--hero-height); */
+
         align-items: center;
         justify-content: center;
         display: flex;

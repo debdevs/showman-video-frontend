@@ -2,6 +2,7 @@ import React from 'react';
 import './AlternateSubHeading.css';
 import '../../../App.css';
 import FeatureItems from '../../UI/molecules/FeatureItems/FeatureItems';
+import EtsyInfoItems from '../../UI/molecules/EtsyInfoItems/EtsyInfoItems';
 import FrontCategoryCard from '../../UI/molecules/FrontCategoryCard/FrontCategoryCard';
 
 const AlternateSubHeading = () => {
@@ -12,13 +13,14 @@ const AlternateSubHeading = () => {
 
         <subheading-content-parent>
           <left-items>
-            <FeatureItems
+            <EtsyInfoItems/>
+            {/* <FeatureItems
               title={'Unique, Eye-catching'}
               subtitle={'Variety'}
               description={
                 'Browse through our 2000+ templates to add pizzazz to your online presence'
               }
-            />
+            /> */}
           </left-items>
           <right-items>
 
