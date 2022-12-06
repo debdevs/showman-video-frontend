@@ -1,5 +1,5 @@
 .etsy_text{
-    font-size: 39.24px;
+    font-size: 23px;
     font-family: "outfit", serif;
     color: white;
 }
@@ -8,13 +8,13 @@
     color:#F45800;
 }
 .logo_image{
-    width:391.07px;
+    width:315px;
 }
 
 accent-line-div{
     margin-top: 12px;
     display:block;
-    width: 100%;
+    width: 60%;
     height: 2.2px;
     background: linear-gradient(95.12deg, #994DFF -18.8%, #702EFF 18.42%, #B02EFF 48.79%);
     border-radius: 15px;;
@@ -22,6 +22,7 @@ accent-line-div{
 }
 .etsy_paragraph{
     margin-top:50px;
-    font-size: 32.48px;
+    font-size: 23px;
     font-weight: 100;
+    line-height: 33px;
 }

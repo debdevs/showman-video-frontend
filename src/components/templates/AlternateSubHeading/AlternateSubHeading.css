@@ -66,17 +66,32 @@ alternate-subheading-container {
         display:flex;
         flex-wrap: wrap;
         gap: 15px;
-        width: 594px;
+        width: 50%;
         height: 339.11px;
         margin-right: 70px;
         overflow:hidden;
         padding:35px;
-
+        justify-content: flex-start;
     
     
     
     }
-    
+    images-container{
+        display:flex;
+    }
+
+    front-image{
+        position: absolute;
+        margin-left:5%;
+        margin-top: 5%;
+        z-index:12;
+    }
+
+    back-image{
+       
+       
+        z-index:0;
+    }
     @media only screen and (max-width:480px){
 
         alternate-subheading-container{

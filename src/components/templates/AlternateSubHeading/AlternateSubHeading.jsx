@@ -4,7 +4,7 @@ import '../../../App.css';
 import FeatureItems from '../../UI/molecules/FeatureItems/FeatureItems';
 import EtsyInfoItems from '../../UI/molecules/EtsyInfoItems/EtsyInfoItems';
 import FrontCategoryCard from '../../UI/molecules/FrontCategoryCard/FrontCategoryCard';
-
+import BaseImageDisplay from '../../UI/atoms/BaseImageDisplay/BaseImageDisplay';
 const AlternateSubHeading = () => {
   return (
     <alternate-subheading-container>
@@ -23,7 +23,17 @@ const AlternateSubHeading = () => {
             /> */}
           </left-items>
           <right-items>
+            <images-container> 
+            <back-image>
+              <BaseImageDisplay/>
+              </back-image>
+              <front-image>
+              <BaseImageDisplay/>
+              </front-image>
 
+            
+            </images-container>
+           
           </right-items>
         </subheading-content-parent>
       </subheading-container-main>
