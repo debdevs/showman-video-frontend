@@ -88,7 +88,7 @@ feature-parent p {
 
 
     feature-parent {
-        width: 305px;
+        width: 100%;
         align-items: center;
         display: flex;
         flex-direction: column;
@@ -106,7 +106,7 @@ feature-parent p {
     }  
     feature-parent p.outfit{
         text-align: center;
-        width:305px;
+        width:95%;
         font-size: 4.2vw;
         font-size: 16.7461px;
         line-height: 24px;

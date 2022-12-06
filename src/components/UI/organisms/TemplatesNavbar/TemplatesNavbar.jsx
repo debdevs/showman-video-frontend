@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './TemplatesNavbar.css';
 import { MdHighlight } from 'react-icons/md';
 import { MdMenu } from 'react-icons/md';
@@ -12,7 +13,10 @@ const TemplatesNavbar = () => {
       <templates-nav-content-container>
         <ul>
           <li>
-            <img src={desaturated_icon} alt="" />
+          <Link to="/">
+          <img src={desaturated_icon} alt="" />
+            </Link>
+  
           </li>
 
           <li>
