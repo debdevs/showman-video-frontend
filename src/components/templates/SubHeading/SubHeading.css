@@ -85,6 +85,45 @@ overlay-card{
   
  
 }
+@media only screen and (max-width:1200px){
+    subheading-container {
+        display: block;
+        height: 350px;
+        }
+        
+    subheading-container-main {
+
+        display: block;
+        background: black;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+     
+    }
+    subheading-container h1 {
+        color:red;
+    }
+    subheading-content-parent{
+        align-items: center;
+        justify-content: center;
+    }
+    subheading-content-parent left-items{
+        align-items: center;
+        justify-content: center;
+        margin-top:0px;
+        z-index: 13;
+        width:100%;
+    }
+    overlay-card{
+        width:150%;
+    }
+    subheading-content-parent right-items{
+     
+        position: absolute;
+    }
+}
 @media only screen and (max-width:480px){
     subheading-container {
         display: block;

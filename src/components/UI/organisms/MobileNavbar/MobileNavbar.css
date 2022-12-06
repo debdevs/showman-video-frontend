@@ -24,7 +24,7 @@ mobile-nav-content-container{
     justify-content: space-between;
     align-items: center;
     display:flex;
-    height:100%;
+    height:20px;
     padding:15px;
 }
 
