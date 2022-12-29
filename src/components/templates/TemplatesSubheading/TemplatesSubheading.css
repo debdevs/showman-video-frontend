@@ -21,6 +21,7 @@ templates-category-card-parent{
     margin-top: 0px;
     height:200px;
     width:95%;
+    max-width:130rem;
   
 }
 
@@ -35,11 +36,13 @@ fade-bg{
 
 
 product-details-container{
+width:95%;
     z-index:20;
     display:flex;
     flex:1;
     gap:5px;
-    justify-content: center;
+    justify-content: space-between;
+    max-width:130rem;
 }
 product-filters-container{
     width: 282px;
@@ -47,7 +50,7 @@ product-filters-container{
     background:white;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.13) 94.27%);
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
 }
 template-button-array-area{
@@ -305,7 +308,7 @@ gap:1.5%;
     right-area{
       display:flex;
       flex-direction: column; 
-      width:65%;
+      max-width: 1800px;
       gap:35px;
     }
 

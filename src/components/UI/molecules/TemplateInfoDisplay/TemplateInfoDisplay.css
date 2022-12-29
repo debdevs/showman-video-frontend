@@ -64,13 +64,13 @@ color: #FFFFFF;
 
 }
 
-template-text p {
+template-text .outfit {
 
     margin-top: 15px;
     font-weight: 400;
     font-size: 15.9723px;
     line-height: 23px;
-    
+    font-weight:100;
     width:423.75px;
     color: #FFFFFF;
     /* height:180px; */

@@ -16,7 +16,7 @@
     src: local('outfit'), url(./assets/fonts/Outfit-VariableFont_wght.ttf) format('truetype');
   }
 
-
+  @import url('https://fonts.googleapis.com/css2?family=Outfit&family=Poppins:wght@400;100;700&display=swap');
 :root{
 
   -webkit-backface-visibility: hidden;
@@ -85,7 +85,7 @@ body {
     color: white;
   }
   .outfit{
-    font-family: "outfit", serif;
+    font-family: "Outfit", serif;
     color: white;
   }
 .home-column{
@@ -170,7 +170,7 @@ background: linear-gradient(180deg, var(--theme-color-5) 0%, rgba(0, 255, 224, 0
     --product-imagefx-height: 200.5965px;
 
 
-    --templates-category-card-width: 365px;
+    --templates-category-card-width: 100%;
     --templates-category-card-height: 130px;
     --templates-imagefx-height: 90px;
     --templates-category-card-fontsize: 22.2762px;

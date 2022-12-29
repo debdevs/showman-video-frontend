@@ -23,6 +23,7 @@ templates-landing-hero-container {
     border-radius: 12px;
     overflow:hidden;
     z-index:2;
+    max-width:100rem;
 }
 
 .modal-content{

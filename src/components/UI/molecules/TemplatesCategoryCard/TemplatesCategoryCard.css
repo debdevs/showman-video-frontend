@@ -141,28 +141,27 @@ product-category-title{
     }
   
   
-    product-category-info-container h2.rumble-brave-font{
-        font-style: normal;
-        font-weight: 400;
-        font-size: var(--templates-category-card-fontsize);
-        line-height: 20px;
-        text-align: center;
-        
-        color: linear-gradient(251.44deg, #CBC8C8 37.43%, #E2D6D6 44.39%, #F1F1F1 67.13%);
-        
-        background: linear-gradient(251.44deg, #CBC8C8 37.43%, #E2D6D6 44.39%, #F1F1F1 67.13%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        text-fill-color: transparent;
-        
-        
 
   
-    }
-  
 
-  
+    product-category-info-container h2.rumble-brave-font {
+      display: flex;
+      /* line-height: revert; */
+      height: 1.5rem;
+      font-style: normal;
+      font-weight: 400;
+      font-size: var(--templates-category-card-fontsize);
+      line-height: auto;
+      text-align: center;
+      color: linear-gradient(251.44deg, #CBC8C8 37.43%, #E2D6D6 44.39%, #F1F1F1 67.13%);
+      background: linear-gradient(251.44deg, #CBC8C8 37.43%, #E2D6D6 44.39%, #F1F1F1 67.13%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+      align-items: center;
+      justify-content: center;
+  }
   
   
   

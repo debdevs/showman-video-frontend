@@ -70,7 +70,7 @@
       bottom: 0;
       left: -50%;
       content: "";
-      
+      height:130px;
       transform: rotate(30deg) translate(0, -80%) scale(5, 1.0);
       background: linear-gradient(
         to bottom,

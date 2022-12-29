@@ -19,6 +19,8 @@ carousel-text {
 
 
 carousel-text h1 {
+    display: flex;
+    align-items: center;
     margin-top: 15px;
     width: 396.97px;
     height: 75px;
@@ -44,6 +46,7 @@ carousel-text h1 {
 }
 
 carousel-text h2 {
+
     margin-top: 5px;
     text-align: left;
     font-family: 'Istok Web';
@@ -59,7 +62,7 @@ carousel-text h2 {
 
 
 carousel-text p{
-   
+
 font-style: normal;
 font-weight: 400;
 font-size: 18.2517px;
@@ -67,7 +70,7 @@ font-size: 18.2517px;
 /* or 120% */
 
 width: 396.97px;
-height:95px;
+
 line-height: 25px;
 color:white;
 text-shadow: 0px 13.6888px 31.9405px #000000;
@@ -94,7 +97,7 @@ white-space: normal;
         height: 100%;
         /* background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 30.21%); */
         background: linear-gradient(90deg, #00000063 14.06%, rgba(0, 0, 0, 0) 75%);
-        margin-top: -5%;
+        padding-top: -5%;
       
         
     }
@@ -106,6 +109,7 @@ white-space: normal;
         font-size: 12vw;
         font-size: 298%;
         text-align:center;
+        justify-content: center;
      
     }
     carousel-text h2 {
@@ -120,6 +124,7 @@ white-space: normal;
         font-size: 3vw;
         text-align:center;
         line-height:150%;
+        height:auto
      
     }
 
