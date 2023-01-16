@@ -4,7 +4,7 @@ import './FilterBoxSection.css';
 import FilterButton from '../../atoms/FilterButton/FilterButton';
 import NeonButton from '../../atoms/NeonButton/NeonButton';
 const FilterBoxSection = () => {
-  const resolutions = ["Landscape", "Vertical", "Square"]
+  const resolutions = ["Any","Landscape", "Vertical", "Square"]
   return (
     <div className="filter-box-column">
       <div className = "filter-header-items">

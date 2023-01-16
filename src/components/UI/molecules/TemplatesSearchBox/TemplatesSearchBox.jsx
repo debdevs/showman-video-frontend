@@ -27,7 +27,7 @@ const TemplatesSearchBox = () => {
             activeItem === false ? 'search-input' : 'search-input-active'
           }
         >
-          <input className='absolute_input'
+          <input className='templates_absolute_input'
                  onFocus={() => {
                   setActiveItem(true);
                 }}

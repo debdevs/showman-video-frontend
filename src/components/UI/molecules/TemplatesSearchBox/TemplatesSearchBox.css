@@ -47,13 +47,13 @@
 
 
 }
-.absolute_input{
+.templates_absolute_input{
     
     width: 100%;
     transition:all .4s ease;
     border: 0px solid blue;
 }
-.absolute_input:focus-visible{
+.templates_absolute_input:focus-visible{
     border: 0px solid blue;
     transition:all .4s ease;
     outline: 0rem;
@@ -221,7 +221,7 @@
 
 @media only screen and (max-width: 480px) {
 
-  
+/*   
 
     .search-input{
         padding-left:2%;
@@ -242,7 +242,7 @@
         align-items:center;
       
     }
-    
+     */
          
     
 

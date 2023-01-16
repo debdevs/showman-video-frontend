@@ -27,7 +27,7 @@ const HomeSearchBox = () => {
             activeItem === false ? 'search-input' : 'search-input-active'
           }
         >
-          <input className='absolute_input'
+          <input className='outfit absolute_input'
                  onFocus={() => {
                   setActiveItem(true);
                 }}

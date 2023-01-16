@@ -1,6 +1,6 @@
 .box_parent{
     display: flex;
-    margin-top: 35px;
+    margin-top: 2%;
     width: 271.19px;
 }
 
@@ -53,6 +53,7 @@
     border: 0px solid blue;
 }
 .absolute_input:focus-visible{
+    width: 85%;
     border: 0px solid blue;
     transition:all .4s ease;
     outline: 0rem;
@@ -111,10 +112,10 @@
 }
 
 .search-icon-active{
-
+    z-index: 3;
     font-size: 1.5rem;
     justify-self: flex-end;
- 
+    cursor: pointer;
     color: grey;
   
 
@@ -123,6 +124,10 @@
     opacity:1;
     transition: all .4s ease;
     transform: rotate(0deg);
+}
+
+.search-icon-active:hover{
+    color: var(--theme-color-2);
 }
 .parent-container {
    
@@ -220,7 +225,17 @@
 
 @media only screen and (max-width: 480px) {
 
-  
+    .box_parent{
+
+        width: 171.19px;
+    }
+    
+    .parent-container {
+        
+        width: 171.19px;
+
+    
+    }
 
     .search-input{
         padding-left:2%;
