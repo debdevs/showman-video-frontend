@@ -7,7 +7,8 @@ const FilterSection = () => {
     <div className="filter-column">
       <filter-header-items>
         <h2 className="outfit">Filters</h2>
-        <line-div />
+        {/* <line-div /> */}
+        <div className='line-div'/>
       </filter-header-items>
       <div className="new">
         <form>
@@ -36,7 +37,9 @@ const FilterSection = () => {
             </label>
           </div>
         </form>
+       
       </div>
+      
     </div>
   );
 };

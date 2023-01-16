@@ -1,0 +1,21 @@
+.filter_button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 11px;
+    cursor: pointer;
+    font-size: 1rem;
+    background: transparent;
+    font-family: outfit;
+    border: 0.668712px solid #534859;
+    color: white;
+    border-radius: 3.34356px; 
+    transition: all .4s ease;
+}
+
+.filter_button:hover{
+    background-color: #71637970;
+    color: var(--theme-color-3);
+    color: white;
+}

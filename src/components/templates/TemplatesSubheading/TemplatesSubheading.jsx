@@ -7,6 +7,7 @@ import TemplatesCategoryCard from '../../UI/molecules/TemplatesCategoryCard/Temp
 import ProductCard from '../../UI/molecules/ProductCard/ProductCard';
 import Footer from '../Footer/Footer';
 import FilterSection from '../../UI/molecules/FilterSection/FilterSection';
+import FilterBoxSection from '../../UI/molecules/FilterBoxSection/FilterBoxSection';
 import ToolTipMediaButton from '../../UI/molecules/ToolTipMediaButton/ToolTipMediaButton';
 import { motion, useAnimation } from 'framer-motion/dist/framer-motion';
 import { TemplatesContext } from '../../../Contexts/TemplatesPageContext';
@@ -103,6 +104,7 @@ const TemplatesSubheading = () => {
           <product-details-container>
             <product-filters-container>
               <FilterSection />
+              <FilterBoxSection />
             </product-filters-container>
 
             <right-area>
