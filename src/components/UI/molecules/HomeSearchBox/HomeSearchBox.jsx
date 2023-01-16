@@ -4,16 +4,19 @@ import '../../../../App.css';
 import './HomeSearchBox.css';
 import { useState } from 'react';
 import { GoSearch } from 'react-icons/all';
+import { ReactComponent as Rhombus } from '../../../../assets/images/button-rhombus.svg';
 const HomeSearchBox = () => {
   const [activeItem, setActiveItem] = useState(false);
   return (
-    <parent-container>
+    <div className='box_parent'>
+      <div className='parent-container'>
+      <div className='input_container'>
       <div
         className={
           activeItem === false ? 'input-parent' : 'input-parent-active'
         }
       >
-        <input
+        <div
           onFocus={() => {
             setActiveItem(true);
           }}
@@ -23,27 +26,41 @@ const HomeSearchBox = () => {
           className={
             activeItem === false ? 'search-input' : 'search-input-active'
           }
-        ></input>
-        <GoSearch
+        >
+          <input className='absolute_input'
+                 onFocus={() => {
+                  setActiveItem(true);
+                }}
+                onBlur={() => {
+                  setActiveItem(false);
+                }}
+
+          >
+          
+          </input>
+
+
+        </div>
+
+      </div>
+
+
+      </div>
+      <GoSearch
           className={
             activeItem === false ? 'search-icon' : 'search-icon-active'
           }
         />
-      </div>
-      <BasicButton
-        button_width={activeItem === false ? '50%' : '10%'}
-        button_text="DEMO"
-        button_opacity={activeItem === false ? '1' : '0.1'}
-        button_padding={activeItem === false ? '1px 6px' : '0px'}
-        button_text_opacity={activeItem === false ? '1' : '0'}
-        border_value={
-          activeItem === true
-            ? '0px solid var(--theme-color-5)'
-            : { border: '2px solid #534859;' }
-        }
-        // scalex={activeItem === true ? 'scaleX(2%)' : 'scaleX(8000%);'}
-      />
-    </parent-container>
+        </div>
+        <button className={
+            activeItem === false ? 'search-button' : 'search-button-active'
+          }><Rhombus className="logo" /> 
+          <h3 className="outfit">
+          DEMO
+          </h3>
+        </button>
+    </div>
+    
   );
 };
 
