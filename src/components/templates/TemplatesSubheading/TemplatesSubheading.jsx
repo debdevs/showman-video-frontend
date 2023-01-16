@@ -13,7 +13,8 @@ import { motion, useAnimation } from 'framer-motion/dist/framer-motion';
 import { TemplatesContext } from '../../../Contexts/TemplatesPageContext';
 import categories from '../../category_data.js';
 import products_templates from '../../test_product_data.js';
-
+import HomeSearchBox from '../../UI/molecules/HomeSearchBox/HomeSearchBox';
+import TemplatesSearchBox from '../../UI/molecules/TemplatesSearchBox/TemplatesSearchBox';
 import { useInView } from 'react-intersection-observer';
 
 import { useEffect } from 'react';
@@ -103,8 +104,12 @@ const TemplatesSubheading = () => {
           </templates-category-card-parent>
           <product-details-container>
             <product-filters-container>
-              <FilterSection />
-              <FilterBoxSection />
+              <TemplatesSearchBox/>
+              <div className='sub_items'>
+                <FilterSection />
+                <FilterBoxSection />
+              </div>
+
             </product-filters-container>
 
             <right-area>
