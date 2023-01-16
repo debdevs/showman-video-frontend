@@ -8,7 +8,7 @@ import { ReactComponent as Rhombus } from '../../../../assets/images/button-rhom
 const TemplatesSearchBox = () => {
   const [activeItem, setActiveItem] = useState(false);
   return (
-    <div className='box_parent'>
+    <div className='templates_box_parent'>
       <div className='parent-container'>
       <div className='input_container'>
       <div
@@ -48,7 +48,7 @@ const TemplatesSearchBox = () => {
       </div>
       <GoSearch
           className={
-            activeItem === false ? 'search-icon' : 'search-icon-active'
+            activeItem === false ? 'templates-search-icon' : 'templates-search-icon-active'
           }
         />
         </div>

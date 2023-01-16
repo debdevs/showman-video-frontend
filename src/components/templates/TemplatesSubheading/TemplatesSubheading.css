@@ -63,6 +63,7 @@ product-filters-container .sub_items{
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
+  margin-top: 65px;
 }
 template-button-array-area{
     margin-left:5%;

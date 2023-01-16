@@ -30,6 +30,7 @@ subheading-bg {
 subheading-content-parent {
     display: flex;
     width: 75%;
+    max-width: 120rem;
     justify-content: space-between;
     box-sizing: border-box;
    
