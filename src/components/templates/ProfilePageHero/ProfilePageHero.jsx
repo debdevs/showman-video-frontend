@@ -32,7 +32,9 @@ const ProfilePageHero = () => {
               {/* <img className="profile-background-image" src={profile_image} /> */}
             </background-image-container>
             <left-items>
+              <div className='profile_image_parent'>
               <ProfileCardImage />
+              </div>
             </left-items>
             <center-items>
               <header-texts>

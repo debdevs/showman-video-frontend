@@ -7,6 +7,7 @@ import LatestTemplateImage from '../../UI/atoms/LatestTemplateImage/LatestTempla
 const ProfilePageLowerSubheading = () => {
   return (
     <div className="profile-lower-subheading">
+      <div className="profile-lower-subheading-content">
       <left-section>
         <LatestTemplateImage />
       </left-section>
@@ -25,6 +26,7 @@ const ProfilePageLowerSubheading = () => {
           <OrderHistoryCard title={'Stylish Media Social'} />
         </order-history-cards>
       </order-section>
+      </div>
     </div>
   );
 };

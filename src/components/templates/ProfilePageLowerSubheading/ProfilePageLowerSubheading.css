@@ -6,6 +6,11 @@
     justify-content: center;
     align-items: center;
 }
+
+.profile-lower-subheading-content{
+    display: flex;
+    max-width: 120rem;
+}
 .profile-lower-subheading left-section{
     display:flex;
     justify-content: center;
@@ -52,4 +57,14 @@ order-history-cards{
     height:235px;
     overflow-y: scroll;
     padding:5%;
+}
+
+@media only screen and (max-width: 480px){
+    .profile-lower-subheading-content {
+        display:flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
 }
