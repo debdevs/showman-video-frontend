@@ -239,3 +239,101 @@ profile-hero-content right-items image-container{
     .button-icon{
         font-size:20px;
     }
+
+    @media only screen and (max-width:480px){
+
+        profile-hero-parent {
+
+          
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height:120%;
+            width:93%;
+
+        }
+        
+        profile-hero-content {
+            height: 95%;
+            width: 91%;
+            border-radius: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            grid-gap: 5%;
+            gap: 5%;
+            overflow: hidden;
+            max-width: 1332px;
+            flex-direction: column;
+        }
+
+        profile-hero-content center-items {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 50%;
+            width: 100%;
+            grid-gap: 25px;
+            gap: 25px;
+            padding-bottom: 3%;
+        }
+
+
+        profile-hero-content center-items header-texts {
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            grid-gap: 10px;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        profile-hero-content center-items h1 {
+            display: flex;
+            text-align: center;
+            justify-content: flex-start;
+            align-items: center;
+            width: auto; 
+            height: 76px;
+            font-family: 'Rumble Brave';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 4rem;
+            line-height: 75px;
+            font-style: normal;
+            font-weight: 400;
+            background: linear-gradient(251.44deg, #CBC8C8 37.43%, #E2D6D6 44.39%, #F1F1F1 67.13%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+            filter: drop-shadow(0px 5.6888px 8.9405px #000000);
+        }
+
+        profile-hero-content right-items {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+            flex-direction: row;
+            height: 75%;
+            width: 100%;
+            grid-gap: 15px;
+            gap: 15px;
+        }
+
+        .account-buttons-column {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-direction: column;
+            width: 40%;
+            grid-gap: 15px;
+            gap: 15px;
+        }
+
+
+    }
