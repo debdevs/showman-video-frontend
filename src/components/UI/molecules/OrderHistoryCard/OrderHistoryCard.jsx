@@ -32,7 +32,7 @@ const OrderHistoryCard = ({
           </div>
         </div>
         <order-history-info-container>
-          <h2 className="rumble-brave-font">{title}</h2>
+          <h2 className="rumble-brave-font order_title">{title}</h2>
           <h3 className="outfit">Date: {date}</h3>
           <h4 className="outfit">Status: {status}</h4>
         </order-history-info-container>

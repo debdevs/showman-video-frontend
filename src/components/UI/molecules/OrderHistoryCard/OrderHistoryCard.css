@@ -389,3 +389,14 @@ background-size: 800%;
 /* 
 clicked styles end */
 
+@media only screen and (max-width: 480px){
+
+  order-history-info-container h2.rumble-brave-font {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+}
+
+  order-history-info-container h3, h4 {
+    font-size: .9rem;
+}
+}
