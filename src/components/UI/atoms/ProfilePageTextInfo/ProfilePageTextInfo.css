@@ -2,7 +2,7 @@
 
 
 .profile-info-text-bg{
-    width:40%;
+    width:45%;
     height: 55%;
     display:flex;
     justify-content: center;
@@ -61,7 +61,7 @@ border-radius:8px;
 background-clip: text;
 text-fill-color: transparent;
 
-height:30px;
+
 font-size: 25.4045px;
 }
 
@@ -84,3 +84,25 @@ border: 1.6389px solid rgba(185, 185, 185, 0.1);
 box-shadow: 2.7038px 2.16304px 18.9266px rgba(168, 26, 255, 0.35);
 border-radius: 6.48913px;
 }
+
+@media only screen and (max-width:480px){
+
+    .profile-info-text-bg{
+  
+        height: auto;
+
+    }
+
+
+    .profile-info-text h1{
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        font-size: 1.2rem;
+        height: 1.5rem;
+    }
+    .profile-info-text h2{
+
+        font-size: 1.1rem;
+    }
+    
+}    
