@@ -26,3 +26,35 @@ accent-line-div{
     font-weight: 100;
     line-height: 33px;
 }
+
+
+
+@media only screen and (max-width: 480px){
+
+    etsy-content-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .etsy_text {
+        text-align: center;
+        width: 95%;
+        line-height: 24px;
+        font-size: 6vw;
+    }
+    .logo_image{
+        width:62vw;
+    }
+
+    .etsy_paragraph {
+        text-align: center;
+        width: 95%;
+        line-height: 24px;
+        font-size: 4.1vw;
+        margin-top: 20px;
+    }
+
+
+
+}

@@ -30,7 +30,14 @@ order-section top-items{
     width:85%;
     margin-left: 9%;
 }
-
+.order_search_container{
+    width: 500px;
+}
+.order_search_container .box_parent{
+    width: inherit;
+    max-width: 400px;
+    height: 100%;
+}
 order-section top-items h1{
     width:100%;
     font-size: 37.7858px;
@@ -60,6 +67,12 @@ order-history-cards{
 }
 
 @media only screen and (max-width: 480px){
+    order-section top-items{
+        gap:2%;
+    }
+    .order_search_container{
+        width: auto;
+    }
     .profile-lower-subheading-content {
         display:flex;
         flex-wrap: wrap;

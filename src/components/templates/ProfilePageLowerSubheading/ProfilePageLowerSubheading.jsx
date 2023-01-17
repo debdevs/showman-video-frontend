@@ -14,7 +14,9 @@ const ProfilePageLowerSubheading = () => {
       <order-section>
         <top-items>
           <h1 className="rumble-brave-font">Order History</h1>
-          <HomeSearchBox />
+          <div className='order_search_container'>
+            <HomeSearchBox />
+          </div>         
         </top-items>
         <order-history-cards>
           <OrderHistoryCard
