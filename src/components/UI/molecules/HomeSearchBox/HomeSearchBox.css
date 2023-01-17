@@ -155,7 +155,7 @@
      background: red;
      justify-content: center;
      align-items: center;
-     height: var(--basic-button-height);
+     /* height: var(--basic-button-height); */
      width: var(--basic-button-width);
 
      

@@ -351,7 +351,7 @@ profile-hero-content right-items image-container{
             flex-wrap: wrap;
             align-items: center;
             flex-direction: row;
-            height: 75%;
+            height: 25%;
             width: 100%;
             grid-gap: 15px;
             gap: 15px;
