@@ -24,7 +24,7 @@ const TemplatesSearchBox = () => {
             setActiveItem(false);
           }}
           className={
-            activeItem === false ? 'search-input' : 'search-input-active'
+            activeItem === false ? 'templates_search-input' : 'templates_search-input-active'
           }
         >
           <input className='templates_absolute_input'
@@ -53,7 +53,7 @@ const TemplatesSearchBox = () => {
         />
         </div>
         <button className={
-            activeItem === false ? 'search-button' : 'search-button-active'
+            activeItem === false ? 'templates_search-button' : 'templates_search-button-active'
           }><Rhombus className="logo" /> 
           <h3 className="outfit">
           DEMO
