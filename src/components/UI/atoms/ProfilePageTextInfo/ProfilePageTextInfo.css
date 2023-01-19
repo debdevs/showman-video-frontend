@@ -93,16 +93,28 @@ border-radius: 6.48913px;
 
     }
 
+    .profile-info-text {
+        width: 100%;
+        height: 100%;
+        display:initial;
+        justify-content: center;
+        align-items: flex-start;
 
+    }
     .profile-info-text h1{
         margin-block-start: 0em;
         margin-block-end: 0em;
         font-size: 1.2rem;
-        height: 1.5rem;
+        line-height: 1.5rem;
+        height: auto;
+        overflow: visible;
     }
     .profile-info-text h2{
 
         font-size: 1.1rem;
     }
     
+
+
+
 }    

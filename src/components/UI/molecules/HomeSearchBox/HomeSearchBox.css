@@ -252,6 +252,10 @@
         width: 100%;
     }
 
+
+    .search-button{
+        padding: 1px 28px;
+    }
     .search-button .logo{
         position:absolute;
         transform: scale(var(--basic-button-svgsize));
