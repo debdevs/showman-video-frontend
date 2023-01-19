@@ -316,8 +316,8 @@ profile-hero-content right-items image-container{
             height: auto;
             display: flex;
             flex-direction: column;
-            grid-gap: 10px;
-            gap: 10px;
+            grid-gap: 0px;
+            gap: 0px;
             justify-content: center;
             align-items: center;
         }
@@ -329,12 +329,13 @@ profile-hero-content right-items image-container{
             justify-content: flex-start;
             align-items: center;
             width: auto; 
-            height: 76px;
+            height: 18vw;
             font-family: 'Rumble Brave';
             font-style: normal;
             font-weight: 400;
             font-size: 4rem;
-            line-height: 75px;
+            font-size: 14vw;
+            line-height: auto;
             font-style: normal;
             font-weight: 400;
             background: linear-gradient(251.44deg, #CBC8C8 37.43%, #E2D6D6 44.39%, #F1F1F1 67.13%);
@@ -344,6 +345,18 @@ profile-hero-content right-items image-container{
             text-fill-color: transparent;
             filter: drop-shadow(0px 5.6888px 8.9405px #000000);
         }
+        profile-hero-content center-items header-texts h2{
+
+
+        
+      
+            font-size: 8vw;
+        
+            line-height:auto;
+        }
+
+
+
 
         profile-hero-content right-items {
             display: flex;

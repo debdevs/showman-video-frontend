@@ -59,12 +59,16 @@ background: linear-gradient(180deg, rgba(168, 26, 255, 0) 0%, rgba(8, 2, 20, 0.4
 
 
 
-
+  .glow_button_text{
+    font-size: .8rem;
+  }
 
   .showman-account-glow-button-background-box a{
     position:absolute;
     margin-top:2.5%;
   } 
+
+ 
   .showman-account-glow-button-box:hover {
     animation: animate 8s linear infinite;
     
@@ -166,10 +170,15 @@ background: linear-gradient(180deg, rgba(168, 26, 255, 0) 0%, rgba(8, 2, 20, 0.4
     .showman-account-glow-button-background-box button-content {
       width: auto;
       display: flex;
-      grid-gap: 15px;
-      gap: 15px;
+      grid-gap: 5px;
+      gap: 5px;
       justify-content: flex-start;
       align-items: center;
-      font-size: .7rem;
+ 
   }
+
+  .glow_button_text{
+    font-size: 90%;
+  }
+
   }

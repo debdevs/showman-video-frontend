@@ -1,9 +1,6 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
-
 import '../../../../App.css';
 import './BasicButton.css';
-import { button_rhombus } from '../../../../assets/images/button-rhombus.svg';
 import { ReactComponent as Rhombus } from '../../../../assets/images/button-rhombus.svg';
 const BasicButton = ({
   button_text,

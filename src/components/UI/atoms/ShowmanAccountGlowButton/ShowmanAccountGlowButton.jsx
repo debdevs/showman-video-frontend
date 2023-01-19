@@ -10,7 +10,7 @@ const ShowmanAccountGlowButton = ({ button_text, icon }) => {
         </a>
         <button-content className="button_content">
           {icon}
-          {button_text}
+         <h1 className="glow_button_text"> {button_text}</h1>
         </button-content>
       </button>
     </div>

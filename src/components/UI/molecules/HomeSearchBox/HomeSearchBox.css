@@ -213,7 +213,7 @@
        
     transition:all .5s ease-in-out;
     padding: 1px 6px;
-    height: var(--basic-button-height);
+    /* height: var(--basic-button-height); */
    
   
 }
