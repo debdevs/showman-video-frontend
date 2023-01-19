@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Showman Video Frontend
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## A frontend for a fullstack application that delivers custom videos to users
+
+![showman_image](https://user-images.githubusercontent.com/111826637/212794028-efddd7b2-0f16-4a1b-a420-640703a9fcef.png)
 
 ## Available Scripts
 
