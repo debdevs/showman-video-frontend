@@ -138,26 +138,29 @@ align-items: center;
         align-items: center;
         
         gap:20px;
-        width:100%;
+        width: 95vw;
+       
      
     }
 
     
     template-text h1{
 
-     font-size: 45px;
+     font-size: 12vw;
+     text-align: center;
     }
 
 
-    template-text p {
+    template-text p.outfit {
 
         margin-top: 15px;
-        font-weight: 400;
+        /* font-weight: 400; */
         font-size: 4vw;
-        line-height: 23px;
+        line-height: 6.5vw;
         text-align: center;
         width:90%;
         color: #FFFFFF;
+        
         /* height:180px; */
         }
 

@@ -20,7 +20,7 @@ templates-editor-nav-container{
 templates-editor-nav-content-container{
    
     background:transparent;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     display:flex;
     height:100%;
@@ -33,6 +33,8 @@ templates-editor-nav-content-container ul {
     align-items: center;
     display:flex;
     gap:15px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 templates-editor-nav-content-container ul li buttons-container{
@@ -63,7 +65,7 @@ templates-editor-nav-content-container ul li h1{
 }
 templates-editor-nav-content-container ul li .nav-icon {
     color:grey;
-    font-size: 35px;
+    font-size: 8vw;
     cursor:pointer;
 
 }
