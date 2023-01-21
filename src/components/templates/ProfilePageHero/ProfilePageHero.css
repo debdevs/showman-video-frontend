@@ -43,7 +43,7 @@ profile-hero-parent {
     height:100%;
     width:93%;
     border-radius:12px;
-    max-width:130rem;
+    max-width:110rem;
 
     gap:5%;
     background: linear-gradient(180deg, rgba(168, 26, 255, 0) 66.56%, rgba(168, 26, 255, 0.37) 122.81%);

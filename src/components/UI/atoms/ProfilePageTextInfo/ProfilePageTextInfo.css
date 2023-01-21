@@ -4,6 +4,7 @@
 .profile-info-text-bg{
     width:45%;
     height: 55%;
+    max-width: 480px;
     display:flex;
     justify-content: center;
     align-items: center;
