@@ -51,7 +51,10 @@ content-container {
     z-index:2;
     flex-direction: row;
 }
+.video_js_shmn_container{
+    width:600px;
 
+}
 fade-bg1{
     z-index:0;
     display:block;

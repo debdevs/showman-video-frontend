@@ -18,10 +18,12 @@ const TemplatesLandingHero = () => {
     <div className="templates-landing-parent">
       <templates-landing-hero-container>
         <content-background>
-        <EtsyVideoDisplay/>
+     
           <content-container>
-            <MediaPreviewElement />
-            
+            {/* <MediaPreviewElement /> */}
+            <div className='video_js_shmn_container'>
+            <EtsyVideoDisplay/>
+            </div>
             <TemplateInfoDisplay
               button_1_function={() => {
                 setOpenScreen(true);
