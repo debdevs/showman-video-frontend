@@ -28,7 +28,8 @@ product-category-title{
   
   .product_category_box {
       position:absolute;
-      display: block;
+      display: flex;
+      flex-direction: column;
       width: 100%;
       height: var(--templates-category-card-height);
      
@@ -127,12 +128,9 @@ product-category-title{
   
     product-category-info-container{
       display: flex;
- 
       width:100%;
       flex-direction: row;
       justify-content: space-between;
-     
-     
       width: 100%;
       display: flex;
       align-items:center;
@@ -329,7 +327,8 @@ background-size: 800%;
 .product_category_box_clicked {
     
   
-  display: block;
+  display: flex;
+  flex-direction: column;
   width: 100%;
   height: var(--templates-category-card-height);
  

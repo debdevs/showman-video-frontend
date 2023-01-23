@@ -7,7 +7,7 @@ import TemplatesLandingSubheading from '../TemplatesLandingSubheading/TemplatesL
 import { useState } from 'react';
 import { motion } from 'framer-motion/dist/framer-motion';
 import { AnimatePresence } from 'framer-motion/dist/framer-motion';
-
+import EtsyVideoDisplay from '../../UI/atoms/EtsyVideoDisplay/EtsyVideoDisplay';
 const TemplatesLandingHero = () => {
   const [openScreen, setOpenScreen] = useState(false);
   function OpenModal() {
@@ -18,8 +18,10 @@ const TemplatesLandingHero = () => {
     <div className="templates-landing-parent">
       <templates-landing-hero-container>
         <content-background>
+        <EtsyVideoDisplay/>
           <content-container>
             <MediaPreviewElement />
+            
             <TemplateInfoDisplay
               button_1_function={() => {
                 setOpenScreen(true);

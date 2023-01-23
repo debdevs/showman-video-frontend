@@ -43,6 +43,7 @@ export const EtsyVideoDisplay = ({ props, video_height, video_width }) => {
         onReady={handlePlayerReady}
         video_height={video_height}
         video_width={video_width}
+        
       />
       <div>Rest of app here</div>
     </>
