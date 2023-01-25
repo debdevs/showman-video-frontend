@@ -70,13 +70,13 @@ template-text .outfit {
     font-weight: 400;
     font-size: 15.9723px;
     line-height: 23px;
-    font-weight:100;
+    font-weight:300;
     width:423.75px;
     color: #FFFFFF;
     /* height:180px; */
     }
 
-    buttons-container{
+    .template_info_buttons_container{
         display:flex;
         gap:25px;
         width:100%;
@@ -123,9 +123,11 @@ info-box h2{
         padding-bottom: 0%;
     }
 
-buttons-container{
+.template_info_buttons_container{
     justify-content: center;
     align-items: center;
+    width: 45%;
+    gap: 12%;
 }
 
 .cg-container {

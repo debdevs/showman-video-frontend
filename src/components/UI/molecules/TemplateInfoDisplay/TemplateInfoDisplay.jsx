@@ -40,7 +40,7 @@ const TemplateInfoDisplay = ({ button_1_function }) => {
           <h2 className="outfit">Fast Delivery</h2>
         </info-box>
       </div>
-      <buttons-container>
+      <div className = "template_info_buttons_container">
         <AnimatedGlowButton
           button_text="Get it now"
           onClick={button_1_function}
@@ -48,7 +48,7 @@ const TemplateInfoDisplay = ({ button_1_function }) => {
           neon_button_background_box_className={'neon_button_background_box'}
         />
         <NeonButton button_text="Get it now" />
-      </buttons-container>
+      </div>
     </div>
   );
 };
