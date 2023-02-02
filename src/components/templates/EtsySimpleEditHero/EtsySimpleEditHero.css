@@ -330,6 +330,9 @@ result-button-row{
 
 
 @media screen and (max-width: 480px) {
+    .etsy-hero{
+        height:100vh;
+    }
     form-container{
         flex-direction: column;
         width:95%;
@@ -364,6 +367,16 @@ result-button-row{
         width: 95%;
         height: 590px;
     
+
+    }
+
+    form-container left-items left-center-card {
+        width: 486px;
+        height: 590px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       border: 0px solid #534859; 
 
     }
 }

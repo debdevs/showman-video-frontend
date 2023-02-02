@@ -20,7 +20,7 @@ const EtsySimpleEditPage = () => {
         activeIndex,
         setActiveIndex,
       }}
-      className="etsypage"
+      className="etsy_page"
     >
       <EtsySimpleEditHero />
 
