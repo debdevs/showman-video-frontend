@@ -88,14 +88,11 @@ hero-main-content h1.outfit{
 
 @media only screen and (max-width: 1200px) {
 
-  
     hero-main-content img {
-        width: 90%;
-
-    
+        width: 60vw;
+        max-width: 500px;
         height: auto;
     }
-
 
     hero-main-content h1.outfit{
    

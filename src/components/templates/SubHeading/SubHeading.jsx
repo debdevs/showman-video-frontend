@@ -3,6 +3,7 @@ import './SubHeading.css'
 import '../../../App.css';
 import FeatureItems from '../../UI/molecules/FeatureItems/FeatureItems';
 import FrontCategoryCard from '../../UI/molecules/FrontCategoryCard/FrontCategoryCard';
+import MainCategoryCard from '../../UI/molecules/MainCategoryCard/MainCategoryCard'
 
 const SubHeading = () => {
   return (
@@ -24,11 +25,7 @@ const SubHeading = () => {
             </left-items>
             <right-items>
             
-            <FrontCategoryCard title={"Weddings"}/>
-                <FrontCategoryCard title={"Real Estate"}/>
-                <FrontCategoryCard title={"News"}/>
-                <FrontCategoryCard title={"Slideshows"}/>
-                <FrontCategoryCard title={"Sports"}/>
+            <MainCategoryCard/>
           
             </right-items>
             
