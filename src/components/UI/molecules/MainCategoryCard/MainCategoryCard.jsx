@@ -2,9 +2,10 @@ import React from 'react';
 import { useState } from 'react';
 import '../../../../App.css';
 import './MainCategoryCard.css';
+import default_image from '../../../../assets/images/instagram-story-slideshow-pack-download-videohive-27504760-free-hunterae-com.jpg'
 const MainCategoryCard = ({
-  title,
-  cover_image,
+  title = "default",
+  cover_image = default_image,
   cardClick,
   main_category_animation_box_className = "main_category_animation_box",
   main_category_box_className = "main_category_box",
@@ -21,7 +22,7 @@ const MainCategoryCard = ({
         <div className={main_category_image_fx_container_className}>
           <div className={main_category_image_className}>
             <img
-              className="main-category-category-box-image"
+              className="main_category_category_box_image"
               src={cover_image}
             ></img>
           </div>
