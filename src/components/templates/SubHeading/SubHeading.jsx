@@ -14,7 +14,7 @@ const SubHeading = () => {
      
 
 
-        <subheading-content-parent>
+        <div className = "subheading_content_parent">
             <left-items>
             <overlay-card/>
                 <FeatureItems 
@@ -26,10 +26,13 @@ const SubHeading = () => {
             <right-items>
             
             <MainCategoryCard/>
+            <MainCategoryCard/>
+            <MainCategoryCard/>
+            <MainCategoryCard/>
           
             </right-items>
             
-        </subheading-content-parent>      
+        </div>      
 
         </subheading-container-main>
 

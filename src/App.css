@@ -161,6 +161,34 @@ background: linear-gradient(180deg, var(--theme-color-5) 0%, rgba(0, 255, 224, 0
   
 }
 
+@media screen and (min-width: 1400px) {
+  :root {
+
+
+
+ 
+   --templates-hero-width: 95%;
+   --templates-hero-height:15%;
+   --templates-category-card-width: 30%;
+  
+   --basic-button-height: 85%;
+   --basic-button-width: 25%;   
+   --basic-button-svgsize: 80%;
+   --basic-button-fontsize: 12px;   
+
+   --product-box-width: 30%;
+   --product-box-height: 202.61px;
+   --product-imagefx-height: 155.65px;
+   --product-box-button-fontsize: 10px;
+
+   --templates-category-card-width: 100%;
+   --templates-category-card-bg-width: 30%;
+
+
+  }
+
+  
+}
 
 @media screen and (min-width: 1900px) {
   :root {

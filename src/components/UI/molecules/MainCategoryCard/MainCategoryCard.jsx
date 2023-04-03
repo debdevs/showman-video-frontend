@@ -28,10 +28,10 @@ const MainCategoryCard = ({
           </div>
           <div />
           <div id="myDiv" className={main_category_cover_outline_className}>
-            <div/>
+            <div className='main_category_shine'/>
           </div>
         </div>
-        <div classname = "main_category_info_container">
+        <div className = "main_category_info_container">
           <h2 className="rumble-brave-font">{title}</h2>
         </div>
       </div>

@@ -7,8 +7,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: var(--templates-category-card-width);
-    height: var(--templates-category-card-height);
+    height: 206.8894500732422px;
+    width: 240.56019592285156px;
+
+    border-radius: 15.888561248779297px;
+    
     overflow:visible;
     transition:all .4s ease-in-out;
   }
@@ -17,7 +20,8 @@
     
       display: flex;
    
-      height: var(--templates-category-card-height);
+      height: inherit;
+      width: inherit;
    
       border-radius: var(--templates-category-card-borderradius);
       border: 2px solid rgba(168, 26, 255, .15);
@@ -30,9 +34,8 @@
       position:absolute;
       display: flex;
       flex-direction: column;
-      width: 100%;
-      height: var(--templates-category-card-height);
-     
+      height: inherit;
+      width: inherit;
       position: relative;
       border-radius:  var(--templates-category-card-borderradius);
       border: 2px solid rgba(168, 26, 255, .15);
@@ -47,20 +50,24 @@
     display: flex;
     align-items: center;
     overflow: hidden;
-    width: 100%;
-    height: var(--templates-imagefx-height);
+    height: 149.2317352294922px;
+    width: 240.56019592285156px;
+
+    border-radius: 15.888561248779297px;
+    
     justify-content: center;
     
   }
   .main_category_image{
     width: 100%;
+    height: inherit;
   }
   .main_category_image img{
       display: block;
       width: var(--templates-category-card-width);
       object-fit: cover;
      
-      height: var(--templates-imagefx-height);
+      height: inherit;
       object-fit: cover;
       border-radius:  var(--templates-category-card-borderradius);
       border: 0px solid rgba(168, 26, 255, 100);
@@ -78,7 +85,7 @@
       border: 0px solid rgba(168, 26, 255, 100);
      
       width: inherit;
-      height: var(--templates-imagefx-height);
+      height: inherit;
       z-index: 10;
       border-radius:  var(--templates-category-card-borderradius);
     }
@@ -91,7 +98,7 @@
       border: 0px solid rgba(168, 26, 255, 100);
       width: inherit;
       width: inherit;
-      height: var(--templates-imagefx-height);
+      height: inherit;
       z-index: 11;
       border-radius:  var(--templates-category-card-borderradius);
       position:absolute;
@@ -125,7 +132,7 @@
     
     }
   
-    main-category-info-container {
+    .main_category_info_container {
       display: grid;
       width: 100%;
       flex-direction: row;
@@ -141,7 +148,7 @@
 
   
 
-main-category-info-container h2.rumble-brave-font {
+.main_category_info_container h2.rumble-brave-font {
     display: flex;
     /* line-height: revert; */
     height: 100%;
