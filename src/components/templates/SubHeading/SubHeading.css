@@ -1,5 +1,7 @@
 subheading-container {
-display: block;
+    display: block;
+    position: relative;
+    overflow: hidden;
 }
 
 subheading-container h1 {
@@ -78,7 +80,7 @@ overlay-card{
     justify-content: flex-end;
     gap: 15px;
     width: 594px;
-    height: 339.11px;
+    height: 100%;
     margin-right: 0px;
     overflow:hidden;
 
@@ -125,6 +127,9 @@ overlay-card{
     .subheading_content_parent right-items{
      
         position: absolute;
+    
+    
+        transform: rotateX(25deg);
     }
 }
 @media only screen and (max-width:480px){
@@ -160,5 +165,6 @@ overlay-card{
     .subheading_content_parent right-items{
 
         position: absolute;
+        
     }
 }
