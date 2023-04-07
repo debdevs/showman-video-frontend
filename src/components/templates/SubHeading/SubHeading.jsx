@@ -4,7 +4,7 @@ import '../../../App.css';
 import FeatureItems from '../../UI/molecules/FeatureItems/FeatureItems';
 import FrontCategoryCard from '../../UI/molecules/FrontCategoryCard/FrontCategoryCard';
 import MainCategoryCard from '../../UI/molecules/MainCategoryCard/MainCategoryCard'
-
+import test_image from '../../../assets/images/test.png'
 const SubHeading = () => {
   return (
     
@@ -24,11 +24,16 @@ const SubHeading = () => {
                 
             </left-items>
             <right-items>
-            
+            <div className='home_category_cards_container'>
             <MainCategoryCard/>
             <MainCategoryCard/>
             <MainCategoryCard/>
             <MainCategoryCard/>
+            </div>
+            <div className='home_category_card_images_container'>
+            <img src = {test_image}/>
+            </div>
+
           
             </right-items>
             
