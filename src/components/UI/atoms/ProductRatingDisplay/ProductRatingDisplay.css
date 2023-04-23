@@ -1,0 +1,15 @@
+.product_rating_display_parent{
+    display: flex;
+    gap: 4px;
+    opacity: .35;
+}
+
+
+.rating_display{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15.8737px;
+    line-height: 20px;
+    color: #FFFFFF;
+}

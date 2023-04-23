@@ -1,0 +1,25 @@
+.product_price_display_parent{
+    display: flex;
+    gap: 4px;
+
+}
+
+
+.price_display{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15.8737px;
+    line-height: 20px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15.5111px;
+    line-height: 20px;
+
+
+    
+
+
+
+}
