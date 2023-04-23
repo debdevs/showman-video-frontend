@@ -5,27 +5,41 @@ import ProductCardButton from '../../atoms/ProductCardButton/ProductCardButton';
 import ProductCardViewButton from '../../atoms/ProductCardViewButton/ProductCardViewButton';
 const ProductCard = ({ title, image, template_link }) => {
   return (
-    <product-basic-animation-box className="site-img">
-      <product-basic-box>
-        <product-basic-image-fx-container>
-          <product-basic-image>
+    < div className="vertical_product_display_card_background_animation">
+      <div className='product_basic_box'>
+        <div className = 'product_basic_image_fx_container'>
+          <div className='product_basic_image'>
             <img
               alt=""
               className="product-basic-category-box-image"
               src={image}
-            ></img>
-          </product-basic-image>
-          <product-basic-inset-shadow />
-          <product-basic-cover-outline id="myDiv">
+            />
+          </div>
+          <div className='product_basic_inset_shadow'/>
+          <div className='product_basic_cover_outline' product_basic_cover_outline id="myDiv">
             <product-basic-shine />
-          </product-basic-cover-outline>
-        </product-basic-image-fx-container>
-        <product-basic-info-container>
-          <h2 className="product-title outfit">{title}</h2>
-          <ProductCardViewButton button_text={'VIEW'} />
-        </product-basic-info-container>
-      </product-basic-box>
-    </product-basic-animation-box>
+          </div>
+        </div>
+        <div className='product_basic_info_container' >
+          <div className='vertical_product_display_card_info_contents'>
+            <div className='left_items'>
+
+            </div>
+            <div className='right_items'>
+              <div className='top_texts'>
+                <h2 className="product_title outfit">{title}</h2>
+                <h2 className="product_crumbs outfit">{"social ∙ overlay"}</h2>
+              </div>
+              
+              <ProductCardViewButton button_text={'VIEW'} />
+            </div>
+            
+          </div>
+          
+          
+        </div>
+      </div>
+    </div>
   );
 };
 
