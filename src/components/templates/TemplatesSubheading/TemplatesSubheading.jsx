@@ -18,6 +18,7 @@ import TemplatesSearchBox from '../../UI/molecules/TemplatesSearchBox/TemplatesS
 import { useInView } from 'react-intersection-observer';
 
 import { useEffect } from 'react';
+import FiltersContainer from '../../UI/organisms/FiltersContainer/FiltersContainer';
 const products = [
   { id: 1, title: 'Weddings' },
   { id: 2, title: 'Real Estate' },
@@ -50,6 +51,7 @@ const TemplatesSubheading = () => {
 
   return (
     <div>
+
       <section className="marketplace-content">
         <marketplace-content-parent>
           <fade-bg2 />
@@ -102,18 +104,9 @@ const TemplatesSubheading = () => {
               </motion.div>
             ))}
           </templates-category-card-parent>
-          <product-details-container>
-            <product-filters-container>
-              <TemplatesSearchBox/>
-              <div className='sub_items'>
-                <FilterSection />
-                <FilterBoxSection />
-              </div>
-
-            </product-filters-container>
-
-            <right-area>
-              <template-button-array-area>
+          <div class="templates_subheading">
+            <div class="cards_header">
+            <template-button-array-area>
                 <h2 className="outfit">Browse Templates</h2>
                 <template-button-array>
                   {products_templates.slice(0, 4).map((product, key) => (
@@ -126,7 +119,11 @@ const TemplatesSubheading = () => {
                 </template-button-array>
               </template-button-array-area>
 
-              <product-card-container>
+
+            </div>
+            <div class="product_card_grid">
+
+            <product-card-container>
                 {products_templates.map((product, key) => (
                   <motion.div
                     variants={boxVariant}
@@ -142,6 +139,26 @@ const TemplatesSubheading = () => {
                   </motion.div>
                 ))}
               </product-card-container>
+
+            </div>
+            <div class="side_filter_items">
+              <FiltersContainer/>
+            </div>
+          </div>
+          <product-details-container>
+            <product-filters-container>
+              <TemplatesSearchBox/>
+              <div className='sub_items'>
+                <FilterSection />
+                <FilterBoxSection />
+              </div>
+
+            </product-filters-container>
+
+            <right-area>
+
+
+
             </right-area>
           </product-details-container>
         </marketplace-content-parent>
