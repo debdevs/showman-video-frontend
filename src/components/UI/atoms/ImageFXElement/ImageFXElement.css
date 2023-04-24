@@ -1,16 +1,14 @@
-.image_FX__image_fx_container{
+.image_FX__image_fx_container {
     display: flex;
-    align-items:flex-start;
+    align-items: center;
     overflow: hidden;
-  
     margin-top: 2.7%;
     height: 100%;
     width: 100%;
-  
     position: relative;
     border-radius: 8.58px;
-    
-  }
+    justify-content: center;
+}
   .image_FX__image {
     height:100%;
   
