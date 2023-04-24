@@ -23,6 +23,7 @@ const TemplatesCategoryCard = ({
             <img
               className="product-category-category-box-image"
               src={cover_image}
+              alt = {"product image"}
             ></img>
           </product-category-image>
           <product-category-inset-shadow />

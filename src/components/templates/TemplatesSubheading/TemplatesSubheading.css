@@ -156,6 +156,13 @@ product-card-container >*{
   
   }
 
+  @media screen and (max-width : 1600px){
+
+
+  templates-category-card-parent > :nth-child(n+5) {
+    display: none;
+}
+}
 
   @media screen and (max-width : 1200px){
 

@@ -25,6 +25,7 @@ product-category-title{
    
       border-radius: var(--templates-category-card-borderradius);
       border: 2px solid rgba(168, 26, 255, .15);
+    
       cursor: pointer;
       box-shadow: 0 10px 15px 2px;     
       transition:all .4s ease-in-out;
@@ -41,9 +42,10 @@ product-category-title{
       position: relative;
       border-radius:  12.67px;
       border: 2px solid rgba(168, 26, 255, .15);
+      border: 1.1px solid rgb(48, 22, 65);
       cursor: pointer;
       box-shadow: 0 10px 15px 2px;
-      background: linear-gradient(#2F2E2E, #080214); 
+      background: linear-gradient(180deg, #080214 97.92%, #2F2E2E 100%);
       transition:all .4s ease-in-out;
     }
   
@@ -95,7 +97,7 @@ product-category-title{
   
   product-category-inset-shadow{
       display:block;
-      box-shadow: inset 0px 0px 10px 6px rgba(0,0,0,.7);
+      box-shadow: inset 0px 0px 8.27403px 2.75801px rgba(0, 0, 0, 0.5);
       position: absolute;
       border: 0px solid rgba(168, 26, 255, 100);
      
@@ -324,8 +326,8 @@ product-category-info-container h2.rumble-brave-font {
   
 .product_category_animation_box_clicked {
   display: block;
-  height: 100px;
-  width: 317.6700134277344px;
+  height: 152px;
+  width: 328px;
   position: absolute;
   border-radius: var(--templates-category-card-borderradius);
   border: 2px solid rgba(168, 26, 255, .15);
@@ -343,6 +345,15 @@ product-category-info-container h2.rumble-brave-font {
 background-size: 800%;
   
 }
+
+
+
+
+
+
+
+
+
    
 @keyframes animate {
   0% {
@@ -353,7 +364,7 @@ background-size: 800%;
   }
 } 
 
-.product_category_box_clicked {
+/* .product_category_box_clicked {
     
   
   display: flex;
@@ -370,6 +381,23 @@ background-size: 800%;
   transition:all .4s ease-in-out;
   
 
+} */
+
+.product_category_box_clicked {
+  position:absolute;
+  display: flex;
+  flex-direction: column;
+  height: 152px;
+  width: 328px;
+  align-items: center;
+ 
+  position: relative;
+  border-radius:  12.67px;
+  border: 2px solid rgba(168, 26, 255, .15);
+  cursor: pointer;
+  box-shadow: 0 10px 15px 2px;
+  background: linear-gradient(#2F2E2E, #080214); 
+  transition:all .4s ease-in-out;
 }
 
 
@@ -411,6 +439,29 @@ background-size: 800%;
 
  box-shadow: 0 0 0px 1.1px inset white;
  background: rgba(189, 0, 255, 0.12);
+
+
+
+ display: block;
+
+  
+  border: 0px solid rgba(168, 26, 255, 100);
+  width: inherit;
+  width: inherit;
+  height: inherit;
+  z-index: 11;
+  border-radius:  var(--templates-category-card-borderradius);
+  position:absolute;
+  overflow: hidden;
+  margin:auto;
+  transition: .5s;
+
+
+  border: 0.551602px solid #A81AFF;
+
+  filter: drop-shadow(0px 2.20641px 2.20641px rgba(0, 0, 0, 0.25));
+  border-radius: 8.44603px;
+
 }
 
 
