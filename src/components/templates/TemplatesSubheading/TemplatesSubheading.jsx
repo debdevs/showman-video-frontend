@@ -55,7 +55,7 @@ const TemplatesSubheading = () => {
           <fade-bg2 />
 
           <templates-category-card-parent>
-            {categories.map((category, key) => (
+            {categories.slice(0,4).map((category, key) => (
               <motion.div
                 className="cat-card-motion"
                 key={category.id}
