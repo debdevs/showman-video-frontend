@@ -1,0 +1,45 @@
+.sort_button{
+    box-sizing: border-box;
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 25px;
+    gap: 43px;
+    font-family: "Outfit", serif;
+
+    color:white;
+
+    width: 130px;
+    height: 38px;
+    background-color: transparent;
+    border: 0px solid white;
+    border-bottom: 1px solid rgba(168, 26, 255, 0.15);
+    border-radius: 5px;
+    cursor: pointer;
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+
+width: 268.9px;
+height: 43.84px;
+left: 686.11px;
+top: 834.5px;
+
+border-bottom: 1.06292px solid rgba(168, 26, 255, 0.15);
+border-radius: 15.9437px;
+
+
+
+
+}
+
+.sort_button:hover{
+    background-color: #71637970;
+    color: var(--theme-color-3);
+    color: white;
+}

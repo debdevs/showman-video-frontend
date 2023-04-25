@@ -1,12 +1,13 @@
 hero-parent-container{
     width:100%;
     height: var(--hero-height);
+    height: 472.48px;
     display:block;
     overflow: hidden;
     display:flex;
     justify-content: center;
-    align-items: flex-end;
-    margin-top:8px;
+    align-items: center;
+
     z-index: 5;
 }
 
@@ -16,6 +17,7 @@ hero-container {
     background: black;
     width: 97.3958333%;
     height: var(--hero-height);
+    height: 472.48px;
     align-items: center;
     justify-content: center;
     overflow: hidden;
@@ -71,17 +73,30 @@ hero-main-content {
 hero-main-content img {
     width: 40%;
     width: 591.33px;
+
+    height: 158.17px;
+    width: 472.48px;
+    left: 458.83px;
+    top: 107.09px;
+    border-radius: 35px;
+    
+
+
     height: auto;
     transition: all .4s ease;
 }
 
 hero-main-content h1.outfit{
-    margin-top: 15px;
+
     display:block;
     color: white;
     text-align: center;
     font-size: 25px;
-    margin-bottom: 20px;
+    font-size: 20px;
+    height: 36.50px;
+    width: 619.90px;
+
+    
  
 }
 

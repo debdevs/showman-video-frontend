@@ -14,7 +14,7 @@ import bg1 from '../../../assets/images/result_2.png';
 const Hero = () => {
   return (
     <hero-parent-container>
-      <fade-bg1></fade-bg1>
+      {/* <fade-bg1></fade-bg1> */}
       <hero-container>
         <hero-background-image>
           <img src={bg} alt="" />

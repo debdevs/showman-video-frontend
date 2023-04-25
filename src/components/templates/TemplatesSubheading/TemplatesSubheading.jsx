@@ -19,6 +19,10 @@ import { useInView } from 'react-intersection-observer';
 
 import { useEffect } from 'react';
 import FiltersContainer from '../../UI/organisms/FiltersContainer/FiltersContainer';
+import PlainSearchBox from '../../UI/atoms/PlainSearchBox/PlainSearchBox';
+import SortButton from '../../UI/atoms/SortButton/SortButton';
+import ImageFXElement from '../../UI/atoms/ImageFXElement/ImageFXElement';
+import placeholder_image from '../../../assets/images/game_image.webp'
 const products = [
   { id: 1, title: 'Weddings' },
   { id: 2, title: 'Real Estate' },
@@ -107,9 +111,15 @@ const TemplatesSubheading = () => {
           <div class="templates_subheading">
             <div class="cards_header">
             <template-button-array-area>
-                <h2 className="outfit">Browse Templates</h2>
+                {/* <h2 className="outfit">Browse Templates</h2> */}
+                <PlainSearchBox />
+                <SortButton/>
+                <div className='image_bar'>
+                  <ImageFXElement image={placeholder_image}/>
+                </div>
+                
                 <template-button-array>
-                  {products_templates.slice(0, 2).map((product, key) => (
+                  {products_templates.slice(3, 5).map((product, key) => (
                     <ToolTipMediaButton
                       key={key}
                       title={product.title}

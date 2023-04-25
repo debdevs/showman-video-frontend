@@ -1,0 +1,47 @@
+.plain_search_box_container{
+    border: 1.12612px solid #A81AFF;
+    box-shadow: 0px 4.50447px 28.1529px 3.37835px rgba(82, 5, 109, 0.99);
+    border-radius: 16.8918px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+
+
+    height: 46.20px;
+    width: 237.82px;
+
+    border-radius: 16.89px;
+    font-family: "Outfit", serif;
+
+    color:white;
+
+
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+
+
+}
+
+.plain_search_box_icon{
+    color: #534859;
+    margin-right: 15px;
+    font-size: 24.77px;
+    height: 24px;
+    width: 24px;
+}
+
+.plain_search_box_container input{
+    width: 100%;
+    color:white;
+
+
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+}
