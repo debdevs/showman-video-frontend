@@ -2,7 +2,7 @@
 .tool-button {
     border: 1.2px solid rgba(168, 26, 255, 2);
     border: 1.2px solid rgb(60, 53, 62);
-    height: 34px;
+
     border-radius: 8px;
     background: linear-gradient(180deg, rgba(168, 26, 255, 0) 0%, rgba(8, 2, 20, 0.47) 100%);
 
@@ -16,9 +16,21 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
-   padding:0px;
-align-items: center;
-gap:8px;
+    padding:0px;
+    align-items: center;
+    gap:8px;
+
+    height: 47.84619903564453px;
+
+
+    border-radius: 15.943744659423828px;
+
+    background: linear-gradient(180deg, #080214 97.92%, #2F2E2E 100%);
+
+        
+    border: 2.52974px solid rgba(168, 26, 255, 0.15);
+    border-radius: 15.9437px;
+
 
 }
 
@@ -27,10 +39,17 @@ gap:8px;
    padding: 15px;
     white-space: nowrap;
     display: block;
-    padding-right:25px;
-    margin-bottom:1%;
-    font-size: 14px;
+
+    margin-bottom:2.3%;
+
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: .03em;
+    text-align: left;
+    
     font-weight: 300;
+    font-family: 'rumble-brave';
     /* text-overflow: ellipsis;
 
     text-overflow: ellipsis; */
@@ -41,20 +60,49 @@ gap:8px;
     border: 1.2px solid white;
 }
 
-.tool-button image-container{
+.tool-button .preview_image_container{
 display:flex;
 
 justify-content: center;
 align-items: center;
-width:35px;
+
+min-width: 81.16px;
+
+border-radius: 15.94px;
+
 height: 100%;
 object-fit: cover;
+overflow: hidden;
+position: relative;
 }
-.tool-button image-container img{
+
+
+.tool-button .preview_image_container .image_FX__image_fx_container .image_FX__cover_outline {
+  display: block;
+
+  box-shadow: 0 0 0px 1.2px inset rgba(168, 26, 255, 1);
+
+  filter: drop-shadow(0px 1.83272px 1.83272px rgba(0, 0, 0, 0.25));
+  border-radius: 15.9437px;
+} 
+
+.tool-button .preview_image_container .image_FX__image_fx_container .image_FX__image{
+  width: 100%;
+}
+
+.tool-button .preview_image_container .image_FX__image_fx_container .image_FX__image img {
+  width: 100%;
+}
+
+
+
+
+
+.tool-button .preview_image_container img{
     width:35px;
     object-fit: cover;
-    filter: grayscale(70%);
-    opacity: .3;
+    /* filter: grayscale(70%); */
+    /* opacity: .3; */
     height: 100%;
     border-radius:  3.5px;
     transition: all .4s ease;
@@ -159,7 +207,7 @@ shadow-element{
 
   }
 
-  .tool-button:hover image-container img{
+  .tool-button:hover .preview_image_container img{
 
     filter: grayscale(0%);
     opacity:1;

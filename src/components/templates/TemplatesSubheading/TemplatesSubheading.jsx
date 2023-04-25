@@ -109,7 +109,7 @@ const TemplatesSubheading = () => {
             <template-button-array-area>
                 <h2 className="outfit">Browse Templates</h2>
                 <template-button-array>
-                  {products_templates.slice(0, 4).map((product, key) => (
+                  {products_templates.slice(0, 2).map((product, key) => (
                     <ToolTipMediaButton
                       key={key}
                       title={product.title}

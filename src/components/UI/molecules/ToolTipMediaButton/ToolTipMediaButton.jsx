@@ -1,20 +1,16 @@
 import React from 'react';
 import '../../../../App.css';
 import './ToolTipMediaButton.css';
-
+import ImageFXElement from '../../atoms/ImageFXElement/ImageFXElement';
 const ToolTipMediaButton = ({ title, image, category, price, label }) => {
   return (
     <div>
       <button className="tool-button outfit">
         <span class="button_text">{title}</span>
 
-        <image-container>
-          <img class="tool-tip-image" src={image}></img>
-          <shadow-element />
-          <outline-element>
-            <shine-element />
-          </outline-element>
-        </image-container>
+        <div className='preview_image_container'>
+        <ImageFXElement image={image}/>
+        </div>
         <tool-tip-container>
           <tool-tip-imagefx-container>
             <img class="tool-tip-image" src={image}></img>
