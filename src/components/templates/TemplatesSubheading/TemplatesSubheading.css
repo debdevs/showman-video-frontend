@@ -213,6 +213,12 @@ template-button-array-area .image_bar .image_FX__image_fx_container{
 template-button-array-area .image_bar .image_FX__image_fx_container .image_FX__image{
   width: 100%;
 }
+
+template-button-array-area .image_bar .image_FX__image_fx_container product-basic-shine{
+  height: 500px;
+}
+
+
 @media only screen and (min-width:1600px){
   .templates_subheading {
     max-width: 1736.75px;

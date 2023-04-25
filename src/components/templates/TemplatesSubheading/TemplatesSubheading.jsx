@@ -22,7 +22,7 @@ import FiltersContainer from '../../UI/organisms/FiltersContainer/FiltersContain
 import PlainSearchBox from '../../UI/atoms/PlainSearchBox/PlainSearchBox';
 import SortButton from '../../UI/atoms/SortButton/SortButton';
 import ImageFXElement from '../../UI/atoms/ImageFXElement/ImageFXElement';
-import placeholder_image from '../../../assets/images/game_image.webp'
+import placeholder_image from '../../../assets/images/DigitalMarketingPromo.png';
 const products = [
   { id: 1, title: 'Weddings' },
   { id: 2, title: 'Real Estate' },

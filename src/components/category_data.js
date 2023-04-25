@@ -1,9 +1,12 @@
 import gaming_image from '../assets/images/wallpapersden.com_k-destiny-2_3840x2160.jpg';
 import social_image from '../assets/images/fashion-banner.webp';
-import wedding_image from '../assets/images/wedding_image_2.jpg';
-import real_estate_image from '../assets/images/real_estate_image_3.jpg';
+import wedding_image from '../assets/images/ElegeantWeddingPromo.png';
+import real_estate_image from '../assets/images/RealEstatePromo.png';
 import all_category from '../assets/images/all.jpg';
-
+import sports_image from '../assets/images/SportsPromo.png';
+import advertisement_image from '../assets/images/StompPromoScreenShot.png';
+import global_image from '../assets/images/CorporatePromo.png';
+import gaming_image_update from '../assets/images/AnimatedTwitchOverlayTest.png';
 import React from 'react';
 
 const categories = [
@@ -25,7 +28,7 @@ const categories = [
   {
     id: 3,
     title: 'Gaming',
-    image: gaming_image,
+    image: gaming_image_update,
     tagline: 'You wanna rock? Let’s go.',
     description:
       'From overlays to streaming screens, make your mark with Showman',
@@ -33,14 +36,14 @@ const categories = [
   {
     id: 4,
     title: 'Social Media',
-    image: social_image,
+    image: advertisement_image,
     tagline: 'Catch some eyes.',
     description: 'Add some modern flair to your socials with Showman',
   },
   {
     id: 5,
     title: 'All Templates',
-    image: all_category,
+    image: global_image,
     tagline: "Too many options? That's the best part",
     description:
       'Find any kind of template to make any kind of video. Place your edits & make your mark',
