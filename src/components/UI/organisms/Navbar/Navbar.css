@@ -3,7 +3,7 @@ a {
 }
 
 
-navbar-element {
+.navbar_element {
     display: block;
     background: linear-gradient(180deg, #000000 0%, #17011F 100%);
     background: linear-gradient(180deg, #000000 0%, #1e0029 100%);
@@ -22,6 +22,8 @@ navbar-element {
     justify-content: center;
     align-items: center;
     z-index: 50800000;
+    padding-top: 31px;
+    padding-bottom: 30px;
 
 
 }
@@ -29,8 +31,11 @@ navbar-element {
 h1{color: white}
 
 logo-parent img {
-    margin-top: 5px;
-    width: 173.78px;
+
+    height: 54.93px;
+    width: 188.36px;
+
+    
     height: auto;
     transition: all .4s ease;
    
@@ -50,57 +55,77 @@ navbar-elements-container {
     display: flex;
     width: 100%;
     height: 100%;
-    padding-left: 90.51px;;
+
     align-items: center;
     max-width: 130rem;
+    height: 53.73978042602539px;
+    max-width: 1425px;
+    justify-content: space-between;
+   
+
 
 }
 
-nav-container{
-    padding-left: 56.72px;
+navbar-elements-container .left_items{
+    padding-left: 21px;
+}
+navbar-elements-container .right_items
+
+{  
+    display: flex;
+    justify-content: space-between;
+
+    height: 38.51px;
+    width: 1084.46px;
+    border-radius: 0px;
+}
+
+.navigation_links_container{
+   
     display: flex;
     width:100%;
     justify-content: space-between;
+    /* padding-bottom: 17.05px; */
   
 }
-nav-container ul {
+.navigation_links_container ul {
     display: flex;
-    gap: 20px;
+    gap: 32px;
     margin: 5px;
     align-items: center;
     text-decoration:none;
 }
-nav-container ul li{
+.navigation_links_container ul li{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5px;
+    gap: 7.23px;
     color:#9c9c9c;
     color: white;
     color:#d4d4d4;
     margin-top: 5px;
     cursor:pointer;
-    font-size: 12px;
+    font-size: 16px;
     transition: all .4s ease;
     text-decoration:none;
 }
 
-nav-container ul li .icon{
+.navigation_links_container ul li .icon{
 
-    font-size: 15px;
+    font-size: 21.69px;
     margin-top:-2px;
     
     color:#9c9c9c;
     transition: all .2s ease;
 }
 
-nav-container ul li img{
+.navigation_links_container ul li img{
     max-width: 27.76px;
     
 }
 
 profile-card-container {
-    margin-right: 95px;
+    padding-right: 41px;
     display: flex;
     align-items: center;
     gap: 13.27px;
@@ -120,14 +145,14 @@ transition: all .4s ease;
 
 
 
-nav-container ul li:hover{
+.navigation_links_container ul li:hover{
     color: var(--theme-color-1);
 
     cursor:pointer;
     
 }
 
-nav-container ul li:hover .icon{
+.navigation_links_container ul li:hover .icon{
     color: var(--theme-color-1);
 
     
@@ -165,12 +190,33 @@ transform: scale(.97);
 
     }   
 
+@media only screen and (min-width:1600px){
+    navbar-elements-container {
+        max-width: 1736px;
+    }
 
+    navbar-elements-container .right_items
+
+    {  
+        display: flex;
+        justify-content: space-between;
+    
+
+        width: 1402.9017333984375px;
+
+        
+        border-radius: 0px;
+    }
+
+}
 
 @media screen and (max-width : 480px){
-    navbar-element {
+    .navbar_element {
         display:none;
         visibility: hidden;
     }
+
+
+
 
     }    

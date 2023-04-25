@@ -11,7 +11,7 @@ hero-parent-container{
 }
 
 hero-container {
-    max-width: 130rem;
+    max-width: 1391px;
     display: flex;
     background: black;
     width: 97.3958333%;
@@ -86,7 +86,23 @@ hero-main-content h1.outfit{
 }
 
 
+hero-main-content .box_parent .parent-container .input_container .input-parent .search-input {
+    border-radius: 35px;
+}
 
+
+
+hero-main-content .box_parent .search-button {
+    border-radius: 35px;
+}
+
+@media only screen and (min-width: 1600px){
+
+    hero-container {
+        max-width: 1736px;
+    }
+    
+}
 @media only screen and (max-width: 1200px) {
 
     hero-main-content img {

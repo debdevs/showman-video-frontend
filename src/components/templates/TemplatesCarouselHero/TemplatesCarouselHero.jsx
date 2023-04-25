@@ -22,7 +22,7 @@ const TemplatesCarouselHero = () => {
             .filter((category) => category.id === activeIndex + 1)
             .map((category, key) => (
               <CarouselItem key={key}>
-                <item-container className="item-container">
+                {/* <item-container className="item-container">
                   <img src={category.image} className="cover-image" alt="" />
                   <box-shadow-overlay className="box-shadow-overlay" />
                   <gradient-overlay className="gradient_overlay" />
@@ -31,7 +31,29 @@ const TemplatesCarouselHero = () => {
                     subtext={category.tagline}
                     description={category.description}
                   />
-                </item-container>
+                </item-container> */}
+                <div className='templates_hero_content_banner'>
+                  <div className='templates_hero_content_contents'>
+
+
+                  
+                  <img className='templates_hero_content_banner_image' src = {category.image}/>
+                  
+                  <div className='shadow_cover_effect'/>
+                  <div className='shine_cover_effect'/>
+                  <div className='gradient_cover_effect'/>
+                  <CarouselText
+                    header={category.title}
+                    subtext={category.tagline}
+                    description={category.description}
+                  />
+                  </div>
+
+                </div>
+
+
+
+
               </CarouselItem>
             ))}
       </MotionCarousel>

@@ -13,8 +13,9 @@ import NavbarProfileImage from '../../atoms/NavbarProfileImage/NavbarProfileImag
 const logo1 = require('../../../../assets/images/logo.png').default;
 const Navbar = () => {
   return (
-    <navbar-element className="navbar-element">
+    <div className="navbar_element">
       <navbar-elements-container>
+        <div className='left_items'>
         <Link to="/">
           <logo-parent className="logo-parent">
             <img
@@ -23,7 +24,9 @@ const Navbar = () => {
             />
           </logo-parent>
         </Link>
-        <nav-container>
+        </div>
+        <div className='right_items'>
+        <div className='navigation_links_container'>
           <ul>
             <Link to="/">
               <li className="outfit">
@@ -54,9 +57,15 @@ const Navbar = () => {
               <h2 className="outfit">Ashley</h2>
             </profile-card-container>
           </Link>
-        </nav-container>
+        </div>
+
+
+
+
+        </div>
+
       </navbar-elements-container>
-    </navbar-element>
+    </div>
   );
 };
 
