@@ -20,6 +20,7 @@ const Page2 = () => {
   const [isActive, setIsActive] = useState(false);
   const [clickedId, setClickedId] = useState(2);
   const [activeIndex, setActiveIndex] = useState(2);
+  const [sortButtonClicked, setSortButtonClicked] = useState(false);
   return (
     <TemplatesContext.Provider
       value={{
@@ -29,6 +30,8 @@ const Page2 = () => {
         setClickedId,
         activeIndex,
         setActiveIndex,
+        sortButtonClicked,
+        setSortButtonClicked
       }}
     >
       <motion.div

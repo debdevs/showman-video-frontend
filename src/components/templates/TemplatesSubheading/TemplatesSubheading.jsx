@@ -35,7 +35,7 @@ const TemplatesSubheading = () => {
   const { isActive, setIsActive } = useContext(TemplatesContext);
   const { clickedId, setClickedId } = useContext(TemplatesContext);
   const { activeIndex, setActiveIndex } = useContext(TemplatesContext);
-
+  const { sortButtonClicked, setSortButtonClicked } = useContext(TemplatesContext);
   let acClass = 'product-category-box';
   const control = useAnimation();
   const [ref, inView] = useInView();
@@ -131,7 +131,7 @@ const TemplatesSubheading = () => {
 
 
             </div>
-            <div class="product_card_grid">
+            <div className ={sortButtonClicked == false? "product_card_grid" : "product_card_grid_low_opacity"}>
 
             <product-card-container>
                 {products_templates.map((product, key) => (

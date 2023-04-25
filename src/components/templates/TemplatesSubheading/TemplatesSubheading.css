@@ -45,7 +45,19 @@ templates-category-card-parent{
 
 .cards_header { grid-area: cards_header; }
 
-.product_card_grid { grid-area: product_card_grid; }
+.product_card_grid { 
+  grid-area: product_card_grid; 
+  transition: all .2s ease-in-out;
+}
+
+
+
+.product_card_grid_low_opacity{
+  opacity: .25;
+  transition: all .2s ease-in-out;
+}
+
+
 
 .side_filter_items { grid-area: side_filter_items; }
 
@@ -246,7 +258,7 @@ template-button-array-area .image_bar{
 
 
     template-button-array-area {
-      display:none;
+
     }
     product-filters-container
     {
@@ -329,7 +341,7 @@ product-card-container >*{
 
 
     template-button-array-area {
-      display:none;
+ 
     }
     product-filters-container
     {
