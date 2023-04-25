@@ -4,4 +4,10 @@
     background: linear-gradient(180deg, #080214 97.92%, #0C031F 100%);
     border: 1px solid rgba(168, 26, 255, 0.15);
     border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-top: 46px;
+    gap: 45px;
 }

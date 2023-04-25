@@ -1,8 +1,9 @@
 .filter_group_parent{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-    height: 186px;
+    /* height: 186px; */
     flex-direction: column;
+    gap: 17px;
 
 }

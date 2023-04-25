@@ -1,0 +1,32 @@
+.filter_heading_group_parent{
+
+    display: flex;
+    gap: 8px;
+
+    
+}
+
+.filter_heading_group_parent h1{
+    font-family: 'outfit', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+}
+
+
+/*   
+.filter_check_list_item_parent {
+    font-family: 'outfit', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    width: 221px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-template-columns: 1em auto;
+    gap: 0.5em;
+    color: white;
+  } */
