@@ -1,4 +1,10 @@
 
+:root{
+  --category-card-width: 328px;
+  --category-card-height: 152px;
+}
+
+
 product-category-title{
     position: absolute;
     justify-content: flex-end;
