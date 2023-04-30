@@ -67,10 +67,10 @@ const SubHeading = () => {
                     setActiveIndex(key);
                   }}
                   //() => console.log(key);
-                  cat_card_container_className={
+                  home_cat_card_container_className={
                     key === clickedId
-                      ? 'cat_card_container_clicked'
-                      : 'cat_card_container'
+                      ? 'home_cat_card_container_clicked'
+                      : 'home_cat_card_container'
                   }
                   home_product_category_box_className={
                     key === clickedId

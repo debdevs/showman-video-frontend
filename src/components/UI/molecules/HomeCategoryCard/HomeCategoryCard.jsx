@@ -11,11 +11,11 @@ const HomeCategoryCard = ({
   home_product_category_image_fx_container_className,
   home_product_category_image_className,
   home_product_category_cover_outline_className,
-  cat_card_container_className,
+  home_cat_card_container_className,
   class_name,
 }) => {
   return (
-    <div onClick={cardClick} className={cat_card_container_className}>
+    <div onClick={cardClick} className={home_cat_card_container_className}>
       <div className={home_product_category_animation_box_className} />
       <div className={home_product_category_box_className}>
         <div className={home_product_category_image_fx_container_className}>

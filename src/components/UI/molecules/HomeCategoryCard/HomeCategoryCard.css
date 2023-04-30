@@ -1,7 +1,7 @@
 
 :root{
-  --category-card-width: 276.4777526855469px;
-  --category-card-height: 217.75682067871094px;
+  --home-category-card-width: 276.4777526855469px;
+  --home-category-card-height: 217.75682067871094px;
   --imagefx-height: 149.49807739257812px;
   --imagefx-width: 258.84576416015625px;
 }
@@ -11,12 +11,12 @@ home-product-category-title{
     position: absolute;
     justify-content: flex-end;
   }
-  .cat_card_container{
+  .home_cat_card_container{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: var(--category-card-height);
-    width: var(--category-card-width);
+    height: var(--home-category-card-height);
+    width: var(--home-category-card-width);
 
     
     overflow:visible;
@@ -27,8 +27,8 @@ home-product-category-title{
     
       display: flex;
    
-      height: var(--category-card-height);
-      width: var(--category-card-width);
+      height: var(--home-category-card-height);
+      width: var(--home-category-card-width);
   
    
       border-radius: var(--templates-category-card-borderradius);
@@ -43,8 +43,8 @@ home-product-category-title{
       position:absolute;
       display: flex;
       flex-direction: column;
-      height: var(--category-card-height);
-      width: var(--category-card-width);
+      height: var(--home-category-card-height);
+      width: var(--home-category-card-width);
       align-items: center;
      
       position: relative;
@@ -64,7 +64,7 @@ home-product-category-title{
     overflow: hidden;
     height: var(--imagefx-height);
     width: var(--imagefx-width);
-    margin-top: 1.5%;
+    margin-top: 2.5%;
 
     
     justify-content: center;
@@ -291,42 +291,42 @@ home-product-category-info-container h2.rumble-brave-font {
     }
   
   
-    .cat_card_container:hover  {
+    .home_cat_card_container:hover  {
   
       transform: scale(.98);
   
     }
   /* Affect Hovers */
-  .cat_card_container:hover .home_product_category_box .home_product_category_image_fx_container .home_product_category_cover_outline{
+  .home_cat_card_container:hover .home_product_category_box .home_product_category_image_fx_container .home_product_category_cover_outline{
   
     box-shadow: 0 0 0px 1.1px inset white;
     background: rgba(189, 0, 255, 0.12);
   }
   
   
-  .cat_card_container:hover  home-product-category-image img{
+  .home_cat_card_container:hover  home-product-category-image img{
   
     filter: saturate(0.7);
   }
   
-  .cat_card_container:hover .home_product_category_box home-product-category-info-container right-items button-parent{
+  .home_cat_card_container:hover .home_product_category_box home-product-category-info-container right-items button-parent{
   
     border: 2px solid white;
     background: rgba(189, 0, 255, 0.12);
     border: 2px solid var(--main-color);
   }
   
-  .cat_card_container:hover .home_product_category_animation_box .home_product_category_box home-product-category-info-container right-items button-parent h3{
+  .home_cat_card_container:hover .home_product_category_animation_box .home_product_category_box home-product-category-info-container right-items button-parent h3{
   
     color: var(--main-color);
 }
 
-.cat_card_container_clicked{
+.home_cat_card_container_clicked{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: var(--category-card-height);
-  width: var(--category-card-width);
+  height: var(--home-category-card-height);
+  width: var(--home-category-card-width);
   overflow:visible;
   transition:all .4s ease-in-out;
   transform: scale(.95);
@@ -334,8 +334,8 @@ home-product-category-info-container h2.rumble-brave-font {
   
 .home_product_category_animation_box_clicked {
   display: block;
-  height: var(--category-card-height);
-  width: var(--category-card-width);
+  height: var(--home-category-card-height);
+  width: var(--home-category-card-width);
   position: absolute;
   border-radius: var(--templates-category-card-borderradius);
   border: 2px solid rgba(168, 26, 255, .15);
@@ -377,8 +377,8 @@ background-size: 800%;
   
   display: flex;
   flex-direction: column;
-  height: var(--category-card-height);
-  width: var(--category-card-width);
+  height: var(--home-category-card-height);
+  width: var(--home-category-card-width);
  
   position: relative;
   border-radius:  var(--templates-category-card-borderradius);
@@ -395,8 +395,8 @@ background-size: 800%;
   position:absolute;
   display: flex;
   flex-direction: column;
-  height: var(--category-card-height);
-  width: var(--category-card-width);
+  height: var(--home-category-card-height);
+  width: var(--home-category-card-width);
   align-items: center;
  
   position: relative;
