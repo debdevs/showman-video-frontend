@@ -15,7 +15,7 @@ import products_templates from '../../test_product_data.js';
 import { useInView } from 'react-intersection-observer';
 
 import { useEffect, useContext } from 'react';
-
+import MainTextGroup from '../../UI/molecules/MainTextGroup/MainTextGroup';
 
 const SubHeading = () => {
 
@@ -46,7 +46,7 @@ const SubHeading = () => {
     <div className='subheading_container_parent' >
     <div className='subheading_container' >
     <div className='left_items'>
-
+    <MainTextGroup/>
     </div>
     <div className='right_items'>
     {categories.slice(0,4).map((category, key) => (
