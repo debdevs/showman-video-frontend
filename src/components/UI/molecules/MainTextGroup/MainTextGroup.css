@@ -59,7 +59,7 @@
 
 }
 
-.separator_line{
+.main_text_group_parent .separator_line{
 
     height: 3.2px;
     width: 100%;
@@ -71,7 +71,7 @@
 
 }
 
-.paragraph_text{
+.main_text_group_parent .paragraph_text{
 
     width: 437.89px;
     height: 56px;
