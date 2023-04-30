@@ -107,7 +107,7 @@ template-button-array-area{
     display:flex;
     justify-content: space-between;
     background: rgba(29, 23, 23,0);
-
+    padding-left: 24px;
     height:100px;
 }
 
