@@ -34,10 +34,10 @@
 
 }
 
-.left_items{
+.subheading_container .left_items{
     width: 50%;
 }
-.right_items {
+.subheading_container .right_items {
     height: 475px;
     width: auto;
     display: grid;
