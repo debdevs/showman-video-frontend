@@ -46,3 +46,27 @@
     /* grid-gap: 35px; */
 }
 
+@media only screen and (min-width:1600px){
+
+
+
+    .subheading_container_parent{
+
+        width: 100%;
+     
+    }
+    
+    
+    
+    .subheading_container {
+
+        width: 100%;
+        max-width: 1736px;
+
+    
+    
+    }
+
+
+
+}

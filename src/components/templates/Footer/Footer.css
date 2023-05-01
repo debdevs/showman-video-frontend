@@ -87,3 +87,30 @@ color: red;
     width: 385.76px;
     height: 125.21px;
 }
+
+
+
+@media only screen and (min-width:1600px){
+
+
+
+    .footer_parent_container{
+
+        width: 100%;
+     
+    }
+    
+    
+    
+    .footer_parent {
+
+        width: 100%;
+        max-width: 1736px;
+
+    
+    
+    }
+
+
+
+}
