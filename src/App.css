@@ -15,6 +15,10 @@
     font-family: 'outfit';
     src: local('outfit'), url(./assets/fonts/Outfit-VariableFont_wght.ttf) format('truetype');
   }
+  @font-face {
+    font-family: 'noto-serif';
+    src: local('noto-serif'), url(./assets/fonts/NotoSerif-Regular.ttf) format('truetype');
+  }
 
   @import url('https://fonts.googleapis.com/css2?family=Outfit&family=Poppins:wght@400;100;700&display=swap');
 :root{
