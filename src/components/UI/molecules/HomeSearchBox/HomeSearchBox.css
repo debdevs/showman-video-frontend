@@ -117,10 +117,10 @@
     justify-self: flex-end;
     cursor: pointer;
     color: grey;
-  
+
 
     position: absolute;
-    padding-left: 12rem;
+    margin-left: 195px;
     opacity:1;
     transition: all .4s ease;
     transform: rotate(0deg);
