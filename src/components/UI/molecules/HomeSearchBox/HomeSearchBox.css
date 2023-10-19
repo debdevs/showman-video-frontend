@@ -112,7 +112,7 @@
 }
 
 .search-icon-active{
-    z-index: 3;
+    z-index: 322;
     font-size: 1.5rem;
     justify-self: flex-end;
     cursor: pointer;
@@ -120,7 +120,7 @@
   
 
     position: absolute;
-    padding-left: 12rem;
+    margin-left: 17.5%;
     opacity:1;
     transition: all .4s ease;
     transform: rotate(0deg);
