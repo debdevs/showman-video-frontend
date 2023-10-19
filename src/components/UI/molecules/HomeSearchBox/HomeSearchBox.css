@@ -181,7 +181,8 @@
        justify-self: flex-end;
 }
 .search-button h3 {
-    font-size: var(--basic-button-fontsize)
+    font-size: var(--basic-button-fontsize);
+    transition:all .5s ease-in-out;
 }
 .search-button .logo{
     position:absolute;
@@ -234,7 +235,7 @@
     position: absolute;
 }
 
-@media only screen and (max-width: 480px) {
+/* @media only screen and (max-width: 480px) {
 
     .box_parent{
 
@@ -291,5 +292,5 @@
          
     
 
-}
+} */
 

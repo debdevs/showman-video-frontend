@@ -6,7 +6,7 @@ import { useState } from "react";
 import { GoSearch } from "react-icons/all";
 import { ReactComponent as Rhombus } from "../../../../assets/images/button-rhombus.svg";
 const HomeSearchBox = () => {
-  const [activeItem, setActiveItem] = useState(true);
+  const [activeItem, setActiveItem] = useState(false);
   return (
     <div className="box_parent">
       <div className="parent-container">
