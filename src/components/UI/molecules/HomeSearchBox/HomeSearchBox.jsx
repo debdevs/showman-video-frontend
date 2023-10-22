@@ -36,11 +36,12 @@ const HomeSearchBox = () => {
                   setActiveItem(false);
                 }}
               ></input>
-            <GoSearch
-        className={activeItem === false ? "search-icon" : "search-icon-active"}
-      />
+              <GoSearch
+                className={
+                  activeItem === false ? "search-icon" : "search-icon-active"
+                }
+              />
             </div>
-
           </div>
         </div>
       </div>
@@ -52,7 +53,6 @@ const HomeSearchBox = () => {
         <Rhombus className="logo" />
         <h3 className="outfit">DEMO</h3>
       </button>
-
     </div>
   );
 };
